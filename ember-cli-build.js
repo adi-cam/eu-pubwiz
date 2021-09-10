@@ -1,11 +1,14 @@
 'use strict';
 
+const path = require('path');
+
 const EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
 module.exports = function (defaults) {
   let app = new EmberApp(defaults, {
-    // Add options here
-
+    sassOptions: {
+      includePaths: [path.dirname(require.resolve('normalize.css'))],
+    },
     prember: {
       urls: ['/'],
     },
