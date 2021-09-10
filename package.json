@@ -2,10 +2,6 @@
   "name": "pubwiz",
   "version": "0.0.0",
   "private": true,
-  "description": "Small description for pubwiz goes here",
-  "repository": "",
-  "license": "MIT",
-  "author": "",
   "directories": {
     "doc": "doc",
     "test": "tests"
