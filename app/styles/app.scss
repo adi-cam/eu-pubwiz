@@ -1,2 +1,11 @@
-@import "normalize.css";
+@import 'normalize';
 
+$blue: #004494;
+
+@import 'nav';
+@import 'page';
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+}

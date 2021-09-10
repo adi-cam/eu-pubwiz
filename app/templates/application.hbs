@@ -1,7 +1,45 @@
 {{page-title "EU Publication Wizard"}}
 
-<h1>
-  EU Publication Wizard
-</h1>
+<nav class="nav">
+  <ul>
+    <li>
+      <LinkTo @route="index">
+        The Data Wizard
+      </LinkTo>
+    </li>
 
-{{outlet}}
+    <li>
+      <LinkTo @route="questions">
+        Questions
+      </LinkTo>
+    </li>
+
+    <li>
+      <LinkTo @route="recommendations">
+        Recommendations for you
+      </LinkTo>
+    </li>
+
+    <li>
+      <LinkTo @route="catalog">
+        Recommendations Catalog
+      </LinkTo>
+    </li>
+
+    <li>
+      <span>
+        Print Page
+      </span>
+    </li>
+
+    <li>
+      <span>
+        Share Link
+      </span>
+    </li>
+  </ul>
+</nav>
+
+<div class="page">
+  {{outlet}}
+</div>
