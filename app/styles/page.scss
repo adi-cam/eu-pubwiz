@@ -5,6 +5,10 @@
   h1 {
     font-size: 52px;
     font-weight: normal;
+
+    &.capped {
+      margin-top: 0;
+    }
   }
 
   h2 {
@@ -16,6 +20,14 @@
     &.large {
       font-size: 21px;
     }
+
+    &.bold {
+      font-weight: bold;
+    }
+  }
+
+  .question {
+    margin: 75px 0;
   }
 
   .input {
@@ -30,6 +42,10 @@
     &:focus {
       border-color: $blue;
       outline: none;
+    }
+
+    &::placeholder {
+      color: $light-grey;
     }
   }
 
@@ -65,5 +81,11 @@
       border-color: $blue;
       color: white;
     }
+  }
+
+  .buttons {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
   }
 }

@@ -1,66 +1,77 @@
-<p>
+<p class="bold">
   Questionnaire Part
   {{this.page}}
   of
   {{this.data.topics.length}}
 </p>
 
-<h1>
+<h1 class="capped">
   {{get this.data.topics (sub this.page 1)}}
 </h1>
 
 {{#each (get this.filteredGroupedQuestions (get this.data.topics (sub this.page 1))) as |question|}}
-  <h2>
-    {{question.title}}
-  </h2>
+  <div class="question">
+    <h2>
+      {{question.title}}
+    </h2>
 
-  <p class="large">
-    {{question.desc}}
-  </p>
-
-  {{#if (eq question.format "text")}}
-    <p>
-      <label>
-        <input type="text" class="input" name={{question.id}} value={{this.title}} {{on "change" this.setTitle}} />
-      </label>
+    <p class="large">
+      {{question.desc}}
     </p>
-  {{else if (or (eq question.format "multiple") (eq question.format "single"))}}
-    {{#each question.options as |option|}}
-      <div>
-        {{#if (eq question.format "multiple")}}
-          <div
-            class="checkbox"
-            role="checkbox"
-            class={{if (get this.answers option.id) "checked"}}
-            aria-checked={{get this.answers option.id}}
-            {{on "click" (fn this.toggleAnswer question.id option.id (not (get this.answers option.id)))}}
-          >
-            {{option.title}}
-          </div>
-        {{else if (eq question.format "single")}}
-          <div
-            class="radio"
-            role="radio"
-            class={{if (eq (get this.answers question.id) option.id) "checked"}}
-            aria-checked={{eq (get this.answers question.id) option.id}}
-            {{on "click" (fn this.setAnswer question.id option.id)}}
-          >
-            {{option.title}}
-          </div>
-        {{/if}}
-      </div>
-    {{/each}}
-  {{/if}}
+
+    {{#if (eq question.format "text")}}
+      <p>
+        <label>
+          <input
+            type="text"
+            class="input"
+            name={{question.id}}
+            placeholder="Publication Title"
+            value={{this.title}}
+            {{on "change" this.setTitle}}
+          />
+        </label>
+      </p>
+    {{else if (or (eq question.format "multiple") (eq question.format "single"))}}
+      {{#each question.options as |option|}}
+        <div>
+          {{#if (eq question.format "multiple")}}
+            <div
+              class="checkbox"
+              role="checkbox"
+              class={{if (get this.answers option.id) "checked"}}
+              aria-checked={{get this.answers option.id}}
+              {{on "click" (fn this.toggleAnswer question.id option.id (not (get this.answers option.id)))}}
+            >
+              {{option.title}}
+            </div>
+          {{else if (eq question.format "single")}}
+            <div
+              class="radio"
+              role="radio"
+              class={{if (eq (get this.answers question.id) option.id) "checked"}}
+              aria-checked={{eq (get this.answers question.id) option.id}}
+              {{on "click" (fn this.setAnswer question.id option.id)}}
+            >
+              {{option.title}}
+            </div>
+          {{/if}}
+        </div>
+      {{/each}}
+    {{/if}}
+  </div>
 {{/each}}
 
-{{#if (gt this.page 1)}}
-  <button type="button" class="button" {{on "click" (fn (mut this.page) (sub this.page 1))}}>
-    Prev
-  </button>
-{{/if}}
+<div class="buttons">
+  {{#if (gt this.page 1)}}
+    <button type="button" class="button" {{on "click" (fn (mut this.page) (sub this.page 1))}}>
+      Prev
+    </button>
+  {{/if}}
 
-{{#if (gt this.data.topics.length this.page)}}
-  <button type="button" class="button primary" {{on "click" (fn (mut this.page) (add this.page 1))}}>
-    Next
-  </button>
-{{/if}}
+  {{#if (gt this.data.topics.length this.page)}}
+    <button type="button" class="button primary" {{on "click" (fn (mut this.page) (add this.page 1))}}>
+      Next
+    </button>
+  {{/if}}
+</div>
