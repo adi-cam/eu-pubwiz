@@ -1,4 +1,38 @@
 .page {
-  width: 1000px;
+  width: 640px;
   margin: 100px auto;
+
+  h1 {
+    font-size: 52px;
+    font-weight: normal;
+  }
+
+  h2 {
+    font-size: 34px;
+    font-weight: normal;
+  }
+
+  p {
+    &.large {
+      font-size: 21px;
+    }
+  }
+
+  .radio,
+  .checkbox {
+    display: inline-block;
+    padding: 10px 30px;
+    border: 2px solid $light-grey;
+    border-radius: 26px;
+    pointer-events: all;
+    font-size: 21px;
+    cursor: pointer;
+
+    &.checked {
+      background: $blue;
+      border: 2px solid $blue;
+      border-radius: 26px;
+      color: white;
+    }
+  }
 }

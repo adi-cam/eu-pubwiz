@@ -25,14 +25,12 @@ export default class extends Controller {
   }
 
   @action setAnswer(qid, oid, e) {
-    console.log('set', qid, oid, e.target.checked);
     this.application.answers[qid] = oid;
     this.application.answers = this.application.answers;
   }
 
-  @action toggleAnswer(qid, oid, e) {
-    console.log('toggle', qid, oid, e.target.checked);
-    this.application.answers[oid] = e.target.checked;
+  @action toggleAnswer(qid, oid, on) {
+    this.application.answers[oid] = on;
     this.application.answers = this.application.answers;
   }
 }

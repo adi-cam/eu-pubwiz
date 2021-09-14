@@ -1,17 +1,26 @@
+<p>
+  Questionnaire Part
+  {{this.page}}
+  of
+  {{this.data.topics.length}}
+</p>
+
 <h1>
   {{get this.data.topics (sub this.page 1)}}
 </h1>
 
 {{#each (get this.data.groupedQuestions (get this.data.topics (sub this.page 1))) as |question|}}
-  <h3>
+  <h2>
     {{question.title}}
 
     {{#if question.condition}}
       [{{question.condition}}]
     {{/if}}
-  </h3>
+  </h2>
 
-  <p>{{question.desc}}</p>
+  <p class="large">
+    {{question.desc}}
+  </p>
 
   {{#if (eq question.format "text")}}
     <p>
@@ -20,31 +29,31 @@
       </label>
     </p>
   {{else if (or (eq question.format "multiple") (eq question.format "single"))}}
-    <ul>
-      {{#each question.options as |option|}}
-        <li>
-          <label>
-            {{#if (eq question.format "multiple")}}
-              <input
-                type="checkbox"
-                name={{option.id}}
-                checked={{get this.answers option.id}}
-                {{on "change" (fn this.toggleAnswer question.id option.id)}}
-              />
-            {{else if (eq question.format "single")}}
-              <input
-                type="radio"
-                name={{question.id}}
-                checked={{eq (get this.answers question.id) option.id}}
-                {{on "change" (fn this.setAnswer question.id option.id)}}
-              />
-            {{/if}}
-
+    {{#each question.options as |option|}}
+      <div>
+        {{#if (eq question.format "multiple")}}
+          <div
+            class="checkbox"
+            role="checkbox"
+            class={{if (get this.answers option.id) "checked"}}
+            aria-checked={{get this.answers option.id}}
+            {{on "click" (fn this.toggleAnswer question.id option.id (not (get this.answers option.id)))}}
+          >
             {{option.title}}
-          </label>
-        </li>
-      {{/each}}
-    </ul>
+          </div>
+        {{else if (eq question.format "single")}}
+          <div
+            class="radio"
+            role="radio"
+            class={{if (eq (get this.answers question.id) option.id) "checked"}}
+            aria-checked={{eq (get this.answers question.id) option.id}}
+            {{on "click" (fn this.setAnswer question.id option.id)}}
+          >
+            {{option.title}}
+          </div>
+        {{/if}}
+      </div>
+    {{/each}}
   {{/if}}
 {{/each}}
 
