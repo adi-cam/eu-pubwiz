@@ -26,7 +26,8 @@ export default class extends Service {
       if (question['QN']) {
         // add question
         questions.push({
-          num: question['QN'],
+          id: `${question['QN']}`,
+          number: question['QN'],
           topic: question['Topic'],
           title: question['Questions'],
           desc: question['Description'] || null,
@@ -38,7 +39,9 @@ export default class extends Service {
 
       // add option
       if (question['OL']) {
-        questions.slice(-1)[0].options.push({
+        const last = questions.slice(-1)[0];
+        last.options.push({
+          id: `${last.number}${question['OL']}`,
           letter: question['OL'],
           title: question['Options'],
         });

@@ -8,7 +8,7 @@
   {{#each questions as |question|}}
     <h3>
       {{question.title}}
-      ({{question.num}})
+      ({{question.number}})
       {{#if question.condition}}
         [{{question.condition}}]
       {{/if}}
@@ -19,7 +19,7 @@
     {{#if (eq question.format "text")}}
       <p>
         <label>
-          <input type="string" />
+          <input type="text" name={{question.id}} value={{this.title}} {{on "change" this.setTitle}} />
         </label>
       </p>
     {{else if (or (eq question.format "multiple") (eq question.format "single"))}}
@@ -27,7 +27,21 @@
         {{#each question.options as |option|}}
           <li>
             <label>
-              <input type={{if (eq question.format "multiple") "checkbox" "radio"}} name={{option.letter}} />
+              {{#if (eq question.format "multiple")}}
+                <input
+                  type="checkbox"
+                  name={{option.id}}
+                  checked={{get this.answers option.id}}
+                  {{on "change" (fn this.toggleAnswer question.id option.id)}}
+                />
+              {{else if (eq question.format "single")}}
+                <input
+                  type="radio"
+                  name={{question.id}}
+                  checked={{eq (get this.answers question.id) option.id}}
+                  {{on "change" (fn this.setAnswer question.id option.id)}}
+                />
+              {{/if}}
               {{option.title}}
               ({{option.letter}})
             </label>
