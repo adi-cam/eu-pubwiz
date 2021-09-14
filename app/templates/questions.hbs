@@ -5,7 +5,7 @@
 {{#each (get this.data.groupedQuestions (get this.data.topics (sub this.page 1))) as |question|}}
   <h3>
     {{question.title}}
-    ({{question.number}})
+
     {{#if question.condition}}
       [{{question.condition}}]
     {{/if}}
@@ -39,8 +39,8 @@
                 {{on "change" (fn this.setAnswer question.id option.id)}}
               />
             {{/if}}
+
             {{option.title}}
-            ({{option.letter}})
           </label>
         </li>
       {{/each}}
