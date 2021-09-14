@@ -39,7 +39,7 @@ export default class extends Service {
           topic: question['Topic'],
           title: question['Questions'],
           desc: question['Description'] || null,
-          condition: question['Condition'] || null,
+          condition: question['Condition'] ? question['Condition'].split(' && ') : [],
           format: question['Format'],
           options: [],
         });

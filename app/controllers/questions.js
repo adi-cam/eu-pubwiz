@@ -12,6 +12,24 @@ export default class extends Controller {
 
   @tracked page = 1;
 
+  get filteredGroupedQuestions() {
+    return Object.fromEntries(
+      Object.entries(this.data.groupedQuestions).map((group) => {
+        return [
+          group[0],
+          group[1].filter((question) => {
+            for (const condition of question.condition) {
+              if (!this.application.answers[condition]) {
+                return false;
+              }
+            }
+            return true;
+          }),
+        ];
+      })
+    );
+  }
+
   get title() {
     return this.application.title;
   }

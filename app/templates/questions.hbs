@@ -9,13 +9,9 @@
   {{get this.data.topics (sub this.page 1)}}
 </h1>
 
-{{#each (get this.data.groupedQuestions (get this.data.topics (sub this.page 1))) as |question|}}
+{{#each (get this.filteredGroupedQuestions (get this.data.topics (sub this.page 1))) as |question|}}
   <h2>
     {{question.title}}
-
-    {{#if question.condition}}
-      [{{question.condition}}]
-    {{/if}}
   </h2>
 
   <p class="large">
