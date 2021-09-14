@@ -31,6 +31,7 @@ export default class extends Service {
           title: question['Questions'],
           desc: question['Description'] || null,
           condition: question['Condition'] || null,
+          format: question['Format'],
           options: [],
         });
       }
