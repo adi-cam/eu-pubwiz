@@ -1,8 +1,19 @@
 import Service from '@ember/service';
 import fetch from 'fetch';
 
+function groupBy(list, key) {
+  return list.reduce((item, x) => {
+    (item[x[key]] = item[x[key]] || []).push(x);
+    return item;
+  }, {});
+}
+
 export default class extends Service {
   questions = [];
+
+  get questionsGrouped() {
+    return groupBy(this.questions, 'topic');
+  }
 
   async load() {
     // load questions

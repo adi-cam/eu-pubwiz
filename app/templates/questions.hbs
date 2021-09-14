@@ -2,19 +2,24 @@
   Questions
 </h1>
 
-{{#each this.data.questions as |question|}}
-  <h2>
-    {{question.num}}: {{question.title}}
-    {{#if question.condition}}
-      ({{question.condition}})
-    {{/if}}
-  </h2>
-  <p><i>{{question.topic}}</i></p>
-  <p>{{question.desc}}</p>
+{{#each-in this.data.questionsGrouped as |topic questions|}}
+  <h2>{{topic}}</h2>
 
-  <ul>
-    {{#each question.options as |option|}}
-      <li>{{option.letter}}: {{option.title}}</li>
-    {{/each}}
-  </ul>
-{{/each}}
+  {{#each questions as |question|}}
+    <h3>
+      {{question.num}}:
+      {{question.title}}
+      {{#if question.condition}}
+        ({{question.condition}})
+      {{/if}}
+    </h3>
+
+    <p>{{question.desc}}</p>
+
+    <ul>
+      {{#each question.options as |option|}}
+        <li>{{option.letter}}: {{option.title}}</li>
+      {{/each}}
+    </ul>
+  {{/each}}
+{{/each-in}}
