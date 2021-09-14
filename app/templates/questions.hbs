@@ -21,7 +21,7 @@
   {{#if (eq question.format "text")}}
     <p>
       <label>
-        <input type="text" name={{question.id}} value={{this.title}} {{on "change" this.setTitle}} />
+        <input type="text" class="input" name={{question.id}} value={{this.title}} {{on "change" this.setTitle}} />
       </label>
     </p>
   {{else if (or (eq question.format "multiple") (eq question.format "single"))}}
@@ -54,13 +54,13 @@
 {{/each}}
 
 {{#if (gt this.page 1)}}
-  <button type="button" {{on "click" (fn (mut this.page) (sub this.page 1))}}>
+  <button type="button" class="button" {{on "click" (fn (mut this.page) (sub this.page 1))}}>
     Prev
   </button>
 {{/if}}
 
 {{#if (gt this.data.topics.length this.page)}}
-  <button type="button" {{on "click" (fn (mut this.page) (add this.page 1))}}>
+  <button type="button" class="button primary" {{on "click" (fn (mut this.page) (add this.page 1))}}>
     Next
   </button>
 {{/if}}
