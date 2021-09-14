@@ -20,9 +20,6 @@ export default class extends Service {
     const res = await fetch('/eu-pubwiz/questions.json');
     const rawQuestions = await res.json();
 
-    // remove title question
-    // rawQuestions.shift();
-
     // reformat questions
     let questions = [];
     for (let question of rawQuestions) {
@@ -34,15 +31,12 @@ export default class extends Service {
           title: question['Questions'],
           desc: question['Description'] || null,
           condition: question['Condition'] || null,
-          options: [
-            {
-              letter: question['OL'],
-              title: question['Options'],
-            },
-          ],
+          options: [],
         });
-      } else {
-        // add option
+      }
+
+      // add option
+      if (question['OL']) {
         questions.slice(-1)[0].options.push({
           letter: question['OL'],
           title: question['Options'],
