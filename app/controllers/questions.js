@@ -19,7 +19,8 @@ export default class extends Controller {
           group[0],
           group[1].filter((question) => {
             for (const condition of question.condition) {
-              if (!this.application.answers[condition]) {
+              const qid = /\d*/.exec(condition)[0];
+              if (!(this.application.answers[condition] || this.application.answers[qid] === condition)) {
                 return false;
               }
             }
