@@ -24,7 +24,7 @@ module.exports = function (environment) {
   };
 
   ENV['fastboot'] = {
-    hostWhitelist: ['adi-cam.github.io', /^localhost:\d+$/],
+    hostWhitelist: ['adi-cam.github.io', /^localhost:\d+$/, /^0.0.0.0:\d+$/],
   };
 
   if (environment === 'development') {
