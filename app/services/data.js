@@ -8,10 +8,18 @@ function groupBy(list, key) {
   }, {});
 }
 
+function onlyUnique(value, index, self) {
+  return self.indexOf(value) === index;
+}
+
 export default class extends Service {
   questions = [];
 
-  get questionsGrouped() {
+  get topics() {
+    return this.questions.map((question) => question.topic).filter(onlyUnique);
+  }
+
+  get groupedQuestions() {
     return groupBy(this.questions, 'topic');
   }
 

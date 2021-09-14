@@ -1,53 +1,61 @@
 <h1>
-  Questions
+  {{get this.data.topics (sub this.page 1)}}
 </h1>
 
-{{#each-in this.data.questionsGrouped as |topic questions|}}
-  <h2>{{topic}}</h2>
-
-  {{#each questions as |question|}}
-    <h3>
-      {{question.title}}
-      ({{question.number}})
-      {{#if question.condition}}
-        [{{question.condition}}]
-      {{/if}}
-    </h3>
-
-    <p>{{question.desc}}</p>
-
-    {{#if (eq question.format "text")}}
-      <p>
-        <label>
-          <input type="text" name={{question.id}} value={{this.title}} {{on "change" this.setTitle}} />
-        </label>
-      </p>
-    {{else if (or (eq question.format "multiple") (eq question.format "single"))}}
-      <ul>
-        {{#each question.options as |option|}}
-          <li>
-            <label>
-              {{#if (eq question.format "multiple")}}
-                <input
-                  type="checkbox"
-                  name={{option.id}}
-                  checked={{get this.answers option.id}}
-                  {{on "change" (fn this.toggleAnswer question.id option.id)}}
-                />
-              {{else if (eq question.format "single")}}
-                <input
-                  type="radio"
-                  name={{question.id}}
-                  checked={{eq (get this.answers question.id) option.id}}
-                  {{on "change" (fn this.setAnswer question.id option.id)}}
-                />
-              {{/if}}
-              {{option.title}}
-              ({{option.letter}})
-            </label>
-          </li>
-        {{/each}}
-      </ul>
+{{#each (get this.data.groupedQuestions (get this.data.topics (sub this.page 1))) as |question|}}
+  <h3>
+    {{question.title}}
+    ({{question.number}})
+    {{#if question.condition}}
+      [{{question.condition}}]
     {{/if}}
-  {{/each}}
-{{/each-in}}
+  </h3>
+
+  <p>{{question.desc}}</p>
+
+  {{#if (eq question.format "text")}}
+    <p>
+      <label>
+        <input type="text" name={{question.id}} value={{this.title}} {{on "change" this.setTitle}} />
+      </label>
+    </p>
+  {{else if (or (eq question.format "multiple") (eq question.format "single"))}}
+    <ul>
+      {{#each question.options as |option|}}
+        <li>
+          <label>
+            {{#if (eq question.format "multiple")}}
+              <input
+                type="checkbox"
+                name={{option.id}}
+                checked={{get this.answers option.id}}
+                {{on "change" (fn this.toggleAnswer question.id option.id)}}
+              />
+            {{else if (eq question.format "single")}}
+              <input
+                type="radio"
+                name={{question.id}}
+                checked={{eq (get this.answers question.id) option.id}}
+                {{on "change" (fn this.setAnswer question.id option.id)}}
+              />
+            {{/if}}
+            {{option.title}}
+            ({{option.letter}})
+          </label>
+        </li>
+      {{/each}}
+    </ul>
+  {{/if}}
+{{/each}}
+
+{{#if (gt this.page 1)}}
+  <button type="button" {{on "click" (fn (mut this.page) (sub this.page 1))}}>
+    Prev
+  </button>
+{{/if}}
+
+{{#if (gt this.data.topics.length this.page)}}
+  <button type="button" {{on "click" (fn (mut this.page) (add this.page 1))}}>
+    Next
+  </button>
+{{/if}}
