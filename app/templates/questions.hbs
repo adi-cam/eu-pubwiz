@@ -1,3 +1,20 @@
 <h1>
   Questions
 </h1>
+
+{{#each this.data.questions as |question|}}
+  <h2>
+    {{question.num}}: {{question.title}}
+    {{#if question.condition}}
+      ({{question.condition}})
+    {{/if}}
+  </h2>
+  <p><i>{{question.topic}}</i></p>
+  <p>{{question.desc}}</p>
+
+  <ul>
+    {{#each question.options as |option|}}
+      <li>{{option.letter}}: {{option.title}}</li>
+    {{/each}}
+  </ul>
+{{/each}}

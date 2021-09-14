@@ -68,6 +68,9 @@
     "edition": "octane"
   },
   "dependencies": {
+    "broccoli-plugin": "^4.0.7",
+    "broccoli-source": "^3.0.1",
+    "csv-parse": "^4.16.3",
     "normalize.css": "^8.0.1"
   }
 }

@@ -4,6 +4,8 @@ const path = require('path');
 
 const EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
+const data = require('./data');
+
 module.exports = function (defaults) {
   let app = new EmberApp(defaults, {
     sassOptions: {
@@ -27,5 +29,5 @@ module.exports = function (defaults) {
   // please specify an object with the list of modules as keys
   // along with the exports of each module as its value.
 
-  return app.toTree();
+  return app.toTree([data()]);
 };

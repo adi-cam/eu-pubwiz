@@ -23,6 +23,10 @@ module.exports = function (environment) {
     },
   };
 
+  ENV['fastboot'] = {
+    hostWhitelist: ['adi-cam.github.io', /^localhost:\d+$/],
+  };
+
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;
