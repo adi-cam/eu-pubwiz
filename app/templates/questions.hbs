@@ -7,19 +7,33 @@
 
   {{#each questions as |question|}}
     <h3>
-      {{question.num}}:
       {{question.title}}
+      ({{question.num}})
       {{#if question.condition}}
-        ({{question.condition}})
+        [{{question.condition}}]
       {{/if}}
     </h3>
 
     <p>{{question.desc}}</p>
 
-    <ul>
-      {{#each question.options as |option|}}
-        <li>{{option.letter}}: {{option.title}}</li>
-      {{/each}}
-    </ul>
+    {{#if (eq question.format "text")}}
+      <p>
+        <label>
+          <input type="string" />
+        </label>
+      </p>
+    {{else if (or (eq question.format "multiple") (eq question.format "single"))}}
+      <ul>
+        {{#each question.options as |option|}}
+          <li>
+            <label>
+              <input type={{if (eq question.format "multiple") "checkbox" "radio"}} name={{option.letter}} />
+              {{option.title}}
+              ({{option.letter}})
+            </label>
+          </li>
+        {{/each}}
+      </ul>
+    {{/if}}
   {{/each}}
 {{/each-in}}
