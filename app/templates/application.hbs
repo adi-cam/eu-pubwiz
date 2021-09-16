@@ -27,11 +27,15 @@
     </li>
 
     <li>
-      <Icons::Print />
+      <div class="icon-button" role="button" {{on "click" this.print}}>
+        <Icons::Print />
+      </div>
     </li>
 
     <li>
-      <Icons::Link />
+      <div class="icon-button" role="button" {{on "click" this.share}}>
+        <Icons::Link />
+      </div>
     </li>
   </ul>
 </nav>
