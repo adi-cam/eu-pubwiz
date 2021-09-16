@@ -73,7 +73,7 @@ export default class extends Service {
     const resources = {};
     for (let resource of rawResources) {
       resources[resource['Resource ID']] = {
-        tile: resource['Linkable text'],
+        title: resource['Linkable text'],
         short: resource['Resource Short Description'],
         link: resource['Resource Location'],
       };
@@ -83,7 +83,7 @@ export default class extends Service {
     const examples = {};
     for (let example of rawExamples) {
       examples[example['Example ID']] = {
-        tile: example['Example 1 Title'],
+        title: example['Example 1 Title'],
         short: example['Example 1 Description'],
         link: example['Example 1 Link'],
       };
