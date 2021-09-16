@@ -12,7 +12,7 @@ module.exports = function (defaults) {
       includePaths: [path.dirname(require.resolve('normalize.css'))],
     },
     prember: {
-      urls: ['/'],
+      urls: ['/', '/questions', '/recommendations', '/catalog'],
     },
   });
 
