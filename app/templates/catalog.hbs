@@ -39,6 +39,15 @@
         </p>
       {{/each}}
 
+      {{#each recommendation.contacts as |contact|}}
+        <p>
+          <a href="mailto:{{contact.link}}">
+            <strong>{{contact.title}}</strong>
+          </a><br />
+          {{contact.short}}
+        </p>
+      {{/each}}
+
       {{#each recommendation.examples as |example|}}
         <p>
           <a href={{example.link}}>

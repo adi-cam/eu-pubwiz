@@ -109,6 +109,10 @@ export default class extends Service {
           .split(',')
           .filter((id) => !!id)
           .map((id) => resources[id]),
+        contacts: recommendation['Contact IDs']
+          .split(',')
+          .filter((id) => !!id)
+          .map((id) => resources[id]),
         examples: recommendation['Example IDs']
           .split(',')
           .filter((id) => !!id)
