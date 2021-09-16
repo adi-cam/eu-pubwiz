@@ -29,6 +29,10 @@ export default class extends Service {
     return groupBy(this.questions, 'topic');
   }
 
+  get recommendationTopics() {
+    return this.recommendations.map((recommendation) => recommendation.topic).filter(onlyUnique);
+  }
+
   get groupedRecommendations() {
     return groupBy(this.recommendations, 'topic');
   }

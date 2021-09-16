@@ -1,5 +1,15 @@
+<ul class="sidebar" {{highlight linkSelector="li a" elementSelector="h1"}}>
+  {{#each this.data.recommendationTopics as |topic|}}
+    <li>
+      <a href="#{{slug topic}}">
+        {{topic}}
+      </a>
+    </li>
+  {{/each}}
+</ul>
+
 {{#each-in this.data.groupedRecommendations as |topic recommendations|}}
-  <h1>
+  <h1 id={{slug topic}}>
     {{topic}}
   </h1>
 
