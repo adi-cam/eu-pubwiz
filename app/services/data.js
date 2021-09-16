@@ -14,6 +14,9 @@ function onlyUnique(value, index, self) {
 
 export default class extends Service {
   questions = [];
+  recommendations = [];
+  examples = [];
+  resources = [];
 
   get questionTopics() {
     return this.questions.map((question) => question.topic).filter(onlyUnique);
@@ -24,13 +27,17 @@ export default class extends Service {
   }
 
   async load() {
-    // load questions
+    await Promise.all([this.loadQuestions(), this.loadRecommendations(), this.loadExamples(), this.loadResources()]);
+  }
+
+  async loadQuestions() {
+    // load data
     const res = await fetch('/eu-pubwiz/questions.json');
-    const rawQuestions = await res.json();
+    const data = await res.json();
 
     // reformat questions
     let questions = [];
-    for (let question of rawQuestions) {
+    for (let question of data) {
       if (question['QN']) {
         // add question
         questions.push({
@@ -58,5 +65,32 @@ export default class extends Service {
 
     // set questions
     this.questions = questions;
+  }
+
+  async loadRecommendations() {
+    // load data
+    const res = await fetch('/eu-pubwiz/recommendations.json');
+    const data = await res.json();
+
+    // set recommendations
+    this.recommendations = data;
+  }
+
+  async loadExamples() {
+    // load data
+    const res = await fetch('/eu-pubwiz/examples.json');
+    const data = await res.json();
+
+    // set examples
+    this.examples = data;
+  }
+
+  async loadResources() {
+    // load data
+    const res = await fetch('/eu-pubwiz/resources.json');
+    const data = await res.json();
+
+    // set resources
+    this.resources = data;
   }
 }
