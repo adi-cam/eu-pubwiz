@@ -24,9 +24,16 @@
     line-height: 32px;
   }
 
+  .title4 {
+    font-size: 14px;
+    color: $dark-grey;
+    line-height: 20px;
+  }
+
   .title1,
   .title2,
-  .title3 {
+  .title3,
+  .title4 {
     svg {
       margin-left: 20px;
 
@@ -56,6 +63,19 @@
   }
 
   p {
+    a {
+      color: $black;
+      text-decoration: none;
+
+      &:hover {
+        color: $blue;
+
+        svg path {
+          fill: $blue;
+        }
+      }
+    }
+
     &.large {
       font-size: 21px;
     }
