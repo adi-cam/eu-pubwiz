@@ -1,5 +1,5 @@
 <div class="page">
-  <ul class="sidebar" {{highlight linkSelector="li a" elementSelector="h1"}}>
+  <ul class="sidebar" {{highlight linkSelector="li a" elementSelector="h2"}}>
     {{#each this.data.recommendationTopics as |topic|}}
       <li>
         <a href="#{{slug topic}}">
@@ -10,61 +10,69 @@
   </ul>
 
   {{#each-in this.data.groupedRecommendations as |topic recommendations|}}
-    <h2 id={{slug topic}} class="title2 title2__capped">
-      {{topic}}
-    </h2>
+    <div>
+      <h2 class="title2" id={{slug topic}}>
+        {{topic}}
+      </h2>
 
-    {{#each recommendations as |recommendation|}}
-      {{#let (get this.state recommendation.title) as |open|}}
-        <h3 role="button" class="title3 title3__button" {{on "click" (set this.state recommendation.title (not open))}}>
-          <span>{{recommendation.title}}</span>
+      {{#each recommendations as |recommendation|}}
+        <div class="group">
+          {{#let (get this.state recommendation.title) as |open|}}
+            <h3
+              role="button"
+              class="title3 title3__capped title3__button"
+              {{on "click" (set this.state recommendation.title (not open))}}
+            >
+              <span>{{recommendation.title}}</span>
 
-          {{#if open}}
-            <Icons::ChevronUp />
-          {{else}}
-            <Icons::ChevronDown />
-          {{/if}}
-        </h3>
+              {{#if open}}
+                <Icons::ChevronUp />
+              {{else}}
+                <Icons::ChevronDown />
+              {{/if}}
+            </h3>
 
-        {{#if (get this.state recommendation.title)}}
-          <p>
-            <strong>Basic</strong>:
-            {{recommendation.basic}}
-          </p>
+            {{#if (get this.state recommendation.title)}}
+              <p>
+                <strong>Basic</strong>:
+                {{recommendation.basic}}
+              </p>
 
-          <p>
-            <strong>Advanced</strong>:
-            {{recommendation.advanced}}
-          </p>
+              <p>
+                <strong>Advanced</strong>:
+                {{recommendation.advanced}}
+              </p>
 
-          {{#each recommendation.resources as |resource|}}
-            <p>
-              <a href={{resource.link}}>
-                <strong>{{resource.title}}</strong>
-              </a><br />
-              {{resource.short}}
-            </p>
-          {{/each}}
+              {{#each recommendation.resources as |resource|}}
+                <p>
+                  <a href={{resource.link}}>
+                    <strong>{{resource.title}}</strong>
+                  </a><br />
+                  {{resource.short}}
+                </p>
+              {{/each}}
 
-          {{#each recommendation.contacts as |contact|}}
-            <p>
-              <a href="mailto:{{contact.link}}">
-                <strong>{{contact.title}}</strong>
-              </a><br />
-              {{contact.short}}
-            </p>
-          {{/each}}
+              {{#each recommendation.contacts as |contact|}}
+                <p>
+                  <a href="mailto:{{contact.link}}">
+                    <strong>{{contact.title}}</strong>
+                  </a><br />
+                  {{contact.short}}
+                </p>
+              {{/each}}
 
-          {{#each recommendation.examples as |example|}}
-            <p>
-              <a href={{example.link}}>
-                <strong>{{example.title}}</strong>
-              </a><br />
-              {{example.short}}
-            </p>
-          {{/each}}
-        {{/if}}
-      {{/let}}
-    {{/each}}
+              {{#each recommendation.examples as |example|}}
+                <p>
+                  <a href={{example.link}}>
+                    <strong>{{example.title}}</strong>
+                  </a><br />
+                  {{example.short}}
+                </p>
+              {{/each}}
+            {{/if}}
+          {{/let}}
+        </div>
+      {{/each}}
+    </div>
   {{/each-in}}
 </div>

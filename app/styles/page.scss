@@ -13,11 +13,6 @@
     align-items: center;
     font-size: 34px;
     font-weight: normal;
-
-    svg polyline {
-      fill: none;
-      stroke: $black;
-    }
   }
 
   .title3 {
@@ -27,22 +22,36 @@
     font-size: 28px;
     color: $black;
     line-height: 32px;
-
-    svg polyline {
-      fill: none;
-      stroke: $black;
-    }
   }
 
   .title1,
   .title2,
   .title3 {
+    svg {
+      margin-left: 20px;
+
+      polyline {
+        fill: none;
+        stroke: $black;
+      }
+    }
+
     &__capped {
-      margin-top: 0;
+      margin: 0;
     }
 
     &__button {
       cursor: pointer;
+    }
+  }
+
+  .group {
+    border-bottom: 2px solid $blue;
+    padding: 15px 0;
+    margin: 0;
+
+    &:first-of-type {
+      border-top: 2px solid $blue;
     }
   }
 
