@@ -29,6 +29,10 @@ export default class extends Service {
     return groupBy(this.questions, 'topic');
   }
 
+  get groupedRecommendations() {
+    return groupBy(this.recommendations, 'topic');
+  }
+
   async load() {
     // load data
     const [rawQuestions, rawRecommendations, rawResources, rawExamples] = await Promise.all([
