@@ -10,6 +10,19 @@ export default class extends Controller {
 
   @tracked state = {};
 
+  get filteredGroupedRecommendations() {
+    return Object.fromEntries(
+      Object.entries(this.data.groupedRecommendations).map((group) => {
+        return [
+          group[0],
+          group[1].filter((recommendation) => {
+            return this.application.matchCondition(recommendation.condition);
+          }),
+        ];
+      })
+    );
+  }
+
   @action openAll(recommendations) {
     for (const recommendation of recommendations) {
       this.state[recommendation.title] = true;
