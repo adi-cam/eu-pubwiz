@@ -6,13 +6,13 @@
     {{this.data.questionTopics.length}}
   </p>
 
-  <h1 class="capped">
+  <h1 class="title1 title1__capped">
     {{get this.data.questionTopics (sub this.page 1)}}
   </h1>
 
   {{#each (get this.filteredGroupedQuestions (get this.data.questionTopics (sub this.page 1))) as |question|}}
     <div class="question">
-      <h2>
+      <h2 class="title2">
         {{question.title}}
       </h2>
 
@@ -69,7 +69,7 @@
     {{/if}}
 
     {{#if (gt this.data.questionTopics.length this.page)}}
-      <button type="button" class="button primary" {{on "click" (fn (mut this.page) (add this.page 1))}}>
+      <button type="button" class="button button__primary" {{on "click" (fn (mut this.page) (add this.page 1))}}>
         Next
       </button>
     {{/if}}

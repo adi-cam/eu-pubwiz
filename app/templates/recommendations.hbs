@@ -10,13 +10,13 @@
   </ul>
 
   {{#each-in this.data.groupedRecommendations as |topic recommendations|}}
-    <h2 id={{slug topic}}>
+    <h2 id={{slug topic}} class="title2 title2__capped">
       {{topic}}
     </h2>
 
     {{#each recommendations as |recommendation|}}
       {{#let (get this.state recommendation.title) as |open|}}
-        <h3 role="button" class="title-button" {{on "click" (set this.state recommendation.title (not open))}}>
+        <h3 role="button" class="title3 title3__button" {{on "click" (set this.state recommendation.title (not open))}}>
           <span>{{recommendation.title}}</span>
 
           {{#if open}}

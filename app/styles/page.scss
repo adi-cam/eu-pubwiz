@@ -2,16 +2,12 @@
   width: 640px;
   margin: 100px auto;
 
-  h1 {
+  .title1 {
     font-size: 52px;
     font-weight: normal;
-
-    &.capped {
-      margin-top: 0;
-    }
   }
 
-  h2 {
+  .title2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,7 +20,7 @@
     }
   }
 
-  h3 {
+  .title3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,8 +34,16 @@
     }
   }
 
-  .title-button {
-    cursor: pointer;
+  .title1,
+  .title2,
+  .title3 {
+    &__capped {
+      margin-top: 0;
+    }
+
+    &__button {
+      cursor: pointer;
+    }
   }
 
   p {
@@ -102,7 +106,7 @@
     color: $black;
     cursor: pointer;
 
-    &.primary {
+    &__primary {
       background: $blue;
       border-color: $blue;
       color: white;
