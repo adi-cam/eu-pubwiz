@@ -1,6 +1,11 @@
 import Service from '@ember/service';
 import fetch from 'fetch';
 
+async function loadJSON(url) {
+  const res = await fetch(url);
+  return await res.json();
+}
+
 function groupBy(list, key) {
   return list.reduce((item, x) => {
     (item[x[key]] = item[x[key]] || []).push(x);
@@ -15,8 +20,6 @@ function onlyUnique(value, index, self) {
 export default class extends Service {
   questions = [];
   recommendations = [];
-  examples = [];
-  resources = [];
 
   get questionTopics() {
     return this.questions.map((question) => question.topic).filter(onlyUnique);
@@ -27,20 +30,23 @@ export default class extends Service {
   }
 
   async load() {
-    await Promise.all([this.loadQuestions(), this.loadRecommendations(), this.loadExamples(), this.loadResources()]);
-  }
-
-  async loadQuestions() {
     // load data
-    const res = await fetch('/eu-pubwiz/questions.json');
-    const data = await res.json();
+    const [rawQuestions, rawRecommendations, rawResources, rawExamples] = await Promise.all([
+      loadJSON('/eu-pubwiz/questions.json'),
+      loadJSON('/eu-pubwiz/recommendations.json'),
+      loadJSON('/eu-pubwiz/resources.json'),
+      loadJSON('/eu-pubwiz/examples.json'),
+    ]);
+
+    // reset state
+    this.questions = [];
+    this.recommendations = [];
 
     // reformat questions
-    let questions = [];
-    for (let question of data) {
+    for (let question of rawQuestions) {
       if (question['QN']) {
         // add question
-        questions.push({
+        this.questions.push({
           id: `${question['QN']}`,
           number: question['QN'],
           topic: question['Topic'],
@@ -54,7 +60,7 @@ export default class extends Service {
 
       // add option
       if (question['OL']) {
-        const last = questions.slice(-1)[0];
+        const last = this.questions.slice(-1)[0];
         last.options.push({
           id: `${last.number}${question['OL']}`,
           letter: question['OL'],
@@ -63,34 +69,43 @@ export default class extends Service {
       }
     }
 
-    // set questions
-    this.questions = questions;
-  }
+    // prepare resources
+    const resources = {};
+    for (let resource of rawResources) {
+      resources[resource['Resource ID']] = {
+        tile: resource['Linkable text'],
+        short: resource['Resource Short Description'],
+        link: resource['Resource Location'],
+      };
+    }
 
-  async loadRecommendations() {
-    // load data
-    const res = await fetch('/eu-pubwiz/recommendations.json');
-    const data = await res.json();
+    // prepare examples
+    const examples = {};
+    for (let example of rawExamples) {
+      examples[example['Example ID']] = {
+        tile: example['Example 1 Title'],
+        short: example['Example 1 Description'],
+        link: example['Example 1 Link'],
+      };
+    }
 
-    // set recommendations
-    this.recommendations = data;
-  }
-
-  async loadExamples() {
-    // load data
-    const res = await fetch('/eu-pubwiz/examples.json');
-    const data = await res.json();
-
-    // set examples
-    this.examples = data;
-  }
-
-  async loadResources() {
-    // load data
-    const res = await fetch('/eu-pubwiz/resources.json');
-    const data = await res.json();
-
-    // set resources
-    this.resources = data;
+    // reformat recommendations
+    for (let recommendation of rawRecommendations) {
+      // add recommendation
+      this.recommendations.push({
+        topic: recommendation['Topic'],
+        title: recommendation['Suggestion / Recommendation'],
+        basic: recommendation['Description'],
+        advanced: recommendation['Advanced considerations'],
+        resources: recommendation['Resource IDs']
+          .split(',')
+          .filter((id) => !!id)
+          .map((id) => resources[id]),
+        examples: recommendation['Example IDs']
+          .split(',')
+          .filter((id) => !!id)
+          .map((id) => examples[id]),
+      });
+    }
   }
 }
