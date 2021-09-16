@@ -10,52 +10,61 @@
   </ul>
 
   {{#each-in this.data.groupedRecommendations as |topic recommendations|}}
-    <h1 id={{slug topic}}>
+    <h2 id={{slug topic}}>
       {{topic}}
-    </h1>
+    </h2>
 
     {{#each recommendations as |recommendation|}}
-      <h2>
-        {{recommendation.title}}
-        ({{recommendation.topic}})
-      </h2>
+      {{#let (get this.state recommendation.title) as |open|}}
+        <h3 role="button" class="title-button" {{on "click" (set this.state recommendation.title (not open))}}>
+          <span>{{recommendation.title}}</span>
 
-      <p>
-        <strong>Basic</strong>:
-        {{recommendation.basic}}
-      </p>
+          {{#if open}}
+            <Icons::ChevronUp />
+          {{else}}
+            <Icons::ChevronDown />
+          {{/if}}
+        </h3>
 
-      <p>
-        <strong>Advanced</strong>:
-        {{recommendation.advanced}}
-      </p>
+        {{#if (get this.state recommendation.title)}}
+          <p>
+            <strong>Basic</strong>:
+            {{recommendation.basic}}
+          </p>
 
-      {{#each recommendation.resources as |resource|}}
-        <p>
-          <a href={{resource.link}}>
-            <strong>{{resource.title}}</strong>
-          </a><br />
-          {{resource.short}}
-        </p>
-      {{/each}}
+          <p>
+            <strong>Advanced</strong>:
+            {{recommendation.advanced}}
+          </p>
 
-      {{#each recommendation.contacts as |contact|}}
-        <p>
-          <a href="mailto:{{contact.link}}">
-            <strong>{{contact.title}}</strong>
-          </a><br />
-          {{contact.short}}
-        </p>
-      {{/each}}
+          {{#each recommendation.resources as |resource|}}
+            <p>
+              <a href={{resource.link}}>
+                <strong>{{resource.title}}</strong>
+              </a><br />
+              {{resource.short}}
+            </p>
+          {{/each}}
 
-      {{#each recommendation.examples as |example|}}
-        <p>
-          <a href={{example.link}}>
-            <strong>{{example.title}}</strong>
-          </a><br />
-          {{example.short}}
-        </p>
-      {{/each}}
+          {{#each recommendation.contacts as |contact|}}
+            <p>
+              <a href="mailto:{{contact.link}}">
+                <strong>{{contact.title}}</strong>
+              </a><br />
+              {{contact.short}}
+            </p>
+          {{/each}}
+
+          {{#each recommendation.examples as |example|}}
+            <p>
+              <a href={{example.link}}>
+                <strong>{{example.title}}</strong>
+              </a><br />
+              {{example.short}}
+            </p>
+          {{/each}}
+        {{/if}}
+      {{/let}}
     {{/each}}
   {{/each-in}}
 </div>
