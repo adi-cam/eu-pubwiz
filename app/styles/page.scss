@@ -50,6 +50,11 @@
     &__button {
       cursor: pointer;
     }
+
+    &__small {
+      font-size: 14px;
+      color: $blue;
+    }
   }
 
   .group {
@@ -153,8 +158,8 @@
     height: 0;
     top: 25px;
     width: 200px;
-    margin: 0 0 0 -200px;
-    padding: 0;
+    margin: 25px 0 0 -200px;
+    padding: 0 0;
     list-style: none;
     line-height: 37px;
 
