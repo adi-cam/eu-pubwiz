@@ -43,13 +43,13 @@ export default class extends Controller {
     return this.application.answers;
   }
 
-  @action setAnswer(qid, oid, e) {
+  @action setAnswer(qid, oid) {
     this.application.answers[qid] = oid;
-    this.application.answers = this.application.answers;
+    this.application.answers = this.application.answers; // eslint-disable-line
   }
 
   @action toggleAnswer(qid, oid, on) {
     this.application.answers[oid] = on;
-    this.application.answers = this.application.answers;
+    this.application.answers = this.application.answers; // eslint-disable-line
   }
 }
