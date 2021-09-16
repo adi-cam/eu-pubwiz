@@ -17,6 +17,10 @@ function onlyUnique(value, index, self) {
   return self.indexOf(value) === index;
 }
 
+function parseCondition(str) {
+  return str ? str.split(',').map((item) => item.split('&&')) : [];
+}
+
 export default class extends Service {
   questions = [];
   recommendations = [];
@@ -60,7 +64,7 @@ export default class extends Service {
           topic: question['Topic'],
           title: question['Questions'],
           desc: question['Description'] || null,
-          condition: question['Condition'] ? question['Condition'].split('&&') : [],
+          condition: parseCondition(question['Condition']),
           format: question['Format'],
           options: [],
         });
@@ -105,7 +109,7 @@ export default class extends Service {
         title: recommendation['title'],
         basic: recommendation['basic'],
         advanced: recommendation['advanced'],
-        condition: recommendation['condition'],
+        condition: parseCondition(recommendation['condition']),
         resources: recommendation['resources']
           .split(',')
           .filter((id) => !!id)

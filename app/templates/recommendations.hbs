@@ -11,7 +11,12 @@
 
   {{#each-in this.data.groupedRecommendations as |topic recommendations|}}
     <div>
-      <h2 role="button" class="title2 title2__button" id={{slug topic}} {{on "click" (fn this.openAll recommendations)}}>
+      <h2
+        role="button"
+        class="title2 title2__button"
+        id={{slug topic}}
+        {{on "click" (fn this.openAll recommendations)}}
+      >
         <span>{{topic}}</span>
         <span class="title2__small">Open All</span>
       </h2>
