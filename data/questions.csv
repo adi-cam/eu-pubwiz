@@ -23,10 +23,10 @@ Condition,Topic,QN,Questions,Description,OL,Options,Format
 2B,Intellectual Property Rights and Data Protection,7,Do you have the rights to publicly release the visualisations?,"If a visualisation is publicly released, people are allowed to reuse it.",A,Yes,single
 ,,,,,B,No,
 ,,,,,C,I don't know,
-2A && 6A,Infrastructure and Resources,8,Do you have a place to store the data permanently?,Meaning that you have the server infrastructure to host the data files.,A,Yes,single
+2A&&6A,Infrastructure and Resources,8,Do you have a place to store the data permanently?,Meaning that you have the server infrastructure to host the data files.,A,Yes,single
 ,,,,,B,No,
 ,,,,,C,I don't know,
-2B && 7A,Infrastructure and Resources,9,Do you have a place to store the visualisations permanently?,This means that you have the server infrastructure to host the files.,A,Yes,single
+2B&&7A,Infrastructure and Resources,9,Do you have a place to store the visualisations permanently?,This means that you have the server infrastructure to host the files.,A,Yes,single
 ,,,,,B,No,
 ,,,,,C,I don't know,
 4D,Infrastructure and Resources,10,"On your website, do you already have a template that can be used for an online publication?",Such a template entails…,A,Yes,single

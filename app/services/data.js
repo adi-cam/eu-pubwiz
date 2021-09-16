@@ -60,7 +60,7 @@ export default class extends Service {
           topic: question['Topic'],
           title: question['Questions'],
           desc: question['Description'] || null,
-          condition: question['Condition'] ? question['Condition'].split(' && ') : [],
+          condition: question['Condition'] ? question['Condition'].split('&&') : [],
           format: question['Format'],
           options: [],
         });
@@ -80,20 +80,20 @@ export default class extends Service {
     // prepare resources
     const resources = {};
     for (let resource of rawResources) {
-      resources[resource['Resource ID']] = {
-        title: resource['Linkable text'],
-        short: resource['Resource Short Description'],
-        link: resource['Resource Location'],
+      resources[resource['id']] = {
+        title: resource['title'],
+        short: resource['description'],
+        link: resource['link'],
       };
     }
 
     // prepare examples
     const examples = {};
     for (let example of rawExamples) {
-      examples[example['Example ID']] = {
-        title: example['Example 1 Title'],
-        short: example['Example 1 Description'],
-        link: example['Example 1 Link'],
+      examples[example['id']] = {
+        title: example['title'],
+        short: example['description'],
+        link: example['link'],
       };
     }
 
@@ -101,19 +101,20 @@ export default class extends Service {
     for (let recommendation of rawRecommendations) {
       // add recommendation
       this.recommendations.push({
-        topic: recommendation['Topic'],
-        title: recommendation['Suggestion / Recommendation'],
-        basic: recommendation['Description'],
-        advanced: recommendation['Advanced considerations'],
-        resources: recommendation['Resource IDs']
+        topic: recommendation['topic'],
+        title: recommendation['title'],
+        basic: recommendation['basic'],
+        advanced: recommendation['advanced'],
+        condition: recommendation['condition'],
+        resources: recommendation['resources']
           .split(',')
           .filter((id) => !!id)
           .map((id) => resources[id]),
-        contacts: recommendation['Contact IDs']
+        contacts: recommendation['contacts']
           .split(',')
           .filter((id) => !!id)
           .map((id) => resources[id]),
-        examples: recommendation['Example IDs']
+        examples: recommendation['examples']
           .split(',')
           .filter((id) => !!id)
           .map((id) => examples[id]),
