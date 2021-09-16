@@ -15,7 +15,7 @@ function onlyUnique(value, index, self) {
 export default class extends Service {
   questions = [];
 
-  get topics() {
+  get questionTopics() {
     return this.questions.map((question) => question.topic).filter(onlyUnique);
   }
 
