@@ -3,14 +3,24 @@ import { modifier } from 'ember-modifier';
 export default modifier((element) => {
   // prepare handler
   const handler = (e) => {
-    e.preventDefault();
-
     // get hash
     const hash = e.target.hash;
 
+    // find element
+    const element = document.documentElement.querySelector(hash);
+    if (!element) {
+      return;
+    }
+
+    // prevent default
+    e.preventDefault();
+
+    // get offset
+    const offset = element.getBoundingClientRect().top + document.documentElement.scrollTop;
+
     // scroll smooth
     document.documentElement.scrollTo({
-      top: 0,
+      top: offset,
       left: 0,
       behavior: 'smooth',
     });
