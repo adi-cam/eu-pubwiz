@@ -16,21 +16,23 @@ export default class extends Controller {
     window.location = `mailto:xyz@abc.com?subject=EU%20Publication%20Wizard&body=Visit%20here:%20${window.location}`;
   }
 
-  matchCondition(condition) {
+  matchCondition(condition, info) {
     // match conditions by group (at least one full match)
     let matched = condition.length === 0;
     for (const group of condition) {
-      let subMatched = false;
+      let subMatched = true;
       for (const item of group) {
         const qid = /\d*/.exec(item)[0];
-        if (this.answers[item] || this.answers[qid] === item) {
-          subMatched = true;
+        if (!(this.answers[item] || this.answers[qid] === item)) {
+          subMatched = false;
         }
       }
       if (subMatched) {
         matched = true;
       }
     }
+
+    console.log(info, condition, this.answers, matched);
 
     return matched;
   }

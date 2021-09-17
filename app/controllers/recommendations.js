@@ -16,7 +16,7 @@ export default class extends Controller {
         return [
           group[0],
           group[1].filter((recommendation) => {
-            return this.application.matchCondition(recommendation.condition);
+            return this.application.matchCondition(recommendation.condition, recommendation.title);
           }),
         ];
       })
