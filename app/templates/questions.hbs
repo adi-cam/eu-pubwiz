@@ -1,5 +1,5 @@
 <div class="page">
-  <p class="bold">
+  <p class="bold capped-bottom">
     Questionnaire Part
     {{this.page}}
     of
@@ -12,7 +12,7 @@
 
   {{#each (get this.filteredGroupedQuestions (get this.data.questionTopics (sub this.page 1))) as |question|}}
     <div class="question">
-      <h2 class="title2">
+      <h2 class="title2 title2__capped">
         {{question.title}}
       </h2>
 
@@ -34,44 +34,62 @@
           </label>
         </p>
       {{else if (or (eq question.format "multiple") (eq question.format "single"))}}
-        {{#each question.options as |option|}}
-          <div>
-            {{#if (eq question.format "multiple")}}
-              <div
-                role="checkbox"
-                class="checkbox {{if (get this.answers option.id) "checked"}}"
-                aria-checked={{get this.answers option.id}}
-                {{on "click" (fn this.toggleAnswer question.id option.id (not (get this.answers option.id)))}}
-              >
-                {{option.title}}
-              </div>
-            {{else if (eq question.format "single")}}
-              <div
-                role="radio"
-                class="radio {{if (eq (get this.answers question.id) option.id) "checked"}}"
-                aria-checked={{eq (get this.answers question.id) option.id}}
-                {{on "click" (fn this.setAnswer question.id option.id)}}
-              >
-                {{option.title}}
-              </div>
-            {{/if}}
-          </div>
-        {{/each}}
+        <div class="controls">
+          {{#each question.options as |option|}}
+            <div>
+              {{#if (eq question.format "multiple")}}
+                <div
+                  role="checkbox"
+                  class="checkbox {{if (get this.answers option.id) "checked"}}"
+                  aria-checked={{get this.answers option.id}}
+                  {{on "click" (fn this.toggleAnswer question.id option.id (not (get this.answers option.id)))}}
+                >
+                  {{option.title}}
+                </div>
+              {{else if (eq question.format "single")}}
+                <div
+                  role="radio"
+                  class="radio {{if (eq (get this.answers question.id) option.id) "checked"}}"
+                  aria-checked={{eq (get this.answers question.id) option.id}}
+                  {{on "click" (fn this.setAnswer question.id option.id)}}
+                >
+                  {{option.title}}
+                </div>
+              {{/if}}
+            </div>
+          {{/each}}
+        </div>
       {{/if}}
+    </div>
+  {{else}}
+    <div class="question">
+      <p class="large">
+        No questions here, please continue.
+      </p>
     </div>
   {{/each}}
 
   <div class="buttons">
     {{#if (gt this.page 1)}}
-      <button type="button" class="button" {{on "click" (fn (mut this.page) (sub this.page 1))}}>
+      <button type="button" class="button" {{on "click" (queue (scroll-top) (fn (mut this.page) (sub this.page 1)))}}>
         Prev
       </button>
+    {{else}}
+      <span></span>
     {{/if}}
 
     {{#if (gt this.data.questionTopics.length this.page)}}
-      <button type="button" class="button button__primary" {{on "click" (fn (mut this.page) (add this.page 1))}}>
+      <button
+        type="button"
+        class="button button__primary"
+        {{on "click" (queue (scroll-top) (fn (mut this.page) (add this.page 1)))}}
+      >
         Next
       </button>
+    {{else}}
+      <LinkTo @route="recommendations" class="button button__primary">
+        Get Recommendations
+      </LinkTo>
     {{/if}}
   </div>
 </div>

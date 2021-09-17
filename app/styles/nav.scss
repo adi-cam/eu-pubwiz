@@ -3,14 +3,14 @@
   color: white;
 
   ul {
-    width: 1040px;
+    width: 1075px;
     list-style: none;
     margin: 0 auto;
     display: flex;
     padding: 0 30px;
 
     li {
-      margin-left: 30px;
+      margin-left: 70px;
 
       &:first-child {
         margin-left: 0;
@@ -51,7 +51,17 @@
       }
 
       .icon-button {
+        display: inline-flex;
+        align-items: center;
         cursor: pointer;
+
+        svg {
+          margin-right: 10px;
+        }
+
+        &:hover {
+          opacity: 0.8;
+        }
       }
     }
   }

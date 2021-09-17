@@ -1,10 +1,10 @@
-{{page-title "EU Publication Wizard"}}
+{{page-title "Publication Wizard"}}
 
 <nav class="nav">
   <ul>
     <li>
       <LinkTo @route="index" class="title">
-        The Data Wizard
+        Publication Wizard
       </LinkTo>
     </li>
 
@@ -16,25 +16,27 @@
 
     <li>
       <LinkTo @route="recommendations">
-        Recommendations for you
+        Recommendations
       </LinkTo>
     </li>
 
     <li>
       <LinkTo @route="catalog">
-        Recommendations Catalog
+        Catalogue
       </LinkTo>
     </li>
 
     <li>
       <div class="icon-button" role="button" {{on "click" this.print}}>
         <Icons::Print />
+        <span>Print Page</span>
       </div>
     </li>
 
     <li>
       <div class="icon-button" role="button" {{on "click" this.share}}>
         <Icons::Link />
+        <span>Share Page</span>
       </div>
     </li>
   </ul>
