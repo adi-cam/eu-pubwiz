@@ -22,7 +22,7 @@ Condition,Topic,QN,Questions,Description,OL,Options,Format
 2A,Intellectual Property Rights and Data Protection,7,Can your data be released as open data?,"You can provide your data as open data if data privacy, copyright and data confidentiality issues have been cleared. In general terms, this means that the data does not infringe on people’s privacy, that the data belongs to your organisation to use, and that the access to the data is not restricted. ",A,Yes,single
 ,,, ,,B,No,
 ,,,,,C,I don't know,
-3A,Intellectual Property Rights and Data Protection,8,Can the data you use in your data visualisations be released as open data?,"You can provide data as open data if data privacy, copyright and data confidentiality issues have been cleared. In general terms, this means that the data does not infringe on people’s privacy, that the data belongs to your organisation to use, and that the access to the data is not restricted. ",A,Yes,
+3A,Intellectual Property Rights and Data Protection,8,Can the data you use in your visualisations be released as open data?,"You can provide data as open data if data privacy, copyright and data confidentiality issues have been cleared. In general terms, this means that the data does not infringe on people’s privacy, that the data belongs to your organisation to use, and that the access to the data is not restricted. ",A,Yes,single
 ,,,,,B,No,
 ,,,,,C,I don't know,
 ,,,,,,,
@@ -41,7 +41,7 @@ Condition,Topic,QN,Questions,Description,OL,Options,Format
 3B&&10A,Infrastructure and Resources,13,Do you have a place to store the graphics?,This means that you have a server infrastructure to host the graphics files and that the location where the files are located can be described via a URL.,A,Yes,single
 ,,,,,B,No,
 ,,,,,C,I don't know,
-3A&&3B&&9A&&10A,Infrastructure and Resources,14,Do you have a place to store the graphics and data visualisations?,This means that you have a server infrastructure to host the visualisation and graphics files and that the location where the files are located can be described via a URL.,A,Yes,single
+"3A&&9A,3B&&10A",Infrastructure and Resources,14,Do you have a place to store the graphics and data visualisations?,This means that you have a server infrastructure to host the visualisation and graphics files and that the location where the files are located can be described via a URL.,A,Yes,single
 ,,,,,B,No,
 ,,,,,C,I don't know,
 5D,Infrastructure and Resources,15,Do you already have a template for online publications?,"In such a web-template the page layout, the interactive elements and the visual style are already defined. ",A,Yes,single
