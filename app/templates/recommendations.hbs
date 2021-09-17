@@ -2,7 +2,7 @@
   <ul class="sidebar" {{highlight linkSelector="li a" elementSelector="h2"}}>
     {{#each this.data.recommendationTopics as |topic|}}
       <li>
-        <a href="#{{slug topic}}">
+        <a href="#{{slug topic}}" {{link-inline}}>
           {{topic}}
         </a>
       </li>
