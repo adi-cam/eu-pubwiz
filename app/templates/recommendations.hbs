@@ -9,6 +9,10 @@
     {{/each}}
   </ul>
 
+  <h2 class="title1 title1__capped">
+    Recommendations for your publication "{{this.application.title}}"
+  </h2>
+
   {{#each-in this.filteredGroupedRecommendations as |topic recommendations|}}
     <div class="section">
       <h2
