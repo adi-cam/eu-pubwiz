@@ -102,9 +102,11 @@ export default class extends Service {
     }
 
     // reformat recommendations
+    let id = 1;
     for (let recommendation of rawRecommendations) {
       // add recommendation
       this.recommendations.push({
+        id: id++,
         topic: recommendation['topic'],
         title: recommendation['title'],
         basic: recommendation['basic'],

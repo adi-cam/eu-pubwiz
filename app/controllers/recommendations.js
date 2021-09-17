@@ -25,7 +25,7 @@ export default class extends Controller {
 
   @action openAll(recommendations) {
     for (const recommendation of recommendations) {
-      this.state[recommendation.title] = true;
+      this.state[recommendation.id] = true;
       this.state = this.state; // eslint-disable-line
     }
   }
