@@ -29,18 +29,14 @@ export default class extends Controller {
     );
   }
 
-  matchCondition(condition, info) {
-    // match conditions by group (at least one full match)
+  matchCondition(condition) {
+    // match condition by expression
     let matched = condition.length === 0;
-    for (let group of condition) {
-      group = group.replaceAll(/\d+/g, '_$&');
-      let ret = evaluate(this.answerData, group);
-      if (ret) {
+    for (let expression of condition) {
+      if (evaluate(this.answerData, expression.replaceAll(/\d+/g, '_$&'))) {
         matched = true;
       }
     }
-
-    console.log(info, condition, this.answerData, matched);
 
     return matched;
   }

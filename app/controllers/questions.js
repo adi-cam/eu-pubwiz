@@ -18,7 +18,7 @@ export default class extends Controller {
         return [
           group[0],
           group[1].filter((question) => {
-            return this.application.matchCondition(question.condition, question.title);
+            return this.application.matchCondition(question.condition);
           }),
         ];
       })
