@@ -23,11 +23,11 @@
 
       {{#each recommendations as |recommendation|}}
         <div class="group">
-          {{#let (get this.state recommendation.title) as |open|}}
+          {{#let (get this.state recommendation.id) as |open|}}
             <h3
               role="button"
               class="title3 title3__capped title3__button"
-              {{on "click" (set this.state recommendation.title (not open))}}
+              {{on "click" (fn this.open recommendation.id (not open))}}
             >
               <span>{{recommendation.title}}</span>
 
@@ -38,7 +38,7 @@
               {{/if}}
             </h3>
 
-            {{#if (get this.state recommendation.title)}}
+            {{#if open}}
               <p>
                 {{#if recommendation.advanced}}
                   <strong>Basic</strong>:

@@ -23,6 +23,11 @@ export default class extends Controller {
     );
   }
 
+  @action open(rid, open) {
+    this.state[rid] = open;
+    this.state = this.state; // eslint-disable-line
+  }
+
   @action openAll(recommendations) {
     for (const recommendation of recommendations) {
       this.state[recommendation.id] = true;
