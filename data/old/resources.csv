@@ -1,0 +1,92 @@
+id,include,topic,type,title,description,link
+1,YY,Copyright,KB-i,Reuse Guidelines,"Reuse Guidelines - Using Creative Common licences for the distribution and reuse of Commission documents (EC Central Intelectual Property Service, 2019 edition)",https://myintracomm.ec.europa.eu/corp/intellectual-property/Documents/2019_Reuse-guidelines(CC-BY).pdf  
+2,M,Copyright,KB-x,CC wiki page,Considerations for licensors and licensees (on the wiki of CC),https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees
+3,YY,Copyright,KB-x,Reuser's Guide to Open Data Licensing,"Free guide to open data licensing, by the ODI (Open Data Institute)",https://theodi.org/article/reusers-guide-to-open-data-licensing/
+4,Y,Copyright,KB-x,Why do we need to license open data?,eLearning module on data.europa.eu,https://data.europa.eu/elearning/en/module4/#/id/co-01
+5,YY,Copyright,R,Copyright team in OP,FMB - OP copyright team,OP-COPYRIGHT@publications.europa.eu
+6,M,Copyright,R,EC Central IP Service,FMB - EC Central IP Service,ec-ipr@ec.europa.eu
+7,M,Copyright,S,CC license chooser,Online wizard guiding you through the steps of selecting the appropriate license for your work,https://chooser-beta.creativecommons.org/
+8,Y,Copyright,S,EURECA,"A collaborative platform designed to help Commission staff to identify, find and manage intellectual property (IP) resources across the organisation",https://apps.jrc.cec.eu.int/eureca/screen/my-dashboard?ticket=ST-25415426-fLJpbOFQdiB47DxzHLwwvMAc1PuVZ7K3y1rvOILlRMB0t0EyjtX9eflNzHDdg2PLgntip8Ajlc9KFNvQdzHCzl4-rS0vSrmBGYCCPIEzYRVMOx-rPIkwcKegSqCF6RPpPDRQRF5eVBdsQ8DurclysBmCyE8oj7UxfDpyDa4uunNLtLyq7RJB1JNfOJwtLSvVw5gyG
+9,Y,Data management,KB-i,Guidelines,How to ask the EC Data Advisory service,https://webgate.ec.europa.eu/fpfis/wikis/display/DataAdvisory/Ask+the+data+advisory
+10,M,Data management,KB-i,Work programme 2020-2021,"Data, information and knowledge management at the European Commission",https://myintracomm.ec.europa.eu/sg/info-management/Documents/work-programme-2020-21.pdf
+11,Y,Data management,KB-i,Data learning package,Learning package structured around different personas that need to understand data science. The individual parts are recommended for different personas - the user can filter the training based on their profile,https://eceuropaeu.sharepoint.com/sites/GRP-Learningpackages/datascience_LP
+12,M,Data management,KB-i,Data collab,Wiki collaborative space of the Data Ecosystem Coordination Group,https://webgate.ec.europa.eu/fpfis/wikis/display/DataCollab/Data+Ecosystem+Collaborative+Space
+13,YY,Data management,KB-i,More on LDC,"Find out more on the role of LDCs, and a list of LDCs across DGs",https://webgate.ec.europa.eu/fpfis/wikis/display/DataAdvisory/Local+data+correspondent
+14,M,Data management,KB-i,EC Statistical Coordination,Wiki of the EC-wide network of Local Statistical Correspondents (located at each DG) for sharing information between LSCs and ESTAT (coordinating),https://myintracomm-collab.ec.europa.eu/networks/STATCOOR/SitePages/Home.aspx
+15,M,Data management,KB-i,Digital iLab,Digital innovationLab - Community on the Data Ecosystem Collaborative Space,https://webgate.ec.europa.eu/fpfis/wikis/display/DataCollab/Digital+iLab
+16,M,Data management,KB-i,Linked Data and Semantic Technologies,Community on the EC Data Ecosystem Collaborative Space,https://webgate.ec.europa.eu/fpfis/wikis/display/DataCollab/Linked+Data
+17,M,Data management,KB-i,Semantic web training,Lunchtime presentations organised in the Publications Office between October 2018 and April 2019,https://webgate.ec.europa.eu/fpfis/wikis/display/EUODDVC/Training+material+-+Semantic+web
+18,YY,Data management,R,EC Data Advisory,FMB - Data Advisory service,EC-DATA-ADVISORY@ec.europa.eu
+19,Y,Data management,R,Local Data Correspondent(s) (LDC),Role in the Data Governance of the EC - one in each DG,
+20,Y,Data management,R,Statistical Correspondents,List of Local Statistical Correspondents,https://myintracomm-collab.ec.europa.eu/networks/STATCOOR/Useful%20documents/List%20of%20statistical%20correspondents.docx
+21,YY,Data management,S,EC Data Advisory,"EC corporate service for data related matters - dispatches requests to the right competences, drawing on already existing services - Link to wiki space and screenshots of table of contents",https://webgate.ec.europa.eu/fpfis/wikis/display/DataAdvisory/Data+advisory
+22,Y,Data management,S,MIDAS,Modeling Inventory and Knowledge Management System,https://web.jrc.ec.europa.eu/policy-model-inventory/#dashboard
+23,M,Data management,S,EC Data Inventory,"First step toward creating a Data Catalogue, the infrastructure supporting the reuse of European Commission data assets. It contains a list of data assets produced by EC different DGs. The links points to a ",https://qlik.jrc.cec.eu.int/ecas/sense/app/c266b931-c03e-4770-b774-eacf070a6565/sheet/750aa2c3-e802-4542-8e67-23959c621d49/state/analysis 
+24,M,Data management,S,EC Data Catalogue - interim solution,"This  data catalogue is an interim solution to centralise Commission data inventory and Inventory of the statistics product in one place, where Local and Statistical Data Correspondents can update their data assets respectively",https://ec-data.net1.cec.eu.int/
+25,Y,Data protection,KB-i,EC Data Protection Guide,Edition Sept 2019. Link to the PDF and screenshot of ToC,https://myintracomm.ec.europa.eu/sg/Documents/data_protection_guide.pdf
+26,Y,Data protection,KB-x,Flowcharts and Checklists on Data Protection,Brochure from the European Data Protection Supervisor (July 2020),https://edps.europa.eu/sites/default/files/publication/flowcharts_and_checklists_on_data_protection_brochure_en_1.pdf
+27,YY,Data protection,R,Data Protection Coordinator(s),"Role in the Data Protection Governance of the EC - each DG has one. The DG's DPC is the first level of contact for data protection related issues. The link points to a list of DPCs, assistants and FMB across DGs",https://myintracomm.ec.europa.eu/sg/dpo/Documents/dpc_list.pdf
+28,M,Data protection,R,Data protection actors,Controller; Processor; Data Protection Coordinators (DPCs); Data Protection Officer (DPO); European Data Protection Supervisor (EDPS),https://myintracomm.ec.europa.eu/sg/dpo/Pages/actors.aspx
+29,Y,Data protection,S,DPO Public Register,Register of the Data Protection Officer (DPO) - keeping records of all data processing operations under the 2018 data protection regulation (GDPR),https://ec.europa.eu/dpo-register/
+30,Y,Dataviz,KB-i,EU Community of Practice on Data Visualisation,Interinstitutional community space to share and learn about data visualisation,https://webgate.ec.europa.eu/connected/groups/data-visualisation
+31,Y,Dataviz,KB-i,Data visualisation tutorial,"A tutorial explaining all the steps in the visualisation design process, including guidance on how to use the tutorial. It also includes a fast-track checklist for dataviz projects",https://webgate.ec.europa.eu/fpfis/wikis/display/EUODDVC/Training+material+-+Data+visualisation+tutorial
+32,Y,Dataviz,KB-i,Data visualisation  training programme (Mar-Oct 2019),"Consisting of 5 trainings, 3 workshops and 4 webinars. ",https://webgate.ec.europa.eu/fpfis/wikis/display/EUODDVC/Training+material+-+Data+visualisation+training+programme
+33,Y,Dataviz,KB-x,Training programme on dataviz,Consists of 3 webinars delivered by Maarten Lambrechts - part of a wider dataviz training package for internal audience,https://academy.europa.eu/courses/data-visualisation
+34,Y,Dataviz,KB-x,EU DataViz webinars,Collection of > 20 webinars on data visualisation,https://www.youtube.com/watch?v=P5LJGdmRzD0&list=PLT5rARDev_rnycvW6qNol1_uGyR5FAd-5
+35,N,Dataviz,KB-x,Visual Vocabulary by the Financial Times,,https://ft-interactive.github.io/visual-vocabulary/
+36,M,Dataviz,KB-x,,,https://chartmaker.visualisingdata.com/
+37,YY,Dataviz,KB-x,RawGraphs,Try more unusual chart types in this online tool.,https://rawgraphs.io/
+38,M,Dataviz,KB-x,,,https://stephanieevergreen.com/data-visualization-checklist/
+39,M,Dataviz,KB-x,,,https://charticulator.com/
+40,M,Dataviz,KB-x,,,https://fastcharts.io/
+41,M,Dataviz,KB-x,,,https://quartz.github.io/Chartbuilder/
+42,Y,Dataviz,S,DemPub,Introduce a request for an interactive data visualisation via DemPub,https://op.europa.eu/en/web/Dempubweb/Dempub
+43,M,Metadata,KB-i,Data model DCAT-AP-OP,The data model of the EU ODP Legacy (the part of data.europa.eu that references datasets from the EU Institutions and bodies),https://webgate.ec.europa.eu/fpfis/wikis/pages/viewpage.action?pageId=227287430
+44,Y,Metadata,KB-x,Data quality guidelines,Provides general recommendations data publishers should consider when publishing data. The link points to the solution page on joinup,https://joinup.ec.europa.eu/collection/open-data/solution/data-quality-guidelines/about
+45,Y,Metadata,KB-x,Eurovoc,"EuroVoc is a multilingual, multidisciplinary thesaurus covering the activities of the EU. It contains terms in 23 official EU languages, plus in three languages of countries which are candidates for EU accession. EuroVoc uses semantic web technologies that reflect World Wide Web Consortium (W3C)
+recommendations and the latest trends in thesaurus standards. ",https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eurovoc
+46,Y,Metadata,KB-x,EU Vocabularies,"The vocabularies managed by the EU institutions and bodies. This includes controlled vocabularies, schemas, ontologies, data models, etc. ",https://op.europa.eu/en/web/eu-vocabularies
+47,Y,Metadata,KB-x,DCAT,"The Data Catalog Vocabulary (DCAT) is a vocabulary designed to facilitate interoperability
+between data catalogs published on the Web. DCAT enables a publisher to describe
+datasets and data services in a catalog using a standard model and vocabulary that
+facilitates the consumption and aggregation of metadata from multiple catalogs. The link points to the W3C Recommendation (DCAT version 2, Feb 2020). DCAT version 3 under development.",https://www.w3.org/TR/2020/REC-vocab-dcat-2-20200204/
+48,Y,Metadata,KB-x,DCAT and DCAT-AP self-paced courses,A series of 3 courses on DCAT and DCAT-AP (General introduction; Basic user; Advanced user),https://academy.europa.eu/courses/?search=DCAT
+49,M,Metadata,KB-x,Eurovoc Handbook,,https://op.europa.eu/o/opportal-service/euvoc-download-handler?cellarURI=http%3A%2F%2Fpublications.europa.eu%2Fresource%2Fdistribution%2Fdocumentation%2Feurovoc%2Fhandbook%2Fpdf%2Fstddoc%2FEuroVoc-Handbook.pdf&fileName=EuroVoc-Handbook.pdf
+50,Y,Metadata,R,EU Vocabularies team in OP,FMB - EU Vocabularies team in OP,OP-EU-VOCABULARIES@publications.europa.eu
+51,M,Open data,KB-i,,"Open Data Community wiki (ODC wiki), maintained by the Open Data team",https://webgate.ec.europa.eu/fpfis/wikis/pages/viewpage.action?spaceKey=EUODDVC&title=EU+Open+Data+Community+Home
+52,YY,Open data,KB-i,,FAIR principles and related resources,https://webgate.ec.europa.eu/fpfis/wikis/pages/viewpage.action?pageId=530157739
+53,YY,Open data,KB-i,Open Data Guide,"EU open data - The basics for EU data providers (Publications Office, 2016)",https://op.europa.eu/en/publication-detail/-/publication/c631a6de-ecd5-11e5-8a81-01aa75ed71a1
+54,M,Open data,KB-i,Landscaping surveys on open data,"Conclusions and recommendations of the exercise: Open Data in Commission DGs (2017), EU Agencies (2018) and EU Institutions (2019)",https://webgate.ec.europa.eu/fpfis/wikis/display/EUODDVC/Landscaping+surveys+on+open+data
+55,Y,Open data,KB-x,data.europa academy,Learning corner on Open Data with 4 pillars: Policy | Impact | Technology | Quality,
+56,YY,Open data,KB-x,eLearning programme on open data,"eLearning programme on data.europa.eu, consisting of 16 modules covering all aspects of open data. Suits all needs from complete newcomer to an expert. Available in EN, FR, IT, DE, ES, SV",https://data.europa.eu/elearning/en/#/id/co-01
+57,YY,Open data,KB-x,Guides on the ODI,"From data publishing to ethics, free guides created by experts from the ODI and beyond",https://theodi.org/knowledge-opinion/guides/
+58,YY,Open data,KB-x,Open Research Europe Data Guidelines,"Specific to research data; Provide information about research data that needs to be included when publishing an article in Open Research Europe, where data can be stored and how data should be presented",https://open-research-europe.ec.europa.eu/for-authors/data-guidelines
+59,Y,Open data,KB-x,Guiding you in Open Science,(specific to research data) OpenAIRE guides supporting the research community on its way to Open Science,https://www.openaire.eu/guides
+60,Y,Open data,KB-x,FAIR principles,How to make your data FAIR - OpenAIRE guide (specific to research data),https://www.openaire.eu/how-to-make-your-data-fair
+61,M,Open data,KB-x,FAIR Data Maturity Model,"FAIR Data Maturity Model: Specification and Guidelines (RDA, 2020)",https://www.rd-alliance.org/sites/default/files/FAIR%20Data%20Maturity%20Model.pdf
+62,YY,Open data,R,Open data team in OP,FMB - Open data team,OP-DATA-EUROPA-EU@publications.europa.eu
+63,YY,Open data,S,data.europa.eu,The official portal for European data,https://data.europa.eu/en
+64,M,Persistent identification & citation,KB-i,EU citation style,Report on harmonisation of the EU citation styles,
+65,Y,Persistent identification & citation,KB-i,URI,A Uniform Resource Identifier (URI) is a compact sequence of characters that identifies an abstract or physical resource. The link points to the pURI Committee wiki,https://webgate.ec.europa.eu/fpfis/wikis/display/uricommittee/URI+Committee+Home
+66,M,Persistent identification & citation,KB-x,Resources with persistent URIs,List of 'Resources with persistent URIs of the EU institutions and bodies',https://data.europa.eu/URI.html
+67,Y,Persistent identification & citation,KB-x,the DOI® System,,https://www.doi.org/ 
+68,Y,Persistent identification & citation,KB-x,DCAT-AP,"The DCAT Application Profile for data portals in Europe (DCAT-AP) is a specification based on the Data Catalogue Vocabulary (DCAT) developed by W3C. This application profile is a specification for metadata records to meet the specific application needs of data portals in Europe while providing semantic interoperability with other applications on the basis of reuse of established controlled vocabularies (e.g. EuroVoc) and mappings to existing metadata vocabularies (e.g. Dublin Core, SDMX, INSPIRE",https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe?page=0
+69,M,Persistent identification & citation,R,URI team in OP,Functional Mailbox (FMB),OP-URI@publications.europa.eu
+70,Y,Persistent identification & citation,R,DOI team in OP,"FMB - EU Digital Object Identifier (DOI) service for datasets, publications and articles",OPDL-DOIRA@publications.europa.eu
+71,M,Persistent identification & citation,S,European Citation Tool project,Citation tool under development by OP - prototype ready,[prototype location can't be shared]
+72,Y,Persistent identification & citation,S,DemPub,Introduce a request for identifiers via DemPub,https://op.europa.eu/en/web/Dempubweb/Dempub
+73,M,Persistent identification & citation,,URI vs DOI,"Study analysing the differences between the use of pURIs and DOIs (PwC EU Services, 2018)",https://webgate.ec.europa.eu/fpfis/wikis/download/attachments/530157739/D04.02.3%20Comparison%20of%20using%20PURI%20%20DOI%20v0.14.docx?version=1&modificationDate=1593689423916&api=v2
+74,Y,Publishing,KB-i,,Graphic Design Style Guide,
+75,N,Publishing,KB-i,Checklists from the training on the Publishing Cycle,,
+76,Y,Publishing,KB-x,Interinstitutional Style Guide,Interinstitutional Style Guide (ISG),https://publications.europa.eu/code/en/en-000100.htm
+77,Y,Publishing,KB-x,OP training on accessibility,"eLearning module on accessible digital publishing (inclusive publishing), composed of a series of video tutorials, which are complemented by other pertinent information",https://op.europa.eu/en/web/accessibility
+78,Y,Publishing,R,DemPub team,FMB,OP-Dempubweb@ec.europa.eu
+79,Y,Publishing,R,OP team on accessible publications,FMB - OP team on accessible publications,OP-ACCESSIBLE-PUBLICATIONS@publications.europa.eu
+80,YY,Publishing,R,DemPub,FMB - OP services request,OP-SERVICES-REQUEST@publications.europa.eu
+81,M,Publishing,R,Editorial support team in OP,FMP - Editorial support team,OP-EDITORIAL-SUPPORT-SERVICES@publications.europa.eu
+82,Y,Publishing,S,Interinstitutional Database for EU Studies,"A common entry point to study projects planned or already conducted on behalf of the EU institutions and bodies. As well as providing information on each study project registered, this repository also contains documents resulting from these projects, whether public or restricted to inter-institutional access.",https://webgate.ec.testa.eu/publications/studiesdb/Home.action
+83,Y,Publishing,S,PubliCare,Online catalogue of OP services - available to EU staff,https://webgate.ec.europa.eu/multisite/publicare/en
+84,YY,Publishing,S,DemPub,"Web platform for introducing requests for OP services (other than OJ) - available to EU staff, sign-in required",https://op.europa.eu/en/web/Dempubweb/Dempub
+85,YY,Publishing,S,DemPub,"Introduce a request for editorial support services (collaborative planning, editorial advice, performance measurement) via DemPub",https://op.europa.eu/en/web/Dempubweb/Dempub
+86,,Publishing,,OP domain training in EU Learn,,https://webgate.ec.europa.eu/ilp/pages/catalogsearch.jsf?catalogId=0&sidebarExpanded=true&q=%7B!q.op%3DAND%7D%20OPdomaintraining&rows=7
+87,YY,Dataviz,KB-x,The Data Viz Project,Find the right visualisation type by browsing this chart encyclopedia.,https://datavizproject.com/

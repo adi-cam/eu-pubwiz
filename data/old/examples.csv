@@ -1,0 +1,11 @@
+id,title,description,link
+1,"Wellbeing in Germany, The Federal Government Germany (2016) ","Different types of visualisations in the online publication ""Wellbeing
+in Germany"".",https://www.gut-leben-in-deutschland.de/indicators
+2,"Early Childhood Education and Care in Europe, Eurydice / EACEA (2019)","In Eurydice Publication on Early Childhood Education and Care, a table is often shown alongside the visualisation (see, for example, p. 30).",https://eacea.ec.europa.eu/national-policies/eurydice/content/key-data-early-childhood-education-and-care-europe-%E2%80%93-2019-edition_en
+3,Our World in Data,"Our World in Data offers tooltips to read the single data values. In addition, you can switch between a chart, a map, and a table view.",https://ourworldindata.org/grapher/annual-working-hours-per-worker?tab=table
+4,Our World in Data,"The charts from Our World in Data contain their logo, the link to the chart's main topic, and even the license for reuse.",https://ourworldindata.org/grapher/annual-working-hours-per-worker
+5,The Guardian,"Media organisations, such as The Guardian, usually state the name of their organisation as the author directly beneath the visualisation. ",https://www.theguardian.com/australia-news/datablog/ng-interactive/2021/sep/13/covid-19-australia-tracker-map-data-cases-today-coronavirus-tracking-stats-live-data-update-by-state-melbourne-regional-victoria-vic-sydney-nsw-how-many-new-active-case-numbers-statistics-deaths-death-toll
+6,Our World in Data,"Our World in Data provides a short source description below each chart, as well as a longer source description under the tab ""sources"".",https://ourworldindata.org/grapher/time-spent-on-activities-in-an-average-day-females?country=~NOR
+7,Our World in Data,Our World in Data provides the option to download both a PNG and an SVG – and has nice little descriptions of what the user can do with those formats.,https://ourworldindata.org/grapher/annual-working-hours-per-worker
+8,"Going Digital Toolkit, OECD (2019)",The charts in this toolkit always have a source stated below them. ,http://goingdigital.oecd.org/indicator/50
+9,"Going Digital Toolkit, OECD (2019)",The toolkit offers a simple download button next to each chart to download a PNG. ,http://goingdigital.oecd.org/indicator/50

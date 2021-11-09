@@ -1,11 +1,48 @@
-id,title,description,link
-1,"Wellbeing in Germany, The Federal Government Germany (2016) ","Different types of visualisations in the online publication ""Wellbeing
+id,id-a,topic,title,description,link
+1,1,Visualisation,"Wellbeing in Germany, The Federal Government Germany (2016) ","Different types of visualisations in the online publication ""Wellbeing
 in Germany"".",https://www.gut-leben-in-deutschland.de/indicators
-2,"Early Childhood Education and Care in Europe, Eurydice / EACEA (2019)","In Eurydice Publication on Early Childhood Education and Care, a table is often shown alongside the visualisation (see, for example, p. 30).",https://eacea.ec.europa.eu/national-policies/eurydice/content/key-data-early-childhood-education-and-care-europe-%E2%80%93-2019-edition_en
-3,Our World in Data,"Our World in Data offers tooltips to read the single data values. In addition, you can switch between a chart, a map, and a table view.",https://ourworldindata.org/grapher/annual-working-hours-per-worker?tab=table
-4,Our World in Data,"The charts from Our World in Data contain their logo, the link to the chart's main topic, and even the license for reuse.",https://ourworldindata.org/grapher/annual-working-hours-per-worker
-5,The Guardian,"Media organisations, such as The Guardian, usually state the name of their organisation as the author directly beneath the visualisation. ",https://www.theguardian.com/australia-news/datablog/ng-interactive/2021/sep/13/covid-19-australia-tracker-map-data-cases-today-coronavirus-tracking-stats-live-data-update-by-state-melbourne-regional-victoria-vic-sydney-nsw-how-many-new-active-case-numbers-statistics-deaths-death-toll
-6,Our World in Data,"Our World in Data provides a short source description below each chart, as well as a longer source description under the tab ""sources"".",https://ourworldindata.org/grapher/time-spent-on-activities-in-an-average-day-females?country=~NOR
-7,Our World in Data,Our World in Data provides the option to download both a PNG and an SVG – and has nice little descriptions of what the user can do with those formats.,https://ourworldindata.org/grapher/annual-working-hours-per-worker
-8,"Going Digital Toolkit, OECD (2019)",The charts in this toolkit always have a source stated below them. ,http://goingdigital.oecd.org/indicator/50
-9,"Going Digital Toolkit, OECD (2019)",The toolkit offers a simple download button next to each chart to download a PNG. ,http://goingdigital.oecd.org/indicator/50
+2,2,Visualisation,"Early Childhood Education and Care in Europe, Eurydice / EACEA (2019)","In this Eurydice Publication on Early Childhood Education and Care, a table is often shown alongside the visualisation (see, for example, p. 30).",https://eacea.ec.europa.eu/national-policies/eurydice/content/key-data-early-childhood-education-and-care-europe-%E2%80%93-2019-edition_en
+3,3,Visualisation,Our World in Data,"Our World in Data offers tooltips to read the single data values. In addition, you can switch between a chart, a map, and a table view.",https://ourworldindata.org/grapher/annual-working-hours-per-worker?tab=table
+4,3,Visualisation,Our World in Data,"The charts from Our World in Data contain their logo, the link to the chart's main topic, and even the license for reuse.",https://ourworldindata.org/grapher/annual-working-hours-per-worker
+5,4,Visualisation,The Guardian,"Media organisations, such as The Guardian, usually state the name of their organisation as the author directly beneath the visualisation. ",https://www.theguardian.com/australia-news/datablog/ng-interactive/2021/sep/13/covid-19-australia-tracker-map-data-cases-today-coronavirus-tracking-stats-live-data-update-by-state-melbourne-regional-victoria-vic-sydney-nsw-how-many-new-active-case-numbers-statistics-deaths-death-toll
+6,3,Visualisation,Our World in Data,"Our World in Data provides a short source description below each chart, as well as a longer source description under the tab ""sources"".",https://ourworldindata.org/grapher/time-spent-on-activities-in-an-average-day-females?country=~NOR
+7,3,Visualisation,Our World in Data,Our World in Data provides the option to download both a PNG and an SVG – and has nice little descriptions of what the user can do with those formats.,https://ourworldindata.org/grapher/annual-working-hours-per-worker
+8,5,Visualisation,"Going Digital Toolkit, OECD (2019)",The charts in this toolkit always have a source stated below them. ,http://goingdigital.oecd.org/indicator/50
+9,5,Visualisation,"Going Digital Toolkit, OECD (2019)",The toolkit offers a simple download button next to each chart to download a PNG. ,http://goingdigital.oecd.org/indicator/50
+10,6,Design and Style,"Design & Brand Guidelines, ACT Government (2021)","An example of a classic, complete style guide by the Australian Capital Territory Government.",https://www.act.gov.au/__data/assets/pdf_file/0010/1106110/ACTGov-WHOG-Brand-Guidelines.pdf
+11,7,Design and Style,"Gov.UK design system, Government of the UK","The design system of the online presence of the UK government is documented in a public, online style guide. It does not only include classic components such as colors and typefaces, but also defines user interface elements and pattern for online interactions. ",https://design-system.service.gov.uk/
+12,8,Design and Style,"Guidance on writing style, Government of New Zealand","Section on writing style in the content design guidance of the Government of New Zealand, including guidelines on tone and voice, readability, and plain language.",https://www.digital.govt.nz/standards-and-guidance/design-and-ux/content-design-guidance/writing-style/
+13,9,Design and Style,"Voice and Tone, Mailchimp",Section on voice and tone in Mailchimp's content style guide,https://styleguide.mailchimp.com/voice-and-tone/
+14,10,Design and Style,"Voice and Tone, 18F",Section on voice and tone in 18F's style guide. 18F is digital services agency within the United States Government.,https://content-guide.18f.gov/our-style/voice-and-tone/
+15,11,Design and Style,"Data visualisation style guide, Urban Institute","A style guide specifically for data visualisaiton by Urban Institute, a nonprofit research organization based in the U.S.A.. ",https://urbaninstitute.github.io/graphics-styleguide/
+16,12,Design and Style,"Collection of data visualisation style guides, Data Visualization Society",A google sheet with a nice collection of data visualisation style guides across the private and public sector.,https://docs.google.com/spreadsheets/d/1F1gm5QLXh3USC8ZFx_M9TXYxmD-X5JLDD0oJATRTuIE/edit#gid=1679646668
+17,13,Design and Style,"Infographics How To, BBC","Guide on designing infographics by the BBC which includes rules for style, usage, and accessibility",https://www.bbc.co.uk/gel/guidelines/how-to-design-infographics#accessibility
+18,14,Design and Style,"Presenting data, Office for National Statistics UK",Public and online guide on all things pertaining to data visualisation by the ONS.,https://style.ons.gov.uk/category/data-visualisation/
+19,15,Design and Style,"Data visualisation style guide, Shopify",Style guide for data visualisation by Shopify which includes accessibility considerations.,https://polaris.shopify.com/design/data-visualizations#section-accessibility
+20,16,Design and Style,"Style Manual, Government of Australia",Guidelines on accessible and inclusive content design by the government of Australia.,https://www.stylemanual.gov.au/accessible-and-inclusive-content
+21,17,Design and Style,"Guidance on accessibility, Government of New Zealand",Section on accessibility in the design and UX guidance of the Government of New Zealand.,https://www.digital.govt.nz/standards-and-guidance/design-and-ux/accessibility/
+22,2,Structure,"Early Childhood Education and Care in Europe, Eurydice / EACEA (2019)",This Eurydice Publication on Early Childhood Education and Care contains a diagram of how the report is structured around different topics and how these topics are interlinked (see p. 25).,https://eacea.ec.europa.eu/national-policies/eurydice/content/key-data-early-childhood-education-and-care-europe-%E2%80%93-2019-edition_en
+23,18,Structure,"Key figures on Europe – Statistics Illustrated, Eurostat (2020)","On page 6 and 7, this publication gives an overview over the data used in the publication, explains the spatial and temporal coverage of the data and provides the reader with instructions as to where they can find the data.",https://ec.europa.eu/eurostat/documents/3217494/11432756/KS-EI-20-001-EN-N.pdf/6b9097d9-ea05-a973-d931-c08334db979b?t=1602776043000
+24,2,Structure,"Early Childhood Education and Care in Europe, Eurydice / EACEA (2019)","This Eurydice Publication contains a table of figures, a list of codes and abbreviations, references, and a glossary. ",https://eacea.ec.europa.eu/national-policies/eurydice/content/key-data-early-childhood-education-and-care-europe-%E2%80%93-2019-edition_en
+25,19,Structure,"National Climate Assessment, US Global Change Research Program (2014)",The National Climate Assessment 2014 uses full-width images to delineate sections and alternates text with interactive charts. This balance between visual elements and text give the report structure and make it more enjoyable to read.,https://nca2014.globalchange.gov/report/sectors/energy
+26,18,Structure,"Key figures on Europe – Statistics Illustrated, Eurostat (2020)","In this publication, the text is always right below or above the data visualisation, making it easier for the reader to read the text and the visualisation together.",https://ec.europa.eu/eurostat/documents/3217494/11432756/KS-EI-20-001-EN-N.pdf/6b9097d9-ea05-a973-d931-c08334db979b?t=1602776043000
+27,1,Text,"Wellbeing in Germany, The Federal Government Germany (2016) ","This publication uses short, concise paragraphs. Different text types (e.g. title, quotes, body text) also has a clear visual hierarchy. ",https://www.gut-leben-in-deutschland.de/report/health
+28,1,Data,"Wellbeing in Germany, The Federal Government Germany (2016) ","In this publication, the licence is clearly stated and explained, both for the visualisations and for the data. ",https://www.gut-leben-in-deutschland.de/indicators/health/obesity
+29,1,Structure,"Wellbeing in Germany, The Federal Government Germany (2016) ","In addtion to showing visualisations within each chapter, this publication collects all the visualisations on one page named ""Indicators"".",https://www.gut-leben-in-deutschland.de/indicators
+30,,Visualisation,,,
+31,,Visualisation,,,
+32,,Visualisation,,,
+33,,Visualisation,,,
+34,,Visualisation,,,
+35,,Visualisation,,,
+36,,Visualisation,,,
+37,,Visualisation,,,
+38,,Visualisation,,,
+39,,Visualisation,,,
+40,,,,,
+41,,,,,
+42,,,,,
+43,,,,,
+44,,,,,
+45,,,,,
+46,,,,,
