@@ -12,15 +12,22 @@ export default class extends Controller {
 
   get filteredGroupedRecommendations() {
     return Object.fromEntries(
-      Object.entries(this.data.groupedRecommendations).map((group) => {
-        return [
-          group[0],
-          group[1].filter((recommendation) => {
-            return this.application.matchCondition(recommendation.condition);
-          }),
-        ];
-      })
+      Object.entries(this.data.groupedRecommendations)
+        .map((group) => {
+          return [
+            group[0],
+            group[1].filter((recommendation) => {
+              return this.application.matchCondition(recommendation.condition);
+            }),
+          ];
+        })
+        .filter((group) => group[1].length > 0)
     );
+  }
+
+  @action open(rid, open) {
+    this.state[rid] = open;
+    this.state = this.state; // eslint-disable-line
   }
 
   @action openAll(recommendations) {

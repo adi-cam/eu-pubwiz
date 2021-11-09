@@ -1,7 +1,8 @@
-import Route from '@ember/routing/route';
+import Base from './base';
+
 import { inject as service } from '@ember/service';
 
-export default class extends Route {
+export default class extends Base {
   @service data;
 
   queryParams = {

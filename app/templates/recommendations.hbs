@@ -31,7 +31,7 @@
             <h3
               role="button"
               class="title3 title3__capped title3__button"
-              {{on "click" (set this.state recommendation.id (not open))}}
+              {{on "click" (fn this.open recommendation.id (not open))}}
             >
               <span>{{recommendation.title}}</span>
 
@@ -42,7 +42,7 @@
               {{/if}}
             </h3>
 
-            {{#if (get this.state recommendation.id)}}
+            {{#if open}}
               <p>
                 {{#if recommendation.advanced}}
                   <strong>Basic</strong>:

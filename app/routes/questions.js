@@ -1,6 +1,6 @@
-import Route from '@ember/routing/route';
+import Base from './base';
 
-export default class extends Route {
+export default class extends Base {
   queryParams = {
     page: {},
   };
