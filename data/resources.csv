@@ -1,4 +1,4 @@
-﻿id,include,topic,type,title,description,link,
+id,include,topic,type,title,description,link,
 1,YY,Copyright,KB-i,Reuse Guidelines,"Reuse Guidelines - Using Creative Common licences for the distribution and reuse of Commission documents (EC Central Intelectual Property Service, 2019 edition)",https://myintracomm.ec.europa.eu/corp/intellectual-property/Documents/2019_Reuse-guidelines(CC-BY).pdf  ,
 2,M,Copyright,KB-x,CC wiki page,Considerations for licensors and licensees (on the wiki of CC),https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees,
 3,YY,Copyright,KB-x,Reuser's Guide to Open Data Licensing,"Free guide to open data licensing, by the ODI (Open Data Institute)",https://theodi.org/article/reusers-guide-to-open-data-licensing/,
@@ -117,7 +117,8 @@ To ensure the coherence, relevance and cost-effectiveness of the Commission’s 
 final manuscript",https://webgate.ec.europa.eu/ilp/pages/librarycontent.jsf?courseId=44293598&mediaId=45756304,
 110,M,Publishing,KB-i,Final content checklist,Use this checklist to make sure your content is final and complete and ready to be sent for production,https://webgate.ec.europa.eu/ilp/pages/librarycontent.jsf?courseId=44293598&mediaId=45758828,
 111,YY,Publishing,KB-i,Choosing appropriate media for your publication,"Before you choose which media will suit your publication, here are a few questions
-that you should ask yourself and some facts to consider",https://webgate.ec.europa.eu/ilp/pages/librarycontent.jsf?pollingMode=on&mediaId=45758783&courseId=44293598,
+that you should ask yourself and some facts to consider
+",https://webgate.ec.europa.eu/ilp/pages/librarycontent.jsf?pollingMode=on&mediaId=45758783&courseId=44293598,
 112,Y,Publishing,KB-x,European Commission visual identity,,https://ec.europa.eu/info/resources-partners/european-commission-visual-identity_en,
 113,M,Publishing,KB-x,European Parliament visual identity,,https://www.europarl.europa.eu/downloadcentre/en/visual-identity,
 114,M,Publishing,KB-x,European Council visual identity,,https://www.consilium.europa.eu/en/general-secretariat/corporate-policies/visual-identity/,
