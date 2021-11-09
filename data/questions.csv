@@ -1,56 +1,56 @@
-"Condition","Topic","QN","Questions","Description","OL","Options","Format"
-"","The Publication","1","What is the title of your publication?","In the context of the Publication Wizard, a publication can be any type of published content. This includes press releases, leaflets, brochures, assessments, briefs and summaries, reports, studies and books both in print and online.","","","text"
-"","The Publication","2","Do you use data in your publication?","Using data in a publication might include producing or acquiring data, analysing data, referencing data, or presenting data in visualisations.","A","Yes","single"
-"","","","","","B","No",""
-"","","","","","","",""
-"","The Publication","3","Apart from text and photographic images, which elements does your publication include?","Data visualisations are charts and diagrams that show data. Graphics include illustrations and icons. Multiple answers are possible.","A","Data visualisations","multiple"
-"","","","","","B","Graphics",""
-"","The Publication","4","Who is the target audience of your publication?","","A","General public ","multiple"
-"","","","","","B","Interested public",""
-"","","","","","C","People in academia ",""
-"","","","","","D","People in media ",""
-"","","","","","E","Expert audience ",""
-"","","","","","F","Decision makers in businesses and NGOs",""
-"","","","","","G","Policy Makers",""
-"","Publishing","5","In which formats will the publication be published?","A print publication is an actual physical publication product. PDFs or ePublications are digital formats that can be read online or on a computer. A simple HTML publication is created by turning a word document into HTML text. An online publication is dispalyed and read in a web browser. You might disseminate your publication in multiple formats. ","A","Print Publication","multiple"
-"","","","","","B","PDF or ePub",""
-"","","","","","C","Simple HTML",""
-"","","","","","D","Online Publication",""
-"","Publishing","6","Are you either publishing or planning to publish with the Publications Office (OP)?","The OP is an inter-institutional service that coordinates publication efforts across the EU Institutions, Agencies and Bodies. If your publication is mandated by law or other regulations or if you want to receive a unique identifier for your publication (e.g. an ISBN / ISSN number or a DOI), you need to publish with the OP.","A","Yes","single"
-"","","","","","B","No",""
-"","","","","","C","I don't know",""
-"2A","Intellectual Property Rights and Data Protection","7","Can your data be released as open data?","You can provide your data as open data if data privacy, copyright and data confidentiality issues have been cleared. In general terms, this means that the data does not infringe on people’s privacy, that the data belongs to your organisation to use, and that the access to the data is not restricted. ","A","Yes","single"
-"","",""," ","","B","No",""
-"","","","","","C","I don't know",""
-"2B&&3A","Intellectual Property Rights and Data Protection","8","Can the data you use in your visualisations be released as open data?","You can provide data as open data if data privacy, copyright and data confidentiality issues have been cleared. In general terms, this means that the data does not infringe on people’s privacy, that the data belongs to your organisation to use, and that the access to the data is not restricted. ","A","Yes","single"
-"","","","","","B","No",""
-"","","","","","C","I don't know",""
-"","","","","","","",""
-"3A","Intellectual Property Rights and Data Protection","9","Can the data visualisations from your publication be published for reuse?","You can provide your visualisations to your readers if copyright issues have been cleared. In general terms, this means that your organisation holds the rights to the visualisation.","A","Yes","single"
-"","","","","","B","No",""
-"","","","","","C","I don't know",""
-"3B","Intellectual Property Rights and Data Protection","10","Can the graphics from your publication be published for reuse?","You can provide your graphics to your readers if copyright issues have been cleared. In general terms, this means that your organisation holds the rights to the graphics.","A","Yes",""
-"","","","","","B","No",""
-"","","","","","C","I don't know",""
-"2A&&7A,3A&&8A","Infrastructure and Resources","11","Do you have a place to store the data?","This means that you have a server infrastructure to host the data files and that the location where the files are located can be described via a URL","A","Yes","single"
-"","","","","","B","No",""
-"","","","","","C","I don't know",""
-"3A&&9A","Infrastructure and Resources","12","Do you have a place to store the visualisations?","This means that you have a server infrastructure to host the visualisation files and that the location where the files are located can be described via a URL.","A","Yes","single"
-"","","","","","B","No",""
-"","","","","","C","I don't know",""
-"3B&&10A","Infrastructure and Resources","13","Do you have a place to store the graphics?","This means that you have a server infrastructure to host the graphics files and that the location where the files are located can be described via a URL.","A","Yes","single"
-"","","","","","B","No",""
-"","","","","","C","I don't know",""
-"3A&&9A&&3B&&10A","Infrastructure and Resources","14","Do you have a place to store the graphics and data visualisations?","This means that you have a server infrastructure to host the visualisation and graphics files and that the location where the files are located can be described via a URL.","A","Yes","single"
-"","","","","","B","No",""
-"","","","","","C","I don't know",""
-"5D","Infrastructure and Resources","15","Do you already have a template for online publications?","In such a web-template the page layout, the interactive elements and the visual style are already defined. ","A","Yes","single"
-"","","","","","B","No",""
-"","","","","","C","I don't know",""
-"","Infrastructure and Resources","16","Do you have a style guide specific to your organisation?","The Interinstitutional Style Guide applies to all EU organisations. In addition to that, many organisations also have their own style guide with more specific guidelines. ","A","Yes","single"
-"","","","","","B","No",""
-"","","","","","C","I don't know",""
-"16A","Infrastructure and Resources","17","Which of the following sections does your style guide include? ","Multiple answers are possible.","A","Guidelines for overall visual style","multiple"
-"","","","","","B","Guidelines for data visualisation design",""
-"","","","","","C","Guidelines for content design",""
-"","","","","","D","Guidelines for citation style",""
+Condition,Topic,QN,Questions,Description,OL,Options,Format
+,The Publication,1,What is the title of your publication?,"In the context of the Publication Wizard, a publication can be any type of published content. This includes press releases, leaflets, brochures, assessments, briefs and summaries, reports, studies and books both in print and online.",,,text
+,The Publication,2,Do you use data in your publication?,"Using data in a publication might include producing or acquiring data, analysing data, referencing data, or presenting data in visualisations.",A,Yes,single
+,,,,,B,No,
+,,,,,,,
+,The Publication,3,"Apart from text and photographic images, which elements does your publication include?",Data visualisations are charts and diagrams that show data. Graphics include illustrations and icons. Multiple answers are possible.,A,Data visualisations,multiple
+,,,,,B,Graphics,
+,The Publication,4,Who is the target audience of your publication?,,A,General public ,multiple
+,,,,,B,Interested public,
+,,,,,C,People in academia ,
+,,,,,D,People in media ,
+,,,,,E,Expert audience ,
+,,,,,F,Decision makers in businesses and NGOs,
+,,,,,G,Policy Makers,
+,Publishing,5,In which formats will the publication be published?,A print publication is an actual physical publication product. PDFs or ePublications are digital formats that can be read online or on a computer. A simple HTML publication is created by turning a word document into HTML text. An online publication is displayed and read in a web browser. You might disseminate your publication in multiple formats. ,A,Print Publication,multiple
+,,,,,B,PDF or ePub,
+,,,,,C,Simple HTML,
+,,,,,D,Online Publication,
+,Publishing,6,Are you either publishing or planning to publish with the Publications Office (OP)?,"The OP is an inter-institutional service that coordinates publication efforts across the EU Institutions, Agencies and Bodies. If your publication is mandated by law or other regulations or if you want to receive a unique identifier for your publication (e.g. an ISBN / ISSN number or a DOI), you need to publish with the OP.",A,Yes,single
+,,,,,B,No,
+,,,,,C,I don't know,
+2A,Intellectual Property Rights and Data Protection,7,Can your data be released as open data?,"You can provide your data as open data if data privacy, copyright and data confidentiality issues have been cleared. In general terms, this means that the data does not infringe on people’s privacy, that the data belongs to your organisation to use, and that the access to the data is not restricted. ",A,Yes,single
+,,, ,,B,No,
+,,,,,C,I don't know,
+2B && 3A,Intellectual Property Rights and Data Protection,8,Can the data you use in your visualisations be released as open data?,"You can provide data as open data if data privacy, copyright and data confidentiality issues have been cleared. In general terms, this means that the data does not infringe on people’s privacy, that the data belongs to your organisation to use, and that the access to the data is not restricted. ",A,Yes,single
+,,,,,B,No,
+,,,,,C,I don't know,
+,,,,,,,
+3A,Intellectual Property Rights and Data Protection,9,Can the data visualisations from your publication be published for reuse?,"You can provide your visualisations to your readers if copyright issues have been cleared. In general terms, this means that your organisation holds the rights to the visualisation.",A,Yes,single
+,,,,,B,No,
+,,,,,C,I don't know,
+3B,Intellectual Property Rights and Data Protection,10,Can the graphics from your publication be published for reuse?,"You can provide your graphics to your readers if copyright issues have been cleared. In general terms, this means that your organisation holds the rights to the graphics.",A,Yes,single
+,,,,,B,No,
+,,,,,C,I don't know,
+(2A && 7A) || (3A && 8A),Infrastructure and Resources,11,Do you have a place to store the data?,This means that you have a server infrastructure to host the data files and that the location where the files are located can be described via a URL,A,Yes,single
+,,,,,B,No,
+,,,,,C,I don't know,
+3A && 9A,Infrastructure and Resources,12,Do you have a place to store the visualisations?,This means that you have a server infrastructure to host the visualisation files and that the location where the files are located can be described via a URL.,A,Yes,single
+,,,,,B,No,
+,,,,,C,I don't know,
+3B && 10A,Infrastructure and Resources,13,Do you have a place to store the graphics?,This means that you have a server infrastructure to host the graphics files and that the location where the files are located can be described via a URL.,A,Yes,single
+,,,,,B,No,
+,,,,,C,I don't know,
+(3A && 9A) && (3B && 10A),Infrastructure and Resources,14,Do you have a place to store the graphics and data visualisations?,This means that you have a server infrastructure to host the visualisation and graphics files and that the location where the files are located can be described via a URL.,A,Yes,single
+,,,,,B,No,
+,,,,,C,I don't know,
+5D,Infrastructure and Resources,15,Do you already have a template for online publications?,"In such a web-template the page layout, the interactive elements and the visual style are already defined. ",A,Yes,single
+,,,,,B,No,
+,,,,,C,I don't know,
+,Infrastructure and Resources,16,Do you have a style guide specific to your organisation?,"The Interinstitutional Style Guide applies to all EU organisations. In addition to that, many organisations also have their own style guide with more specific guidelines. ",A,Yes,single
+,,,,,B,No,
+,,,,,C,I don't know,
+16A,Infrastructure and Resources,17,Which of the following sections does your style guide include? ,Multiple answers are possible.,A,Guidelines for overall visual style,multiple
+,,,,,B,Guidelines for data visualisation design,
+,,,,,C,Guidelines on content design,
+,,,,,D,Guidelines for citation style,
