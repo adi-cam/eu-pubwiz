@@ -1,6 +1,7 @@
 import Controller from '@ember/controller';
 import { tracked } from '@glimmer/tracking';
 import { action } from '@ember/object';
+import evaluate from 'simple-evaluate';
 
 export default class extends Controller {
   queryParams = ['title', 'answers'];
@@ -16,23 +17,26 @@ export default class extends Controller {
     window.location = `mailto:xyz@abc.com?subject=EU%20Publication%20Wizard&body=Visit%20here:%20${window.location}`;
   }
 
-  matchCondition(condition, info) {
-    // match conditions by group (at least one full match)
-    let matched = condition.length === 0;
-    for (const group of condition) {
-      let subMatched = true;
-      for (const item of group) {
-        const qid = /\d*/.exec(item)[0];
-        if (!(this.answers[item] || this.answers[qid] === item)) {
-          subMatched = false;
+  get answerData() {
+    return Object.fromEntries(
+      Object.keys(this.answers).map((key) => {
+        if (typeof this.answers[key] === 'string') {
+          return ['_' + this.answers[key], true];
+        } else {
+          return ['_' + key, true];
         }
-      }
-      if (subMatched) {
+      })
+    );
+  }
+
+  matchCondition(condition) {
+    // match condition by expression
+    let matched = condition.length === 0;
+    for (let expression of condition) {
+      if (evaluate(this.answerData, expression.replaceAll(/\d+/g, '_$&'))) {
         matched = true;
       }
     }
-
-    console.log(info, condition, this.answers, matched);
 
     return matched;
   }

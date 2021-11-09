@@ -10372,6 +10372,13 @@ simple-dom@^1.0.0, simple-dom@^1.4.0:
     "@simple-dom/serializer" "^1.4.0"
     "@simple-dom/void-map" "^1.4.0"
 
+simple-evaluate@^1.4.3:
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/simple-evaluate/-/simple-evaluate-1.4.3.tgz#75d43df7c48566889a2c6f2f2023c4b80b9825f7"
+  integrity sha512-71CmBReCowrHM37Y16bE4jz1I6pY4Hl9VH22d1G2DFyre/rWPlXfShgWJmi1CjZhTHvdvc5S0+iRddeIK0tsGQ==
+  dependencies:
+    get-value "^2.0.6"
+
 simple-html-tokenizer@^0.5.10, simple-html-tokenizer@^0.5.8:
   version "0.5.11"
   resolved "https://registry.yarnpkg.com/simple-html-tokenizer/-/simple-html-tokenizer-0.5.11.tgz#4c5186083c164ba22a7b477b7687ac056ad6b1d9"

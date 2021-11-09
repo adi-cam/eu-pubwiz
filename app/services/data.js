@@ -18,7 +18,7 @@ function onlyUnique(value, index, self) {
 }
 
 function parseCondition(str) {
-  return str ? str.split(',').map((item) => item.split('&&')) : [];
+  return str ? str.split(',') : [];
 }
 
 export default class extends Service {
