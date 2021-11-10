@@ -35,10 +35,10 @@ Condition,Topic,QN,Questions,Description,OL,Options,Format
 (2A && 7A) || (3A && 8A),Infrastructure and Resources,11,Do you have a place to store the data?,This means that you have a server infrastructure to host the data files and that the location where the files are located can be described via a URL,A,Yes,single
 ,,,,,B,No,
 ,,,,,C,I don't know,
-3A && 9A,Infrastructure and Resources,12,Do you have a place to store the visualisations?,This means that you have a server infrastructure to host the visualisation files and that the location where the files are located can be described via a URL.,A,Yes,single
+(3A && 9A) || (3A && 9C) && !3B,Infrastructure and Resources,12,Do you have a place to store the visualisations?,This means that you have a server infrastructure to host the visualisation files and that the location where the files are located can be described via a URL.,A,Yes,single
 ,,,,,B,No,
 ,,,,,C,I don't know,
-3B && 10A,Infrastructure and Resources,13,Do you have a place to store the graphics?,This means that you have a server infrastructure to host the graphics files and that the location where the files are located can be described via a URL.,A,Yes,single
+(3B && 10A) || (3B && 10C) && !3A,Infrastructure and Resources,13,Do you have a place to store the graphics?,This means that you have a server infrastructure to host the graphics files and that the location where the files are located can be described via a URL.,A,Yes,single
 ,,,,,B,No,
 ,,,,,C,I don't know,
 (3A && 9A) && (3B && 10A),Infrastructure and Resources,14,Do you have a place to store the graphics and data visualisations?,This means that you have a server infrastructure to host the visualisation and graphics files and that the location where the files are located can be described via a URL.,A,Yes,single
