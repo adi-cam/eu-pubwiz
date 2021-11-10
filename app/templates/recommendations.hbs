@@ -10,7 +10,11 @@
   </ul>
 
   <h2 class="title1 title1__capped">
-    Recommendations for your publication "{{this.application.title}}"
+    {{#if this.application.title}}
+      Recommendations for your publication "{{this.application.title}}"
+    {{else}}
+      Your Recommendations
+    {{/if}}
   </h2>
 
   {{#each-in this.filteredGroupedRecommendations as |topic recommendations|}}
