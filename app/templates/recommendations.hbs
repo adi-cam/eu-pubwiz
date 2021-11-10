@@ -1,16 +1,20 @@
 <div class="page">
   <ul class="sidebar" {{highlight linkSelector="li a" elementSelector="h2"}}>
-    {{#each this.data.recommendationTopics as |topic|}}
+    {{#each-in this.filteredGroupedRecommendations as |topic|}}
       <li>
         <a href="#{{slug topic}}" {{link-inline}}>
           {{topic}}
         </a>
       </li>
-    {{/each}}
+    {{/each-in}}
   </ul>
 
   <h2 class="title1 title1__capped">
-    Recommendations for your publication "{{this.application.title}}"
+    {{#if this.application.title}}
+      Recommendations for your publication "{{this.application.title}}"
+    {{else}}
+      Your Recommendations
+    {{/if}}
   </h2>
 
   {{#each-in this.filteredGroupedRecommendations as |topic recommendations|}}
@@ -65,7 +69,7 @@
 
                 {{#each recommendation.resources as |resource|}}
                   <p>
-                    <a href={{resource.link}} rel="noopener noreferrer">
+                    <a href={{resource.link}} target="_blank" rel="noopener noreferrer">
                       <Icons::External />
                       <strong>{{resource.title}}</strong>
                     </a><br />
@@ -97,7 +101,7 @@
 
                 {{#each recommendation.examples as |example|}}
                   <p>
-                    <a href={{example.link}} rel="noopener noreferrer">
+                    <a href={{example.link}} target="_blank" rel="noopener noreferrer">
                       <Icons::External />
                       <strong>{{example.title}}</strong>
                     </a><br />
