@@ -65,7 +65,7 @@
 
                 {{#each recommendation.resources as |resource|}}
                   <p>
-                    <a href={{resource.link}} rel="noopener noreferrer">
+                    <a href={{resource.link}} target="_blank" rel="noopener noreferrer">
                       <Icons::External />
                       <strong>{{resource.title}}</strong>
                     </a><br />
@@ -97,7 +97,7 @@
 
                 {{#each recommendation.examples as |example|}}
                   <p>
-                    <a href={{example.link}} rel="noopener noreferrer">
+                    <a href={{example.link}} target="_blank" rel="noopener noreferrer">
                       <Icons::External />
                       <strong>{{example.title}}</strong>
                     </a><br />
