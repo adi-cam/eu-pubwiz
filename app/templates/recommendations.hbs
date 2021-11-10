@@ -1,12 +1,12 @@
 <div class="page">
   <ul class="sidebar" {{highlight linkSelector="li a" elementSelector="h2"}}>
-    {{#each this.data.recommendationTopics as |topic|}}
+    {{#each-in this.filteredGroupedRecommendations as |topic|}}
       <li>
         <a href="#{{slug topic}}" {{link-inline}}>
           {{topic}}
         </a>
       </li>
-    {{/each}}
+    {{/each-in}}
   </ul>
 
   <h2 class="title1 title1__capped">
