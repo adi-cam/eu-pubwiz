@@ -7,144 +7,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     
-<meta name="pubwiz/config/environment" content="%7B%22modulePrefix%22%3A%22pubwiz%22%2C%22environment%22%3A%22production%22%2C%22rootURL%22%3A%22%2Feu-pubwiz%2F%22%2C%22locationType%22%3A%22auto%22%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%2C%22EXTEND_PROTOTYPES%22%3A%7B%22Date%22%3Afalse%7D%2C%22_APPLICATION_TEMPLATE_WRAPPER%22%3Afalse%2C%22_DEFAULT_ASYNC_OBSERVERS%22%3Atrue%2C%22_JQUERY_INTEGRATION%22%3Afalse%2C%22_TEMPLATE_ONLY_GLIMMER_COMPONENTS%22%3Atrue%7D%2C%22APP%22%3A%7B%22name%22%3A%22pubwiz%22%2C%22version%22%3A%220.0.0%2Bed81b5c5%22%7D%2C%22fastboot%22%3A%7B%22hostWhitelist%22%3A%5B%22adi-cam.github.io%22%2C%7B%7D%2C%7B%7D%5D%7D%2C%22exportApplicationGlobal%22%3Afalse%7D" />
+<meta name="pubwiz/config/environment" content="%7B%22modulePrefix%22%3A%22pubwiz%22%2C%22environment%22%3A%22production%22%2C%22rootURL%22%3A%22%2Feu-pubwiz%2F%22%2C%22locationType%22%3A%22auto%22%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%2C%22EXTEND_PROTOTYPES%22%3A%7B%22Date%22%3Afalse%7D%2C%22_APPLICATION_TEMPLATE_WRAPPER%22%3Afalse%2C%22_DEFAULT_ASYNC_OBSERVERS%22%3Atrue%2C%22_JQUERY_INTEGRATION%22%3Afalse%2C%22_TEMPLATE_ONLY_GLIMMER_COMPONENTS%22%3Atrue%7D%2C%22APP%22%3A%7B%22name%22%3A%22pubwiz%22%2C%22version%22%3A%220.0.0%2B0bb606d5%22%7D%2C%22fastboot%22%3A%7B%22hostWhitelist%22%3A%5B%22adi-cam.github.io%22%2C%7B%7D%2C%7B%7D%5D%7D%2C%22exportApplicationGlobal%22%3Afalse%7D" />
 <!-- EMBER_CLI_FASTBOOT_TITLE --><title>Publication Wizard</title>
 
     <link integrity="" rel="stylesheet" href="/eu-pubwiz/assets/vendor-d41d8cd98f00b204e9800998ecf8427e.css">
-    <link integrity="" rel="stylesheet" href="/eu-pubwiz/assets/pubwiz-6982371479abf065c147e083b68b6446.css">
+    <link integrity="" rel="stylesheet" href="/eu-pubwiz/assets/pubwiz-bc91c5fcfbf1f44157b1c4d5037abcbf.css">
 
     
   </head>
   <body>
     <script type="x/boundary" id="fastboot-body-start"></script>
 
-<nav class="nav">
-  <ul>
-    <li>
-      <a id="ember4" class="ember-view active title" href="/eu-pubwiz/">
-        Publication Wizard
-      </a>
-    </li>
-
-    <li>
-      <a id="ember5" class="ember-view" href="/eu-pubwiz/questions">
+<div class="nav-wrapper">
+  <nav class="nav">
+    <div>
+      <a id="ember4" class="ember-view nav__item" href="/eu-pubwiz/questions">
         Questions
       </a>
-    </li>
 
-    <li>
-      <a id="ember6" class="ember-view" href="/eu-pubwiz/recommendations">
+      <a id="ember5" class="ember-view nav__item" href="/eu-pubwiz/recommendations">
         Recommendations
       </a>
-    </li>
 
-    <li>
-      <a id="ember7" class="ember-view" href="/eu-pubwiz/catalog">
+      <a id="ember6" class="ember-view nav__item" href="/eu-pubwiz/catalog">
         Catalogue
       </a>
-    </li>
+    </div>
 
-    <li>
-      <div class="icon-button" role="button">
-        <svg width="21px" height="21px" viewbox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <path d="M6.68139539,0 C5.11171731,0 3.81768822,1.29293566 3.81768822,2.86323655 L3.81768822,3.81705319 L2.86370718,3.81705319 C1.29313561,3.81705319 0,5.11085927 0,6.68026684 L0,14.3151978 C0,15.8846054 1.29402909,17.1784115 2.86370718,17.1784115 L3.81679474,17.1784115 L3.81679474,18.1331214 C3.81679474,19.702529 5.11442065,21 6.68416746,21 L14.3151452,21 C15.8848233,21 17.1841216,19.7025977 17.1841216,18.1331214 L17.1841216,17.1793048 L18.1362928,17.1793048 C19.7059709,17.1793048 21,15.8854987 21,14.3160912 L21,6.68024393 C21,5.11083636 19.7068644,3.81703029 18.1362928,3.81703029 L17.1823118,3.81703029 L17.1823118,2.86321365 C17.1823118,1.29291276 15.8882827,0 14.3186046,0 L6.68139539,0 Z M6.68139539,1.9085266 L14.3176424,1.9085266 C14.8626402,1.9085266 15.2725169,2.31743932 15.2725169,2.86323655 L15.2725169,3.81705319 L5.72743726,3.81705319 L5.72743726,2.86323655 C5.72743726,2.31743932 6.13642046,1.9085266 6.6814183,1.9085266 L6.68139539,1.9085266 Z M2.86373008,5.7264273 L18.1371405,5.7264273 C18.6821383,5.7264273 19.092015,6.13536292 19.092015,6.68116016 L19.092015,14.3160912 C19.092015,14.8609951 18.6830318,15.2708011 18.1371405,15.2708011 L17.1840529,15.2708011 L17.1840529,14.3143045 C17.1840529,12.7448969 15.8846401,11.4547558 14.3150765,11.4547558 L6.68341144,11.4547558 C5.11373336,11.4547558 3.81603872,12.7440952 3.81603872,14.3143045 L3.81603872,15.2699078 L2.86386754,15.2699078 C2.31797623,15.2699078 1.90899302,14.8609951 1.90899302,14.3160912 L1.90899302,6.68024393 C1.90899302,6.13534002 2.31797623,5.7264273 2.86386754,5.7264273 L2.86373008,5.7264273 Z M4.77256274,7.63495389 C4.24545734,7.63495389 3.81768822,8.0626493 3.81768822,8.58966385 C3.81768822,9.11667841 4.24545734,9.54437381 4.77256274,9.54437381 C5.29966814,9.54437381 5.72743726,9.11667841 5.72743726,8.58966385 C5.72743726,8.0626493 5.29966814,7.63495389 4.77256274,7.63495389 Z M6.68318235,13.3632136 L14.3148474,13.3632136 C14.8598453,13.3632136 15.2724024,13.7685302 15.2724024,14.3143274 L15.2724024,18.1331672 C15.2724024,18.6780712 14.8598453,19.0914505 14.3139539,19.0914505 L6.68297616,19.0914505 C6.13797832,19.0914505 5.72542121,18.6789645 5.72542121,18.1331672 L5.72542121,14.3134112 C5.72542121,13.7685073 6.13797832,13.3622974 6.68386964,13.3622974 L6.68318235,13.3632136 Z" fill-rule="nonzero"></path>
-</svg>
-        <span>Print Page</span>
-      </div>
-    </li>
-
-    <li>
-      <div class="icon-button" role="button">
-        <svg width="21px" height="21px" viewbox="0 0 21 21" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <path d="M19.573999,1.47595857 C21.4753337,3.44390333 21.4753337,6.63999905 19.573999,8.60875391 L16.1291613,12.1742758 C15.5020041,12.8234044 14.7450917,13.2587331 13.944434,13.479386 C13.0908504,13.7145769 12.1868793,13.7068919 11.3366379,13.4545839 C10.5673507,13.227078 9.84267617,12.7994562 9.2378147,12.1734044 C8.63295324,11.5473526 8.2198054,10.7964364 8,10.0010524 C8.07940946,9.95260171 8.16091272,9.90920537 8.24407272,9.8708645 C7.84016539,9.88439165 7.43851026,10.0003696 7.07952906,10.2198273 C6.90683026,10.3258799 6.74323167,10.4550182 6.59448068,10.6089585 L3.14879681,14.1753562 C2.19771699,15.1597555 2.19771699,16.7573764 3.14879681,17.7417538 C4.09987663,18.7261532 5.64342201,18.7261532 6.59448068,17.7417538 L9.66257563,14.5661733 C9.81461599,14.6260416 9.96913129,14.6790658 10.1253071,14.7252501 C10.9111151,14.9578793 11.734957,15.0194686 12.5406069,14.9099851 C12.3315344,15.2845626 12.0720832,15.6377868 11.7622065,15.9585195 L8.31736872,19.5240414 C6.41603406,21.4919862 3.32811833,21.4919862 1.426001,19.5240414 C-0.475333665,17.5560967 -0.475333665,14.3600009 1.426001,12.3912461 L4.87083872,8.8257242 C5.49799591,8.1765956 6.25490831,7.74126694 7.05556602,7.52061401 C7.90914964,7.28542312 8.81312075,7.2931081 9.66336212,7.54541612 C10.4326493,7.77292203 11.1573238,8.20054382 11.7621853,8.8265956 C12.3670468,9.45264738 12.7801946,10.2035636 13,10.9989476 C12.9205905,11.0473983 12.8390873,11.0907946 12.7559273,11.1291355 C13.1598348,11.1156086 13.56149,10.9996306 13.9204712,10.7801729 C14.0939949,10.6741203 14.2567685,10.5449821 14.4055195,10.3910417 L17.8512034,6.82464404 C18.8022832,5.84024472 18.8022832,4.2426238 17.8512034,3.25824637 C16.9001236,2.27384705 15.3565782,2.27384705 14.4055195,3.25824637 L11.3374246,6.43382694 C11.1853842,6.37395857 11.0308689,6.32178832 10.8746931,6.27560403 C10.0888851,6.0429748 9.2650432,5.98138553 8.45939328,6.09086905 C8.66846563,5.71543744 8.92791681,5.36221322 9.23779355,5.04148046 L12.6826313,1.47595857 C14.5839659,-0.49198619 17.6718817,-0.49198619 19.573999,1.47595857 Z" fill-rule="nonzero"></path>
-</svg>
-        <span>Share Page</span>
-      </div>
-    </li>
-  </ul>
-</nav>
-
-<div class="page">
-  <div class="hero">
-    <svg width="114px" height="140px" viewbox="0 0 114 140" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <path d="M57.5654313,0 L113.859935,46.4965858 L76.2720335,41.8179681 L95.4137261,90.1780057 C107.400522,95.3728499 113.993807,103.008281 114,111.756747 C114,119.442069 108.746395,126.456926 99.2006373,131.516576 L99.2006373,131.516576 L97.1165666,127.655736 C102.804452,124.642579 109.583834,119.435301 109.583834,111.756589 C109.583834,105.860747 105.446657,100.450599 97.8050642,96.2269844 L97.8050642,96.2269844 L99.6968446,101.016245 L99.6968446,101.428156 C99.6968446,107.957477 95.2371716,113.988513 87.1365279,118.421136 C79.4512693,122.626179 69.2795755,124.937867 58.4994125,124.937867 C47.7194082,124.937867 37.5472381,122.626337 29.8622971,118.421136 C21.7616534,113.994494 17.3019804,107.957162 17.3019804,101.428156 L17.3019804,101.428156 L17.3019804,101.010106 L19.2123388,96.2147083 C11.5645538,100.438323 7.41499052,105.848471 7.41499052,111.750451 C7.41499052,118.789861 13.307075,125.122292 24.0065746,129.591743 C33.3289203,133.48327 45.5797624,135.628915 58.4997301,135.628915 C66.7988566,135.628915 75.0111271,134.725046 82.2557536,133.009852 L82.2557536,133.009852 L83.2791791,137.264157 C75.7130262,139.053228 67.1407871,140 58.5005875,140 C45.0037491,140 32.1452158,137.731436 22.289348,133.618464 C9.85385334,128.424725 3,120.653313 3,111.744943 C3,102.996162 9.60646423,95.3544357 21.6208735,90.1594342 L21.6208735,90.1594342 L34.2059608,58.5893494 L38.3120166,60.2000391 L26.1612099,90.6747164 C31.748901,96.5091778 41.103004,103.628382 58.4948712,103.628382 C75.9118267,103.628382 85.2654533,96.4906062 90.8539383,90.6501641 L90.8539383,90.6501641 L69.4495404,36.5549758 L68.1159893,33.1859682 L72.2282378,31.5875546 L74.4425132,37.1760215 L99.4577123,40.2930539 L59.432441,7.23567016 L49.5144878,32.1105487 L45.4084319,30.499859 L57.5654313,0 Z M93.3613474,130 L95,133.90476 C93.2009932,134.666666 91.2714231,135.369051 89.2646398,136 L89.2646398,136 L88,131.958401 C89.8820414,131.369052 91.686976,130.708328 93.3613474,130 L93.3613474,130 Z M92.624009,95.0964798 C83.5684243,103.777269 72.3668424,108.007022 58.5040014,108.007022 C44.646718,108.007022 33.4572038,103.777269 24.4014603,95.108756 L24.4014603,95.108756 L21.7281336,101.816081 C21.9204239,106.531527 25.5490092,111.05024 31.999704,114.579152 C39.0387022,118.433853 48.4545731,120.554946 58.5027311,120.554946 C68.5507304,120.554946 77.9596146,118.433853 85.0057582,114.579152 L85.0057582,114.579152 C91.4578821,111.056378 95.0864675,106.531527 95.2849504,101.816081 L95.2849504,101.816081 Z M59.5,58 L65.6868426,68.6666913 L77,74.5 L65.6868426,80.3333087 L59.5,91 L53.3131574,80.3333087 L42,74.5 L53.3131574,68.6666913 L59.5,58 Z M59.506303,66.8388776 L56.6338924,71.7972128 L51.3750519,74.5054857 L56.6338924,77.2137586 L59.506303,82.1720939 L62.3787137,77.2137586 L67.6375541,74.5054857 L62.3787137,71.7972128 L59.506303,66.8388776 Z M8.10042465,60 L8.10042465,63.8955811 L11.9940858,63.8955811 L12,68.1044189 L8.10043978,68.1044189 L8.10043978,72 L3.89957535,72 L3.89957535,68.1044189 L0.00591415401,68.1044189 L0,63.8955811 L3.89956022,63.8955811 L3.89956022,60 L8.10042465,60 Z M41.9969767,35 L46.5937029,43.4043426 L55,48 L46.5937029,52.5956574 L41.9969767,61 L37.4002505,52.5956574 L29,48 L37.4002505,43.4043426 L41.9969767,35 Z M41.991023,43.9915104 L40.5738334,46.583078 L37.9816631,47.999938 L40.5738334,49.416798 L41.991023,52.0083656 L43.4082125,49.416798 L46.0003828,47.999938 L43.4082125,46.583078 L41.991023,43.9915104 Z M10,31 C13.8601664,31 17,34.1398336 17,38 C17,41.8601664 13.8601664,45 10,45 C6.13983358,45 3,41.8601664 3,38 C3,34.1398336 6.13983358,31 10,31 Z M10,35.2685138 C8.49320263,35.2685138 7.26849847,36.4931565 7.27448563,37.9940062 C7.27448563,39.4947944 8.49314115,40.7194985 10,40.7194985 C11.5008036,40.7194985 12.7254923,39.500865 12.7254923,37.9940062 C12.7254923,36.493218 11.5068588,35.2685138 10,35.2685138 Z M69.5358959,26 L71,28.7096938 L66.4641041,30 L65,27.2903062 L69.5358959,26 Z M28.1044189,13 L28.1044189,16.8955811 L32,16.8955811 L32,21.1044189 L28.1044189,21.1044189 L28.1044189,25 L23.8955811,25 L23.8955811,21.1044189 L20,21.1044189 L20,16.8955811 L23.8955811,16.8955811 L23.8955811,13 L28.1044189,13 Z"></path>
-</svg>
-
-    <h1 class="title0">
-      <span>Welcome to the EU Publication Wizard!</span>
-    </h1>
-
-    <p>
-      This wizard helps you create more user-friendly, modern publications. Answer some simple questions and receive
-      recommendations for your publication.
-    </p>
-
-    <a id="ember8" class="ember-view button button__primary" href="/eu-pubwiz/questions">
-      Start the Wizard
+    <a id="ember7" class="ember-view active nav__item nav__item--title title" href="/eu-pubwiz/">
+      Publication Wizard
     </a>
-  </div>
+  </nav>
+</div>
 
-  <div class="statement">
-    <h2 class="title1">
-      About the Publication Wizard
-    </h2>
+<div class="hero">
+  <h1 class="hero__title">
+    <span>
+      A guide to user-friendly<br>
+      data in publications
+    </span>
+  </h1>
 
-    <p class="large">
-      The Wizard provides you with recommendations on how to create a user-friendly publication in terms of overall
-      design, text, data, and data visualisation. It also helps you with the process of publishing both the publication
-      itself and the data used in the publication.
-    </p>
+  <p class="hero__text">
+    The Data Documents Guide helps you produce and publish documents with data, charts, and text. Answer some simple
+    questions to receive selected recommendations or browse the recommendations catalogue.
+  </p>
 
-    <p class="large">
-      These recommendations will make your publication more findable online, more comprehensible to your audiences, and
-      more enjoyable for everyone.
-    </p>
-  </div>
-
-  <div class="statement">
-    <h2 class="title1">
-      Who is the Publication Wizard for and when should it be used?
-    </h2>
-
-    <p class="large">
-      The Wizard is relevant to all people involved in the publication process, such as Researchers, Policy Makers,
-      Communications Specialists, Data Experts, IT-Specialists, Publication Coordinators and Designers.
-    </p>
-
-    <p class="large">
-      The Wizard should be used at the very beginning of your publication process – after you have received the O.K. for
-      the publication, but before you have commissioned any work on it.
-    </p>
-
-    <p class="large">
-      Ideally, all actors are involved from the very beginning in the publication process. That way, each person has the
-      chance to make use of the recommendations that are relevant to their field of responsibility, be it analysing
-      data, writing the text, designing visualisations, or disseminating the publication.
-    </p>
-
-    <p class="large">
-      The publication can be any type of published content. This includes reports, studies and books, assessments,
-      briefs and summaries, press releases, leaflets, brochures, both in print and online.
-    </p>
-  </div>
-
-  <div class="statement">
-    <h2 class="title1">
-      Give us feedback!
-    </h2>
-
-    <p class="large">
-      The EU Publication Wizard was created by the Publications Office of the European Union. What you see here is a
-      beta version of the Wizard. As we are continuing to develop the Wizard, we would love to hear your feedback.
-      Please send us an email at
-      <a href="mailto:OP-DATA-EUROPA-EU@publications.europa.eu">OP-DATA-EUROPA-EU@publications.europa.eu</a>
-      with ‘Publication Wizard feedback’ in the subject line.
-    </p>
-  </div>
+  <a id="ember8" class="ember-view hero__button" href="/eu-pubwiz/questions">
+    Get Recommendations
+  </a>
 </div><script type="x/boundary" id="fastboot-body-end"></script>
 
-    <script src="/eu-pubwiz/assets/vendor-77c0a5d30562cb0f5fb93a65f68db1e3.js"></script>
-    <script src="/eu-pubwiz/assets/pubwiz-b1050a92d1ca46d8a792079ace69a249.js"></script>
+    <script src="/eu-pubwiz/assets/vendor-aa19062b5a733d1525563d6bde4a1447.js"></script>
+    <script src="/eu-pubwiz/assets/pubwiz-c102e8f2ab75e73804c6947744df4b13.js"></script>
 
     
   </body>
