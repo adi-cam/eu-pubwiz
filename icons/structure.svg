@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="71px" height="64px" viewBox="0 0 71 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>structure</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="structure" transform="translate(0.000000, 0.760000)" fill-rule="nonzero">
+            <polygon id="Path" fill="#F7A7B6" points="58.59 42.41 58.59 48.3 11.71 48.3 11.71 42.41 -1.42108547e-14 42.41 -1.42108547e-14 62.43 70.31 62.43 70.31 42.41"></polygon>
+            <polygon id="Path" fill="#80DE85" points="58.59 28.27 50.78 28.27 50.78 34.16 19.53 34.16 19.53 28.27 11.71 28.27 11.71 42.41 58.59 42.41"></polygon>
+            <rect id="Rectangle" fill="#003399" x="11.71" y="42.41" width="46.87" height="5.88"></rect>
+            <polygon id="Path" fill="#F7A7B6" points="50.78 14.14 45.57 14.14 45.57 20.02 24.73 20.02 24.73 14.14 19.53 14.14 19.53 28.27 50.78 28.27"></polygon>
+            <rect id="Rectangle" fill="#003399" x="19.53" y="28.27" width="31.25" height="5.88"></rect>
+            <rect id="Rectangle" fill="#80DE85" x="24.73" y="1.13686838e-13" width="20.83" height="14.14"></rect>
+            <rect id="Rectangle" fill="#003399" x="24.73" y="14.14" width="20.83" height="5.88"></rect>
+        </g>
+    </g>
+</svg>

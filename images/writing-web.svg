@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Graphic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 250">
+  <rect width="600" height="250" fill="#e8e8dd"/>
+  <g>
+    <path d="M348.46,233.89h-90.77c-4.77,0-8.68-3.91-8.68-8.68V31.46c0-4.77,3.91-8.68,8.68-8.68h90.77c4.77,0,8.68,3.91,8.68,8.93V225.46c0,4.52-3.91,8.42-8.68,8.42Z" fill="#fff4c6"/>
+    <rect x="242.86" y="16.11" width="108.13" height="211.1" rx="10.1" ry="10.1" fill="#fff" stroke="#ffd940" stroke-linejoin="round" stroke-width=".71"/>
+    <g>
+      <rect x="250.83" y="26.82" width="93.11" height="192.51" rx="2.83" ry="2.83" fill="#ffd940"/>
+      <rect x="250.83" y="26.82" width="93.11" height="192.51" rx="2.83" ry="2.83" fill="none" stroke="#fff" stroke-linejoin="round" stroke-width="2.13"/>
+    </g>
+    <path d="M308.79,49.32c2.86,2.86,4.63,6.81,4.63,11.18,0,8.73-7.08,15.81-15.81,15.81s-15.81-7.08-15.81-15.81,7.08-15.81,15.81-15.81v15.81l11.18-11.18Z" fill="#fff"/>
+    <g>
+      <rect x="281.76" y="148.34" width="9.86" height="7.17" transform="translate(134.77 438.61) rotate(-90)" fill="#fff"/>
+      <rect x="285.28" y="143.03" width="20.46" height="7.17" transform="translate(148.89 442.13) rotate(-90)" fill="#fff"/>
+      <rect x="289.9" y="138.83" width="28.86" height="7.17" transform="translate(161.91 446.75) rotate(-90)" fill="#fff"/>
+    </g>
+    <line x1="263.79" y1="87.96" x2="330.18" y2="87.96" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.13"/>
+    <line x1="263.79" y1="97.46" x2="324.21" y2="97.46" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.13"/>
+    <line x1="263.79" y1="106.96" x2="326.82" y2="106.96" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.13"/>
+    <line x1="263.79" y1="168.43" x2="324.58" y2="168.43" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.13"/>
+    <line x1="263.79" y1="177.93" x2="331.67" y2="177.93" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.13"/>
+    <line x1="263.79" y1="187.43" x2="327.2" y2="187.43" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.13"/>
+  </g>
+</svg>

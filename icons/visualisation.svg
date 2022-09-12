@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="62px" height="60px" viewBox="0 0 62 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>visualisation</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="visualisation" transform="translate(0.890000, 0.540000)" fill-rule="nonzero">
+            <rect id="Rectangle" fill="#003399" x="0" y="0" width="53.51" height="53.51"></rect>
+            <rect id="Rectangle" fill="#FFD940" transform="translate(14.820000, 49.845000) rotate(-90.000000) translate(-14.820000, -49.845000) " x="5.815" y="43.295" width="18.01" height="13.1"></rect>
+            <rect id="Rectangle" fill="#FFD940" transform="translate(34.245000, 40.175000) rotate(-90.000000) translate(-34.245000, -40.175000) " x="15.55" y="33.63" width="37.39" height="13.09"></rect>
+            <rect id="Rectangle" fill="#F7A7B6" transform="translate(53.685000, 32.495000) rotate(-90.000000) translate(-53.685000, -32.495000) " x="27.32" y="25.95" width="52.73" height="13.09"></rect>
+        </g>
+    </g>
+</svg>

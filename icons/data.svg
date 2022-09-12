@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="66px" viewBox="0 0 64 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>data</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="data" transform="translate(0.410000, 0.800000)" fill-rule="nonzero">
+            <rect id="Rectangle" fill="#F7A7B6" x="6.33" y="6.11" width="50.17" height="50.17"></rect>
+            <circle id="Oval" fill="#003399" cx="7.56" cy="7.56" r="7.56"></circle>
+            <circle id="Oval" fill="#003399" cx="31.6" cy="7.56" r="7.56"></circle>
+            <circle id="Oval" fill="#0099CC" cx="55.64" cy="7.56" r="7.56"></circle>
+            <circle id="Oval" fill="#003399" cx="7.56" cy="32.18" r="7.56"></circle>
+            <circle id="Oval" fill="#003399" cx="31.6" cy="32.18" r="7.56"></circle>
+            <circle id="Oval" fill="#003399" cx="55.64" cy="32.18" r="7.56"></circle>
+            <circle id="Oval" fill="#003399" cx="7.56" cy="56.79" r="7.56"></circle>
+            <circle id="Oval" fill="#003399" cx="31.6" cy="56.79" r="7.56"></circle>
+            <circle id="Oval" fill="#003399" cx="55.64" cy="56.79" r="7.56"></circle>
+        </g>
+    </g>
+</svg>

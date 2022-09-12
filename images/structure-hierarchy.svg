@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Graphic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 250">
+  <rect width="600" height="250" fill="#e1eae1"/>
+  <g>
+    <rect x="231.31" y="26.43" width="143.38" height="202.88" fill="#bfeec2"/>
+    <rect x="225.32" y="20.69" width="143.38" height="202.88" fill="#80d980"/>
+    <rect x="241.42" y="42.31" width="107.66" height="10.95" fill="#fff"/>
+    <rect x="242.27" y="129.23" width="107.66" height="10.95" fill="#fff"/>
+    <circle cx="250.14" cy="155.38" r="3.59" fill="#fff"/>
+    <circle cx="250.14" cy="171.5" r="3.59" fill="#fff"/>
+    <circle cx="250.14" cy="186.61" r="3.59" fill="#fff"/>
+    <line x1="242.69" y1="67.2" x2="344.74" y2="67.2" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2.13"/>
+    <line x1="242.69" y1="76.7" x2="331.02" y2="76.7" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2.13"/>
+    <line x1="242.69" y1="86.2" x2="340.52" y2="86.2" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2.13"/>
+    <line x1="242.69" y1="95.7" x2="333.66" y2="95.7" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2.13"/>
+    <line x1="260.64" y1="155.34" x2="344.74" y2="155.34" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2.13"/>
+    <line x1="260.64" y1="171.17" x2="344.74" y2="171.17" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2.13"/>
+    <line x1="260.64" y1="187" x2="344.74" y2="187" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2.13"/>
+  </g>
+</svg>
