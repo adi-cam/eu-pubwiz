@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     
-<meta name="pubwiz/config/environment" content="%7B%22modulePrefix%22%3A%22pubwiz%22%2C%22environment%22%3A%22production%22%2C%22rootURL%22%3A%22%2Feu-pubwiz%2F%22%2C%22locationType%22%3A%22history%22%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%2C%22EXTEND_PROTOTYPES%22%3A%7B%22Date%22%3Afalse%7D%2C%22_APPLICATION_TEMPLATE_WRAPPER%22%3Afalse%2C%22_DEFAULT_ASYNC_OBSERVERS%22%3Atrue%2C%22_JQUERY_INTEGRATION%22%3Afalse%2C%22_TEMPLATE_ONLY_GLIMMER_COMPONENTS%22%3Atrue%7D%2C%22APP%22%3A%7B%22name%22%3A%22pubwiz%22%2C%22version%22%3A%220.0.0%2B60656554%22%7D%2C%22fastboot%22%3A%7B%22hostWhitelist%22%3A%5B%22adi-cam.github.io%22%2C%7B%7D%2C%7B%7D%5D%7D%2C%22exportApplicationGlobal%22%3Afalse%7D" />
+<meta name="pubwiz/config/environment" content="%7B%22modulePrefix%22%3A%22pubwiz%22%2C%22environment%22%3A%22production%22%2C%22rootURL%22%3A%22%2Feu-pubwiz%2F%22%2C%22locationType%22%3A%22history%22%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%2C%22EXTEND_PROTOTYPES%22%3A%7B%22Date%22%3Afalse%7D%2C%22_APPLICATION_TEMPLATE_WRAPPER%22%3Afalse%2C%22_DEFAULT_ASYNC_OBSERVERS%22%3Atrue%2C%22_JQUERY_INTEGRATION%22%3Afalse%2C%22_TEMPLATE_ONLY_GLIMMER_COMPONENTS%22%3Atrue%7D%2C%22APP%22%3A%7B%22name%22%3A%22pubwiz%22%2C%22version%22%3A%220.0.0%2B9719cd71%22%7D%2C%22fastboot%22%3A%7B%22hostWhitelist%22%3A%5B%22adi-cam.github.io%22%2C%7B%7D%2C%7B%7D%5D%7D%2C%22exportApplicationGlobal%22%3Afalse%7D" />
 <!-- EMBER_CLI_FASTBOOT_TITLE -->
 
     <link integrity="" rel="stylesheet" href="/eu-pubwiz/assets/vendor-d41d8cd98f00b204e9800998ecf8427e.css">
-    <link integrity="" rel="stylesheet" href="/eu-pubwiz/assets/pubwiz-0cfff91e4e6cbec0da325d7c80252f3b.css">
+    <link integrity="" rel="stylesheet" href="/eu-pubwiz/assets/pubwiz-122f1bbb06ecbc76d9a5b0abcb7a9bb8.css">
 
     
   </head>
@@ -45,35 +45,15 @@
     </div>
 
     <div class="hero__link">
-      <a href="#structure">
+      <a href="#catalog">
         Explore the guide
       </a>
     </div>
   </div>
 </div>
 
-<div class="page">
+<div class="page" id="catalog">
   <ul class="sidebar">
-    <li>
-      <a href="#prepare-the-data">
-        Prepare the Data
-      </a>
-    </li>
-    <li>
-      <a href="#prepare-visualisations">
-        Prepare Visualisations
-      </a>
-    </li>
-    <li>
-      <a href="#publish">
-        Publish
-      </a>
-    </li>
-    <li>
-      <a href="#visualise">
-        Visualise
-      </a>
-    </li>
     <li>
       <a href="#structure">
         Structure
@@ -84,17 +64,37 @@
         Write
       </a>
     </li>
+    <li>
+      <a href="#visualise">
+        Visualise
+      </a>
+    </li>
+    <li>
+      <a href="#prepare-visuals">
+        Prepare Visuals
+      </a>
+    </li>
+    <li>
+      <a href="#prepare-the-data">
+        Prepare the Data
+      </a>
+    </li>
+    <li>
+      <a href="#publish">
+        Publish
+      </a>
+    </li>
 </ul>
 
   <div class="section">
-    <h2 class="section__title" id="prepare-the-data">
+    <h2 class="section__title" id="structure">
       <span>
-        Preparing data for publishing
+        Structuring your publication
       </span>
     </h2>
 
     <p class="section__text">
-      According to EU policy, European Commission documents should be provided, where possible and appropriate, as machine-readable, open data (EC Decision 2011/833/EU). Open data is data that anyone can access, use, modify and share for any purpose. The sharing of open data by public bodies increases transparency, accountability and value creation. The recommendations in this section guide you through providing your data as open data under the FAIR principles: making your data findable, accessible, interoperable and reusable. You also need to properly account for any personal data that you may include in your publication. If you are working with a contractor, make sure to explicitly mention data as a deliverable. Ask the contractor to prepare the data in line with the recommendations we give here. When public bodies share data openly, they increase transparency, accountability and value creation. Open data is data that anyone can access, use, modify and share for any purpose. In the case of the European Commission, documents should be provided, as machine-readable, open data where possible. The recommendations in this section guide you through publishing open data under the FAIR principles: making your data findable, accessible, interoperable and reusable.
+      Data and data visualisations are important components in publications. The following recommendations suggest adding data-related sections and ways to structure your publication. This makes the publication reusable, accessible and pleasant to read.
     </p>
 
     <div class="section__buttons">
@@ -109,7 +109,7 @@
 
         <div class="section__group ">
           <h3 role="button" class="section__group__title">
-            <span>If necessary, obtain the licences to use third-party data</span>
+            <span>Introduce your data in a dedicated section</span>
 
               <svg width="20px" height="12px" viewbox="0 0 20 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <polyline stroke-width="2" points="1 1 10 10 19 1"></polyline>
@@ -119,7 +119,7 @@
 <!---->        </div>
         <div class="section__group ">
           <h3 role="button" class="section__group__title">
-            <span>Licence your data so that others can reuse it</span>
+            <span>Create a consistent, logical sequence of text and visualisations</span>
 
               <svg width="20px" height="12px" viewbox="0 0 20 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <polyline stroke-width="2" points="1 1 10 10 19 1"></polyline>
@@ -129,7 +129,7 @@
 <!---->        </div>
         <div class="section__group ">
           <h3 role="button" class="section__group__title">
-            <span>Protect personal information before publishing your data</span>
+            <span>Provide a reference list of the data used in the publication</span>
 
               <svg width="20px" height="12px" viewbox="0 0 20 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <polyline stroke-width="2" points="1 1 10 10 19 1"></polyline>
@@ -139,7 +139,7 @@
 <!---->        </div>
         <div class="section__group ">
           <h3 role="button" class="section__group__title">
-            <span>Decide on the scope of the data you will publish</span>
+            <span>Include data visualisations in the figure list</span>
 
               <svg width="20px" height="12px" viewbox="0 0 20 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <polyline stroke-width="2" points="1 1 10 10 19 1"></polyline>
@@ -149,37 +149,7 @@
 <!---->        </div>
         <div class="section__group ">
           <h3 role="button" class="section__group__title">
-            <span>Describe your data with metadata</span>
-
-              <svg width="20px" height="12px" viewbox="0 0 20 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <polyline stroke-width="2" points="1 1 10 10 19 1"></polyline>
-</svg>
-          </h3>
-
-<!---->        </div>
-        <div class="section__group ">
-          <h3 role="button" class="section__group__title">
-            <span>Structure your data in a machine-readable format</span>
-
-              <svg width="20px" height="12px" viewbox="0 0 20 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <polyline stroke-width="2" points="1 1 10 10 19 1"></polyline>
-</svg>
-          </h3>
-
-<!---->        </div>
-        <div class="section__group ">
-          <h3 role="button" class="section__group__title">
-            <span>Create documentation about your data</span>
-
-              <svg width="20px" height="12px" viewbox="0 0 20 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <polyline stroke-width="2" points="1 1 10 10 19 1"></polyline>
-</svg>
-          </h3>
-
-<!---->        </div>
-        <div class="section__group ">
-          <h3 role="button" class="section__group__title">
-            <span>Save your data in a machine-readable file format</span>
+            <span>In the copyright notice, state the reuse licence of the data and the data visualisations</span>
 
               <svg width="20px" height="12px" viewbox="0 0 20 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <polyline stroke-width="2" points="1 1 10 10 19 1"></polyline>
@@ -189,14 +159,14 @@
 <!---->        </div>
   </div>
   <div class="section">
-    <h2 class="section__title" id="prepare-visualisations">
+    <h2 class="section__title" id="write">
       <span>
-        Preparing visualisations for publishing
+        Writing about data
       </span>
     </h2>
 
     <p class="section__text">
-      Your visualisations might be reused in studies, shown in presentation slides, or shared on social media. These recommendations provide advice on how to prepare the visualisations so that they can be found and reused by others. 
+      Writing about data or writing text for data visualisations is an important but often overlooked skill. This section details some tricks and tips on how to make your copy more reader friendly.
     </p>
 
     <div class="section__buttons">
@@ -211,7 +181,7 @@
 
         <div class="section__group ">
           <h3 role="button" class="section__group__title">
-            <span>If necessary, obtain the licences to use third-party visualisations</span>
+            <span>Use various writing techniques to make text about data more comprehensible</span>
 
               <svg width="20px" height="12px" viewbox="0 0 20 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <polyline stroke-width="2" points="1 1 10 10 19 1"></polyline>
@@ -221,7 +191,7 @@
 <!---->        </div>
         <div class="section__group ">
           <h3 role="button" class="section__group__title">
-            <span>Licence your visualisations so that others can reuse it</span>
+            <span>Make sure that the text complements the data visualisation</span>
 
               <svg width="20px" height="12px" viewbox="0 0 20 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <polyline stroke-width="2" points="1 1 10 10 19 1"></polyline>
@@ -231,7 +201,7 @@
 <!---->        </div>
         <div class="section__group ">
           <h3 role="button" class="section__group__title">
-            <span>Add metadata to your visualisation</span>
+            <span>For visualisations that are frequently updated, write generic text</span>
 
               <svg width="20px" height="12px" viewbox="0 0 20 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <polyline stroke-width="2" points="1 1 10 10 19 1"></polyline>
@@ -241,7 +211,7 @@
 <!---->        </div>
         <div class="section__group ">
           <h3 role="button" class="section__group__title">
-            <span>Write alt text for your visualisation</span>
+            <span>Write for the web</span>
 
               <svg width="20px" height="12px" viewbox="0 0 20 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <polyline stroke-width="2" points="1 1 10 10 19 1"></polyline>
@@ -251,79 +221,7 @@
 <!---->        </div>
         <div class="section__group ">
           <h3 role="button" class="section__group__title">
-            <span>Export visualisations separately from the publication</span>
-
-              <svg width="20px" height="12px" viewbox="0 0 20 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <polyline stroke-width="2" points="1 1 10 10 19 1"></polyline>
-</svg>
-          </h3>
-
-<!---->        </div>
-  </div>
-  <div class="section">
-    <h2 class="section__title" id="publish">
-      <span>
-        Publishing the data and the data visualisations with your publication
-      </span>
-    </h2>
-
-    <p class="section__text">
-      The easiest way to publish data is with the Publications Office of the European Union (OP). Through that process you receive a unique identifier for your data and the data is included in the data.europa.eu catalogue. If you are publishing in another catalogue, you can still make use of OP services. You can consult PubliCare – the OP services catalogue – and request the services you need using DemPub.
-    </p>
-
-    <div class="section__buttons">
-      <button type="button">
-        Open All
-      </button>
-
-      <button type="button">
-        Close All
-      </button>
-    </div>
-
-        <div class="section__group ">
-          <h3 role="button" class="section__group__title">
-            <span>Provide your visualisations as downloads</span>
-
-              <svg width="20px" height="12px" viewbox="0 0 20 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <polyline stroke-width="2" points="1 1 10 10 19 1"></polyline>
-</svg>
-          </h3>
-
-<!---->        </div>
-        <div class="section__group ">
-          <h3 role="button" class="section__group__title">
-            <span>Provide options to share your visualisation online</span>
-
-              <svg width="20px" height="12px" viewbox="0 0 20 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <polyline stroke-width="2" points="1 1 10 10 19 1"></polyline>
-</svg>
-          </h3>
-
-<!---->        </div>
-        <div class="section__group ">
-          <h3 role="button" class="section__group__title">
-            <span>Provide your data as download</span>
-
-              <svg width="20px" height="12px" viewbox="0 0 20 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <polyline stroke-width="2" points="1 1 10 10 19 1"></polyline>
-</svg>
-          </h3>
-
-<!---->        </div>
-        <div class="section__group ">
-          <h3 role="button" class="section__group__title">
-            <span>Provide access to your data via an API</span>
-
-              <svg width="20px" height="12px" viewbox="0 0 20 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <polyline stroke-width="2" points="1 1 10 10 19 1"></polyline>
-</svg>
-          </h3>
-
-<!---->        </div>
-        <div class="section__group ">
-          <h3 role="button" class="section__group__title">
-            <span>Publish your data in a data catalogue</span>
+            <span>Write in plain language</span>
 
               <svg width="20px" height="12px" viewbox="0 0 20 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <polyline stroke-width="2" points="1 1 10 10 19 1"></polyline>
@@ -505,14 +403,14 @@
 <!---->        </div>
   </div>
   <div class="section">
-    <h2 class="section__title" id="structure">
+    <h2 class="section__title" id="prepare-visuals">
       <span>
-        Structuring your publication
+        Preparing visualisations for publishing
       </span>
     </h2>
 
     <p class="section__text">
-      Data and data visualisations are important components in publications. The following recommendations suggest adding data-related sections and ways to structure your publication. This makes the publication reusable, accessible and pleasant to read.
+      Your visualisations might be reused in studies, shown in presentation slides, or shared on social media. These recommendations provide advice on how to prepare the visualisations so that they can be found and reused by others. 
     </p>
 
     <div class="section__buttons">
@@ -527,7 +425,7 @@
 
         <div class="section__group ">
           <h3 role="button" class="section__group__title">
-            <span>Introduce your data in a dedicated section</span>
+            <span>If necessary, obtain the licences to use third-party visualisations</span>
 
               <svg width="20px" height="12px" viewbox="0 0 20 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <polyline stroke-width="2" points="1 1 10 10 19 1"></polyline>
@@ -537,7 +435,7 @@
 <!---->        </div>
         <div class="section__group ">
           <h3 role="button" class="section__group__title">
-            <span>Create a consistent, logical sequence of text and visualisations</span>
+            <span>Licence your visualisations so that others can reuse it</span>
 
               <svg width="20px" height="12px" viewbox="0 0 20 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <polyline stroke-width="2" points="1 1 10 10 19 1"></polyline>
@@ -547,7 +445,7 @@
 <!---->        </div>
         <div class="section__group ">
           <h3 role="button" class="section__group__title">
-            <span>Provide a reference list of the data used in the publication</span>
+            <span>Add metadata to your visualisation</span>
 
               <svg width="20px" height="12px" viewbox="0 0 20 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <polyline stroke-width="2" points="1 1 10 10 19 1"></polyline>
@@ -557,7 +455,7 @@
 <!---->        </div>
         <div class="section__group ">
           <h3 role="button" class="section__group__title">
-            <span>Include data visualisations in the figure list</span>
+            <span>Write alt text for your visualisation</span>
 
               <svg width="20px" height="12px" viewbox="0 0 20 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <polyline stroke-width="2" points="1 1 10 10 19 1"></polyline>
@@ -567,7 +465,7 @@
 <!---->        </div>
         <div class="section__group ">
           <h3 role="button" class="section__group__title">
-            <span>In the copyright notice, state the reuse licence of the data and the data visualisations</span>
+            <span>Export visualisations separately from the publication</span>
 
               <svg width="20px" height="12px" viewbox="0 0 20 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <polyline stroke-width="2" points="1 1 10 10 19 1"></polyline>
@@ -577,14 +475,14 @@
 <!---->        </div>
   </div>
   <div class="section">
-    <h2 class="section__title" id="write">
+    <h2 class="section__title" id="prepare-the-data">
       <span>
-        Writing about data
+        Preparing data for publishing
       </span>
     </h2>
 
     <p class="section__text">
-      Writing about data or writing text for data visualisations is an important but often overlooked skill. This section details some tricks and tips on how to make your copy more reader friendly.
+      When public bodies share data openly, they increase transparency, accountability and value creation. Open data is data that anyone can access, use, modify and share for any purpose. In the case of the European Commission, documents should be provided, as machine-readable, open data where possible. The recommendations in this section guide you through publishing open data under the FAIR principles: making your data findable, accessible, interoperable and reusable.
     </p>
 
     <div class="section__buttons">
@@ -599,7 +497,7 @@
 
         <div class="section__group ">
           <h3 role="button" class="section__group__title">
-            <span>Use various writing techniques to make text about data more comprehensible</span>
+            <span>If necessary, obtain the licences to use third-party data</span>
 
               <svg width="20px" height="12px" viewbox="0 0 20 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <polyline stroke-width="2" points="1 1 10 10 19 1"></polyline>
@@ -609,7 +507,7 @@
 <!---->        </div>
         <div class="section__group ">
           <h3 role="button" class="section__group__title">
-            <span>Make sure that the text complements the data visualisation</span>
+            <span>Licence your data so that others can reuse it</span>
 
               <svg width="20px" height="12px" viewbox="0 0 20 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <polyline stroke-width="2" points="1 1 10 10 19 1"></polyline>
@@ -619,7 +517,7 @@
 <!---->        </div>
         <div class="section__group ">
           <h3 role="button" class="section__group__title">
-            <span>For visualisations that are frequently updated, write generic text</span>
+            <span>Protect personal information before publishing your data</span>
 
               <svg width="20px" height="12px" viewbox="0 0 20 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <polyline stroke-width="2" points="1 1 10 10 19 1"></polyline>
@@ -629,7 +527,7 @@
 <!---->        </div>
         <div class="section__group ">
           <h3 role="button" class="section__group__title">
-            <span>Write for the web</span>
+            <span>Decide on the scope of the data you will publish</span>
 
               <svg width="20px" height="12px" viewbox="0 0 20 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <polyline stroke-width="2" points="1 1 10 10 19 1"></polyline>
@@ -639,7 +537,109 @@
 <!---->        </div>
         <div class="section__group ">
           <h3 role="button" class="section__group__title">
-            <span>Write in plain language</span>
+            <span>Describe your data with metadata</span>
+
+              <svg width="20px" height="12px" viewbox="0 0 20 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <polyline stroke-width="2" points="1 1 10 10 19 1"></polyline>
+</svg>
+          </h3>
+
+<!---->        </div>
+        <div class="section__group ">
+          <h3 role="button" class="section__group__title">
+            <span>Structure your data in a machine-readable format</span>
+
+              <svg width="20px" height="12px" viewbox="0 0 20 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <polyline stroke-width="2" points="1 1 10 10 19 1"></polyline>
+</svg>
+          </h3>
+
+<!---->        </div>
+        <div class="section__group ">
+          <h3 role="button" class="section__group__title">
+            <span>Create documentation about your data</span>
+
+              <svg width="20px" height="12px" viewbox="0 0 20 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <polyline stroke-width="2" points="1 1 10 10 19 1"></polyline>
+</svg>
+          </h3>
+
+<!---->        </div>
+        <div class="section__group ">
+          <h3 role="button" class="section__group__title">
+            <span>Save your data in a machine-readable file format</span>
+
+              <svg width="20px" height="12px" viewbox="0 0 20 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <polyline stroke-width="2" points="1 1 10 10 19 1"></polyline>
+</svg>
+          </h3>
+
+<!---->        </div>
+  </div>
+  <div class="section">
+    <h2 class="section__title" id="publish">
+      <span>
+        Publishing the data and the data visualisations with your publication
+      </span>
+    </h2>
+
+    <p class="section__text">
+      The easiest way to publish data is with the Publications Office of the European Union (OP). Through that process you receive a unique identifier for your data and the data is included in the data.europa.eu catalogue. If you are publishing in another catalogue, you can still make use of OP services. You can consult PubliCare – the OP services catalogue – and request the services you need using DemPub.
+    </p>
+
+    <div class="section__buttons">
+      <button type="button">
+        Open All
+      </button>
+
+      <button type="button">
+        Close All
+      </button>
+    </div>
+
+        <div class="section__group ">
+          <h3 role="button" class="section__group__title">
+            <span>Provide your visualisations as downloads</span>
+
+              <svg width="20px" height="12px" viewbox="0 0 20 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <polyline stroke-width="2" points="1 1 10 10 19 1"></polyline>
+</svg>
+          </h3>
+
+<!---->        </div>
+        <div class="section__group ">
+          <h3 role="button" class="section__group__title">
+            <span>Provide options to share your visualisation online</span>
+
+              <svg width="20px" height="12px" viewbox="0 0 20 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <polyline stroke-width="2" points="1 1 10 10 19 1"></polyline>
+</svg>
+          </h3>
+
+<!---->        </div>
+        <div class="section__group ">
+          <h3 role="button" class="section__group__title">
+            <span>Provide your data as download</span>
+
+              <svg width="20px" height="12px" viewbox="0 0 20 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <polyline stroke-width="2" points="1 1 10 10 19 1"></polyline>
+</svg>
+          </h3>
+
+<!---->        </div>
+        <div class="section__group ">
+          <h3 role="button" class="section__group__title">
+            <span>Provide access to your data via an API</span>
+
+              <svg width="20px" height="12px" viewbox="0 0 20 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <polyline stroke-width="2" points="1 1 10 10 19 1"></polyline>
+</svg>
+          </h3>
+
+<!---->        </div>
+        <div class="section__group ">
+          <h3 role="button" class="section__group__title">
+            <span>Publish your data in a data catalogue</span>
 
               <svg width="20px" height="12px" viewbox="0 0 20 12" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <polyline stroke-width="2" points="1 1 10 10 19 1"></polyline>
@@ -683,8 +683,8 @@
 
     <script src="/eu-pubwiz/assets/vendor-c9e2953d1d9e142c7e78489d2675aeb6.js"></script>
 <script src="/eu-pubwiz/assets/chunk.368.185c36f52e45cddef817.js"></script>
-<script src="/eu-pubwiz/assets/chunk.143.95e95dbd45146d8404d7.js"></script>
-    <script src="/eu-pubwiz/assets/pubwiz-698af78327eac765ee0e70eb4420fba1.js"></script>
+<script src="/eu-pubwiz/assets/chunk.143.e3c08d93b86fa184d882.js"></script>
+    <script src="/eu-pubwiz/assets/pubwiz-291f26e19bb4cd3291e22b4757a08711.js"></script>
 
     
   </body>
