@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 250">
+  <g id="Hintergrund">
+    <rect x="-1.13" y="0" width="600" height="250" fill="rgba(255, 248, 238, .4)"/>
+  </g>
+  <g id="Graphic">
+    <rect x="165.67" y="13.95" width="267.13" height="13.41" rx="2.83" ry="2.83" fill="#ffe5c1"/>
+    <rect x="165.66" y="25.66" width="267.13" height="200.79" fill="#feaa2f"/>
+    <rect x="211.47" y="40.56" width="175.52" height="14.11" rx="7.05" ry="7.05" fill="#fff"/>
+    <line x1="220.7" y1="42.74" x2="220.7" y2="52.17" fill="none" stroke="#feaa2f" stroke-miterlimit="10"/>
+    <path d="M372.01,48.75c-1.37,0-2.46-1.09-2.46-2.46s1.09-2.46,2.46-2.46,2.46,1.09,2.46,2.46-1.09,2.46-2.46,2.46Zm5.71,2.49l-2.84-2.84c.44-.57,.68-1.31,.68-2.1,0-1.97-1.58-3.55-3.55-3.55s-3.55,1.59-3.55,3.55,1.58,3.55,3.55,3.55c.79,0,1.5-.25,2.1-.68l2.84,2.84c.11,.11,.25,.16,.38,.16s.27-.05,.38-.16c.22-.22,.22-.55,0-.77h0Z" fill="#feaa2f"/>
+    <rect x="211.47" y="69.32" width="175.52" height="37.22" fill="#fff" opacity=".6"/>
+    <rect x="211.47" y="113.79" width="175.52" height="37.22" fill="#fff" opacity=".6"/>
+    <rect x="211.47" y="158.25" width="175.52" height="37.22" fill="#fff" opacity=".6"/>
+    <rect x="211.47" y="202.72" width="175.52" height="37.22" fill="#fff" opacity=".6"/>
+  </g>
+</svg>

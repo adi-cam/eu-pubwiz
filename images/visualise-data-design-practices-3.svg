@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 250">
+  <g id="Hintergrund">
+    <rect y="-.88" width="600" height="250" fill="rgba(214, 222, 239, .4)"/>
+  </g>
+  <g id="Text">
+    <rect x="324.65" y="22.48" width="29.87" height=".94" fill="#039"/>
+    <rect x="95.59" y="22.48" width="20.64" height=".94" fill="#039"/>
+    <text transform="translate(324.83 20.07)" font-family="Ubuntu-Bold, Ubuntu" font-size="10"><tspan x="0" y="0">GOOD</tspan></text>
+    <text transform="translate(94.77 20.07)" font-family="Ubuntu-Bold, Ubuntu" font-size="10"><tspan x="0" y="0" letter-spacing="0em">B</tspan><tspan x="6.62" y="0">AD</tspan></text>
+    <text transform="translate(142.31 210.66)" font-family="Ubuntu-Regular, Ubuntu" font-size="8"><tspan x="0" y="0" letter-spacing="-.02em">W</tspan><tspan x="7.26" y="0">omen</tspan></text>
+    <text transform="translate(201.04 210.66)" font-family="Ubuntu-Regular, Ubuntu" font-size="8"><tspan x="0" y="0">Men</tspan></text>
+    <text transform="translate(399.57 210.66)" font-family="Ubuntu-Regular, Ubuntu" font-size="8"><tspan x="0" y="0" letter-spacing="-.02em">W</tspan><tspan x="7.26" y="0">omen</tspan></text>
+    <text transform="translate(448.4 210.66)" font-family="Ubuntu-Regular, Ubuntu" font-size="8"><tspan x="0" y="0">Men</tspan></text>
+    <g>
+      <circle cx="209.52" cy="140.07" r="4.76" fill="#039"/>
+      <path d="M209.41,197.3h3.96s.73-17.88,.86-20.04c.12-2.04,3.78-1.59,3.78-1.59,1.5-14.68,1.27-18.92,1.19-23.1-.08-4.3-9.16-4.53-9.16-4.53l-.9,.03s-9.49,.21-9.57,4.51-.31,8.42,1.19,23.1c0,0,3.65-.45,3.78,1.59,.13,2.16,.86,20.04,.86,20.04h4.01Z" fill="#039"/>
+    </g>
+    <g>
+      <circle cx="156.57" cy="86.85" r="9.21" fill="#039"/>
+      <path d="M156.52,197.2h6.4s0-30.02,0-30.02h14.71s-9.2-39.52-9.2-39.52c0,0-1.2-2.5,2.5-14.41,3.7-11.91-4.1-11.21-4.1-11.21h-9.91s.32,0,.32,0h-9.91s-7.8-.7-4.1,11.21c3.7,11.91,2.5,14.41,2.5,14.41l-9.2,39.52h14.71v30.02h5.28Z" fill="#039"/>
+    </g>
+    <rect x="396.55" y="76.1" width="31.67" height="120.94" fill="#039"/>
+    <text transform="translate(403.11 68.62)" font-family="Ubuntu-Light, Ubuntu" font-size="10"><tspan x="0" y="0">60%</tspan></text>
+    <text transform="translate(446.79 129.53)" font-family="Ubuntu-Light, Ubuntu" font-size="10"><tspan x="0" y="0">30%</tspan></text>
+    <text transform="translate(148.78 68.62)" font-family="Ubuntu-Light, Ubuntu" font-size="10"><tspan x="0" y="0">60%</tspan></text>
+    <text transform="translate(202.02 130.1)" font-family="Ubuntu-Light, Ubuntu" font-size="10"><tspan x="0" y="0">30%</tspan></text>
+    <rect x="439.82" y="135.04" width="31.67" height="62.01" fill="#039"/>
+  </g>
+</svg>

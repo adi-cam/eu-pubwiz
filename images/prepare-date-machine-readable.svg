@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 250">
+  <g id="Hintergrund">
+    <rect x="-1.13" y="0" width="600" height="250" fill="rgba(254, 246, 248, .4)"/>
+  </g>
+  <g id="Graphic">
+    <line x1="17.56" y1="148.65" x2="268.44" y2="148.65" fill="none" stroke="#f7a7b6" stroke-linecap="round" stroke-width=".99"/>
+    <line x1="17.56" y1="170.77" x2="268.44" y2="170.77" fill="none" stroke="#f7a7b6" stroke-linecap="round" stroke-width=".99"/>
+    <line x1="17.56" y1="104.42" x2="268.44" y2="104.42" fill="none" stroke="#f7a7b6" stroke-linecap="round" stroke-width=".99"/>
+    <line x1="17.56" y1="126.54" x2="268.44" y2="126.54" fill="none" stroke="#f7a7b6" stroke-linecap="round" stroke-width=".99"/>
+    <line x1="74.05" y1="89.01" x2="74.05" y2="184.84" fill="none" stroke="#f7a7b6" stroke-linecap="round" stroke-width=".99"/>
+    <line x1="151.21" y1="89.01" x2="151.21" y2="184.84" fill="none" stroke="#f7a7b6" stroke-linecap="round" stroke-width=".99"/>
+    <line x1="209.9" y1="89.01" x2="209.9" y2="184.84" fill="none" stroke="#f7a7b6" stroke-linecap="round" stroke-width=".99"/>
+    <line x1="298.57" y1="148.65" x2="583.37" y2="148.65" fill="none" stroke="#f7a7b6" stroke-linecap="round" stroke-width=".99"/>
+    <line x1="298.57" y1="170.77" x2="583.37" y2="170.77" fill="none" stroke="#f7a7b6" stroke-linecap="round" stroke-width=".99"/>
+    <line x1="298.57" y1="104.42" x2="583.37" y2="104.42" fill="none" stroke="#f7a7b6" stroke-linecap="round" stroke-width=".99"/>
+    <line x1="298.57" y1="126.54" x2="583.37" y2="126.54" fill="none" stroke="#f7a7b6" stroke-linecap="round" stroke-width=".99"/>
+    <line x1="355.06" y1="89.01" x2="355.06" y2="184.84" fill="none" stroke="#f7a7b6" stroke-linecap="round" stroke-width=".99"/>
+    <line x1="434.56" y1="89.01" x2="434.56" y2="184.84" fill="none" stroke="#f7a7b6" stroke-linecap="round" stroke-width=".99"/>
+    <line x1="520.09" y1="89.01" x2="520.09" y2="184.84" fill="none" stroke="#f7a7b6" stroke-linecap="round" stroke-width=".99"/>
+  </g>
+  <g id="Text">
+    <text transform="translate(25.4 95.16)" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">goods</tspan></text>
+    <text transform="translate(201 79.89)" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">value</tspan></text>
+    <text transform="translate(83.11 95.16)" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">%, amt</tspan></text>
+    <text transform="translate(162.97 95.16)" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">in euro</tspan></text>
+    <text transform="translate(230.35 95.16)" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">in $</tspan></text>
+    <text transform="translate(25.4 118.07)" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">Insurance</tspan></text>
+    <text transform="translate(80.24 118.07)" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">30,3</tspan></text>
+    <text transform="translate(180.15 118.07)" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">3</tspan></text>
+    <text transform="translate(180.15 139.73)" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">0</tspan></text>
+    <text transform="translate(180.15 161.68)" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">1</tspan></text>
+    <text transform="translate(234.17 118.07)" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">4</tspan></text>
+    <text transform="translate(234.17 139.73)" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">0</tspan></text>
+    <text transform="translate(234.17 161.68)" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">1,5</tspan></text>
+    <text transform="translate(80.24 161.97)" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">40,5</tspan></text>
+    <text transform="translate(127.01 141.92)" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">0</tspan></text>
+    <text transform="translate(25.4 140.97)" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0" letter-spacing="-.04em">T</tspan><tspan x="5.25" y="0">ransport</tspan></text>
+    <text transform="translate(25.4 161.97)" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0" letter-spacing="-.05em">T</tspan><tspan x="5.1" y="0">ourism</tspan></text>
+    <text transform="translate(306.42 95.16)" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">goods</tspan></text>
+    <text transform="translate(360.71 95.16)" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">percentage</tspan></text>
+    <text transform="translate(441.58 95.16)" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">value in millions</tspan></text>
+    <text transform="translate(534.16 95.16)" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">curren</tspan><tspan x="29.44" y="0" letter-spacing=".01em">c</tspan><tspan x="34.2" y="0">y</tspan></text>
+    <text transform="translate(306.42 118.07)" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">Insurance</tspan></text>
+    <text transform="translate(410.5 118.07)" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">30,3</tspan></text>
+    <text transform="translate(505.89 118.07)" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">3</tspan></text>
+    <text transform="translate(505.89 162.06)" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">1</tspan></text>
+    <text transform="translate(534.16 118.07)" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0" letter-spacing="-.02em">E</tspan><tspan x="5.52" y="0">uro</tspan></text>
+    <text transform="translate(534.16 141.92)" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0" letter-spacing="-.02em">E</tspan><tspan x="5.52" y="0">uro</tspan></text>
+    <text transform="translate(534.16 162.06)" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0" letter-spacing="-.02em">E</tspan><tspan x="5.52" y="0">uro</tspan></text>
+    <text transform="translate(410.5 162.06)" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">40,5</tspan></text>
+    <text transform="translate(362.46 141.92)" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">null</tspan></text>
+    <text transform="translate(440.45 141.92)" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">null</tspan></text>
+    <text transform="translate(306.42 141.92)" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0" letter-spacing="-.04em">T</tspan><tspan x="5.25" y="0">ransport</tspan></text>
+    <text transform="translate(306.42 162.06)" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0" letter-spacing="-.05em">T</tspan><tspan x="5.1" y="0">ourism</tspan></text>
+    <rect x="298.98" y="22.6" width="29.87" height=".94" fill="#f7a7b6"/>
+    <rect x="17.35" y="22.6" width="20.64" height=".94" fill="#f7a7b6"/>
+    <text transform="translate(297.77 20.19)" font-family="Ubuntu-Bold, Ubuntu" font-size="10"><tspan x="0" y="0">GOOD</tspan></text>
+    <text transform="translate(16.53 20.19)" font-family="Ubuntu-Bold, Ubuntu" font-size="10"><tspan x="0" y="0" letter-spacing="0em">B</tspan><tspan x="6.62" y="0">AD</tspan></text>
+  </g>
+</svg>
