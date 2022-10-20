@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 250">
-  <g id="Hintergrund">
-    <rect width="600" height="250" fill="rgba(255, 247, 217, .4)"/>
-  </g>
-  <g id="Graphic">
-    <g>
-      <rect x="235.98" y="30.59" width="143.38" height="202.88" fill="#fff4c6"/>
-      <rect x="229.99" y="24.85" width="143.38" height="202.88" fill="#ffd940"/>
-      <rect x="246.09" y="48.68" width="107.66" height="6.52" fill="#fff"/>
-      <rect x="246.94" y="135.6" width="107.66" height="6.52" fill="#fff"/>
-      <circle cx="254.81" cy="159.54" r="3.59" fill="#fff"/>
-      <circle cx="254.81" cy="175.65" r="3.59" fill="#fff"/>
-      <circle cx="254.81" cy="190.77" r="3.59" fill="#fff"/>
-      <line x1="247.37" y1="71.35" x2="349.42" y2="71.35" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.13"/>
-      <line x1="247.37" y1="80.85" x2="335.69" y2="80.85" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.13"/>
-      <line x1="247.37" y1="90.35" x2="345.19" y2="90.35" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.13"/>
-      <line x1="247.37" y1="99.85" x2="338.33" y2="99.85" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.13"/>
-      <line x1="265.31" y1="159.49" x2="349.42" y2="159.49" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.13"/>
-      <line x1="265.31" y1="175.33" x2="349.42" y2="175.33" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.13"/>
-      <line x1="265.31" y1="191.16" x2="349.42" y2="191.16" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.13"/>
-    </g>
+<svg id="Graphic" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 250">
+  <rect width="600" height="250" fill="rgba(255, 245, 207, .4)"/>
+  <g>
+    <rect x="235.98" y="30.59" width="143.38" height="202.88" fill="#fff4c6"/>
+    <rect x="229.99" y="24.85" width="143.38" height="202.88" fill="#ffd940"/>
+    <rect x="246.09" y="48.68" width="107.66" height="6.52" fill="#fff"/>
+    <rect x="246.94" y="135.6" width="107.66" height="6.52" fill="#fff"/>
+    <circle cx="254.81" cy="159.54" r="3.59" fill="#fff"/>
+    <circle cx="254.81" cy="175.65" r="3.59" fill="#fff"/>
+    <circle cx="254.81" cy="190.77" r="3.59" fill="#fff"/>
+    <line x1="247.37" y1="71.35" x2="349.42" y2="71.35" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.13"/>
+    <line x1="247.37" y1="80.85" x2="335.69" y2="80.85" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.13"/>
+    <line x1="247.37" y1="90.35" x2="345.19" y2="90.35" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.13"/>
+    <line x1="247.37" y1="99.85" x2="338.33" y2="99.85" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.13"/>
+    <line x1="265.31" y1="159.49" x2="349.42" y2="159.49" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.13"/>
+    <line x1="265.31" y1="175.33" x2="349.42" y2="175.33" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.13"/>
+    <line x1="265.31" y1="191.16" x2="349.42" y2="191.16" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.13"/>
   </g>
 </svg>

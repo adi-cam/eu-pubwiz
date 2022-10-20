@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 250">
-  <g id="Hintergrund">
-    <rect x="-1.13" y="0" width="600" height="250" fill="rgba(214, 222, 239, .4)"/>
+<svg id="Text" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 250">
+  <rect x="0" y="0" width="600" height="250" fill="#f3f5fa"/>
+  <text transform="translate(233.92 56.02)" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">40</tspan></text>
+  <text transform="translate(293.26 76.29)" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">35</tspan></text>
+  <text transform="translate(351.18 134.78)" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">20</tspan></text>
+  <g>
+    <line x1="209.44" y1="178.93" x2="394.83" y2="178.93" fill="none" stroke="#58585a" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
+    <line x1="209.44" y1="140.16" x2="394.83" y2="140.16" fill="none" stroke="#58585a" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
+    <line x1="209.44" y1="101.39" x2="394.83" y2="101.39" fill="none" stroke="#58585a" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
+    <line x1="209.44" y1="62.62" x2="394.83" y2="62.62" fill="none" stroke="#58585a" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
+    <line x1="209.44" y1="217.7" x2="394.83" y2="217.7" fill="none" stroke="#58585a" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
   </g>
-  <g id="Text">
-    <text transform="translate(232.79 56.02)" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">40</tspan></text>
-    <text transform="translate(292.13 76.29)" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">35</tspan></text>
-    <text transform="translate(350.05 134.78)" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">20</tspan></text>
-    <g>
-      <line x1="208.31" y1="178.93" x2="393.71" y2="178.93" fill="none" stroke="#58585a" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
-      <line x1="208.31" y1="140.16" x2="393.71" y2="140.16" fill="none" stroke="#58585a" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
-      <line x1="208.31" y1="101.39" x2="393.71" y2="101.39" fill="none" stroke="#58585a" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
-      <line x1="208.31" y1="62.62" x2="393.71" y2="62.62" fill="none" stroke="#58585a" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
-      <line x1="208.31" y1="217.7" x2="393.71" y2="217.7" fill="none" stroke="#58585a" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
-    </g>
-    <rect x="226.13" y="62.62" width="26.11" height="155.09" fill="#6685c2"/>
-    <rect x="284.82" y="82" width="26.11" height="135.7" fill="#6685c2"/>
-    <rect x="343.5" y="140.16" width="26.11" height="77.54" fill="#6685c2"/>
-  </g>
+  <rect x="227.26" y="62.62" width="26.11" height="155.09" fill="#6685c2"/>
+  <rect x="285.95" y="82" width="26.11" height="135.7" fill="#6685c2"/>
+  <rect x="344.63" y="140.16" width="26.11" height="77.54" fill="#6685c2"/>
 </svg>

@@ -1,22 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 250">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 471.19 250">
   <g id="Hintergrund">
-    <rect y="-1.69" width="600" height="250" fill="rgba(214, 222, 239, .4)"/>
+    <rect x="-64.05" y="-.88" width="600" height="250" fill="#f3f5fa"/>
+  </g>
+  <g id="Graphic">
+    <line x1="429.64" y1="211.54" x2="276.02" y2="211.54" fill="none" stroke="#c0c1c3" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".85"/>
+    <line x1="429.64" y1="179.18" x2="276.02" y2="179.18" fill="none" stroke="#c0c1c3" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
+    <line x1="429.64" y1="146.82" x2="276.02" y2="146.82" fill="none" stroke="#c0c1c3" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
+    <line x1="429.64" y1="114.46" x2="276.02" y2="114.46" fill="none" stroke="#c0c1c3" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
+    <line x1="429.64" y1="81.93" x2="276.02" y2="81.93" fill="none" stroke="#c0c1c3" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
   </g>
   <g id="Text">
-    <rect x="325.23" y="23.99" width="29.87" height=".94" fill="#039"/>
-    <rect x="95.44" y="23.84" width="20.64" height=".94" fill="#039"/>
-    <text transform="translate(325.41 21.59)" font-family="Ubuntu-Bold, Ubuntu" font-size="10"><tspan x="0" y="0">GOOD</tspan></text>
-    <text transform="translate(94.61 21.43)" font-family="Ubuntu-Bold, Ubuntu" font-size="10"><tspan x="0" y="0" letter-spacing="0em">B</tspan><tspan x="6.62" y="0">AD</tspan></text>
-    <ellipse cx="170.54" cy="132.95" rx="46.51" ry="47.43" fill="#ff9433"/>
-    <g>
-      <rect x="115.73" y="77.54" width="109.16" height="111.34" fill="none"/>
-      <path d="M203.32,99.54c8.45,8.62,13.67,20.52,13.67,33.67,0,26.3-20.9,47.62-46.69,47.62s-46.69-21.32-46.69-47.62,20.9-47.62,46.69-47.62v47.62l33.01-33.67Z" fill="#80de85"/>
-    </g>
-    <ellipse cx="400.47" cy="131.18" rx="46.51" ry="47.43" fill="#039"/>
-    <g>
-      <rect x="345.66" y="75.77" width="109.16" height="111.34" fill="none"/>
-      <path d="M433.25,97.77c8.45,8.62,13.67,20.52,13.67,33.67,0,26.3-20.9,47.62-46.69,47.62s-46.69-21.32-46.69-47.62,20.9-47.62,46.69-47.62v47.62l33.01-33.67Z" fill="#b2c2e0"/>
-    </g>
+    <text transform="translate(273.33 50.96)" font-family="Ubuntu-Bold, Ubuntu" font-size="13"><tspan x="0" y="0">This is a title</tspan></text>
+    <text transform="translate(273.33 65.16)" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">This is a subtitle</tspan></text>
+    <text transform="translate(275.06 224.27)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="8"><tspan x="0" y="0">2020</tspan></text>
+    <text transform="translate(410.38 224.27)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="8"><tspan x="0" y="0">2022</tspan></text>
+    <text transform="translate(260.92 117.04)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="8"><tspan x="0" y="0">60</tspan></text>
+    <text transform="translate(260.92 83.8)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="8"><tspan x="0" y="0">80</tspan></text>
+    <text transform="translate(260.92 149.26)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="8"><tspan x="0" y="0">40</tspan></text>
+    <text transform="translate(260.92 181.89)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="8"><tspan x="0" y="0">20</tspan></text>
+    <text transform="translate(265.43 211.67)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="8"><tspan x="0" y="0">0</tspan></text>
+    <path d="M276.07,210.73s4.77-.6,4.77-2.38,3.58-2.98,3.58-2.98c3.58-4.77,6.56-5.37,5.96-7.75-.6-2.38,1.19-8.94,1.19-10.73s3.58-5.37,3.58-7.15,1.79-5.96,2.38-7.75,2.98-2.38,3.58-.6c.6,1.79,1.19,4.77,2.38,6.56s3.58,7.15,3.58,7.15c3.58-1.79,5.37-7.15,5.37-9.54s0-5.37,.6-6.56,2.98-5.37,3.58-6.56c.6-1.19,2.38,.6,4.17-1.19,1.79-1.79,4.17-4.77,4.17-5.96s4.77-.6,4.77-3.58,3.58-6.56,4.17-6.56,3.58,5.96,3.58,5.96c0,0,1.79,6.56,2.38,7.15,.6,.6,2.38,6.56,2.38,6.56,2.98-3.58,4.77-6.56,4.77-6.56l1.19-5.37s4.77-5.96,4.17-7.75,1.79-4.77,1.79-5.96,2.38-3.58,2.38-5.37,1.19-2.98,1.79-5.37c.6-2.38,3.58-5.37,3.58-5.37l3.58-5.37,1.79-4.77,5.37-5.37s2.98-3.58,2.38-5.37,1.19-3.58,1.79-5.37,2.98-3.58,4.77-1.79c1.79,1.79,4.77,.6,4.77,.6,0,0,7.15,.6,7.75,3.58,.6,2.98,2.38,7.15,2.38,7.15,0,0,1.79,4.17,1.79,5.37s.6,4.77,.6,4.77l.6,8.94s0,4.17,.6,6.56c.6,2.38,0,5.37,1.19,8.35s4.77,2.98,5.37,1.19c.6-1.79,1.79-4.77,1.79-4.77,0,0,3.58,.6,4.17-.6,.6-1.19,1.19-5.37,1.19-5.37l4.17-2.98,4.17-2.38,4.77,2.38" fill="none" stroke="#039" stroke-miterlimit="10" stroke-width="2"/>
+    <rect x="278.8" y="22.38" width="29.87" height=".94" fill="#039"/>
+    <rect x="49.73" y="22.38" width="20.64" height=".94" fill="#039"/>
+    <text transform="translate(278.97 19.97)" font-family="Ubuntu-Bold, Ubuntu" font-size="10"><tspan x="0" y="0">GOOD</tspan></text>
+    <text transform="translate(48.91 19.97)" font-family="Ubuntu-Bold, Ubuntu" font-size="10"><tspan x="0" y="0" letter-spacing="0em">B</tspan><tspan x="6.62" y="0">AD</tspan></text>
+    <line x1="203.24" y1="210.9" x2="55.14" y2="210.9" fill="none" stroke="#c0c1c3" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".85"/>
+    <line x1="203.24" y1="179.7" x2="55.14" y2="179.7" fill="none" stroke="#c0c1c3" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
+    <line x1="203.24" y1="148.5" x2="55.14" y2="148.5" fill="none" stroke="#c0c1c3" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
+    <line x1="203.24" y1="117.3" x2="55.14" y2="117.3" fill="none" stroke="#c0c1c3" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
+    <line x1="203.24" y1="85.94" x2="55.14" y2="85.94" fill="none" stroke="#c0c1c3" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
+    <text transform="translate(83.72 63.73)" font-family="Ubuntu-Bold, Ubuntu" font-size="13"><tspan x="0" y="0">This is a title</tspan></text>
+    <text transform="translate(41.4 73.36)" font-family="Ubuntu-Regular, Ubuntu" font-size="8"><tspan x="0" y="0">This is a subtitle</tspan></text>
+    <text transform="translate(137.6 230.87)" fill="#58585a" font-family="Ubuntu-Light, Ubuntu" font-size="8"><tspan x="0" y="0">Footnote</tspan></text>
+    <text transform="translate(54.49 219.77)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="8"><tspan x="0" y="0">2020</tspan></text>
+    <text transform="translate(184.68 219.77)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="8"><tspan x="0" y="0">2022</tspan></text>
+    <text transform="translate(43.23 118.55)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="8"><tspan x="0" y="0">60</tspan></text>
+    <text transform="translate(43.23 85.95)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="8"><tspan x="0" y="0">80</tspan></text>
+    <text transform="translate(43.23 149.88)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="8"><tspan x="0" y="0">40</tspan></text>
+    <text transform="translate(43.23 179.97)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="8"><tspan x="0" y="0">20</tspan></text>
+    <text transform="translate(47.74 210.05)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="8"><tspan x="0" y="0">0</tspan></text>
+    <path d="M55.19,210.12s4.6-.57,4.6-2.3,3.45-2.87,3.45-2.87c3.45-4.6,6.32-5.17,5.75-7.47s1.15-8.62,1.15-10.35,3.45-5.17,3.45-6.9,1.72-5.75,2.3-7.47,2.87-2.3,3.45-.57c.57,1.72,1.15,4.6,2.3,6.32s3.45,6.9,3.45,6.9c3.45-1.72,5.17-6.9,5.17-9.2s0-5.17,.57-6.32,2.87-5.17,3.45-6.32,2.3,.57,4.02-1.15,4.02-4.6,4.02-5.75,4.6-.57,4.6-3.45,3.45-6.32,4.02-6.32,3.45,5.75,3.45,5.75c0,0,1.72,6.32,2.3,6.9,.57,.57,2.3,6.32,2.3,6.32,2.87-3.45,4.6-6.32,4.6-6.32l1.15-5.17s4.6-5.75,4.02-7.47c-.57-1.72,1.72-4.6,1.72-5.75s2.3-3.45,2.3-5.17,1.15-2.87,1.72-5.17c.57-2.3,3.45-5.17,3.45-5.17l3.45-5.17,1.72-4.6,5.17-5.17s2.87-3.45,2.3-5.17c-.57-1.72,1.15-3.45,1.72-5.17s2.87-3.45,4.6-1.72c1.72,1.72,4.6,.57,4.6,.57,0,0,6.9,.57,7.47,3.45,.57,2.87,2.3,6.9,2.3,6.9,0,0,1.72,4.02,1.72,5.17s.57,4.6,.57,4.6l.57,8.62s0,4.02,.57,6.32c.57,2.3,0,5.17,1.15,8.05,1.15,2.87,4.6,2.87,5.17,1.15s1.72-4.6,1.72-4.6c0,0,3.45,.57,4.02-.57s1.15-5.17,1.15-5.17l4.02-2.87,4.02-2.3,4.6,2.3" fill="none" stroke="#039" stroke-miterlimit="10" stroke-width="2"/>
   </g>
 </svg>

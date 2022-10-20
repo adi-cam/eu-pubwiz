@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 250">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 471.19 250">
   <g id="Hintergrund">
-    <rect y="-.88" width="600" height="250" fill="rgba(214, 222, 239, .4)"/>
+    <rect x="-63.93" y="-.88" width="600" height="250" fill="#f3f5fa"/>
   </g>
   <g id="Graphic">
-    <line x1="269.63" y1="198.57" x2="111.93" y2="198.57" fill="none" stroke="#c0c1c3" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".85"/>
-    <line x1="269.63" y1="165.3" x2="111.93" y2="165.3" fill="none" stroke="#c0c1c3" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
-    <line x1="269.63" y1="132.04" x2="111.93" y2="132.04" fill="none" stroke="#c0c1c3" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
-    <line x1="269.63" y1="98.77" x2="111.93" y2="98.77" fill="none" stroke="#c0c1c3" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
-    <line x1="269.63" y1="65.51" x2="111.93" y2="65.51" fill="none" stroke="#c0c1c3" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
-    <line x1="269.63" y1="82.14" x2="111.93" y2="82.14" fill="none" stroke="#c0c1c3" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
-    <line x1="269.63" y1="115.41" x2="111.93" y2="115.41" fill="none" stroke="#c0c1c3" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
-    <line x1="269.63" y1="148.67" x2="111.93" y2="148.67" fill="none" stroke="#c0c1c3" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
-    <line x1="269.63" y1="181.93" x2="111.93" y2="181.93" fill="none" stroke="#c0c1c3" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
-    <line x1="499.49" y1="198.57" x2="341.79" y2="198.57" fill="none" stroke="#c0c1c3" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".85"/>
-    <line x1="499.49" y1="165.3" x2="341.79" y2="165.3" fill="none" stroke="#c0c1c3" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
-    <line x1="499.49" y1="132.04" x2="341.79" y2="132.04" fill="none" stroke="#c0c1c3" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
-    <line x1="499.49" y1="98.77" x2="341.79" y2="98.77" fill="none" stroke="#c0c1c3" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
-    <line x1="499.49" y1="65.51" x2="341.79" y2="65.51" fill="none" stroke="#c0c1c3" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
+    <line x1="205.7" y1="198.57" x2="48" y2="198.57" fill="none" stroke="#c0c1c3" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".85"/>
+    <line x1="205.7" y1="165.3" x2="48" y2="165.3" fill="none" stroke="#c0c1c3" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
+    <line x1="205.7" y1="132.04" x2="48" y2="132.04" fill="none" stroke="#c0c1c3" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
+    <line x1="205.7" y1="98.77" x2="48" y2="98.77" fill="none" stroke="#c0c1c3" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
+    <line x1="205.7" y1="65.51" x2="48" y2="65.51" fill="none" stroke="#c0c1c3" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
+    <line x1="205.7" y1="82.14" x2="48" y2="82.14" fill="none" stroke="#c0c1c3" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
+    <line x1="205.7" y1="115.41" x2="48" y2="115.41" fill="none" stroke="#c0c1c3" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
+    <line x1="205.7" y1="148.67" x2="48" y2="148.67" fill="none" stroke="#c0c1c3" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
+    <line x1="205.7" y1="181.93" x2="48" y2="181.93" fill="none" stroke="#c0c1c3" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
+    <line x1="435.56" y1="198.57" x2="277.86" y2="198.57" fill="none" stroke="#c0c1c3" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".85"/>
+    <line x1="435.56" y1="165.3" x2="277.86" y2="165.3" fill="none" stroke="#c0c1c3" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
+    <line x1="435.56" y1="132.04" x2="277.86" y2="132.04" fill="none" stroke="#c0c1c3" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
+    <line x1="435.56" y1="98.77" x2="277.86" y2="98.77" fill="none" stroke="#c0c1c3" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
+    <line x1="435.56" y1="65.51" x2="277.86" y2="65.51" fill="none" stroke="#c0c1c3" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
   </g>
   <g id="Text">
-    <text transform="translate(111.11 211.63)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">2020</tspan></text>
-    <text transform="translate(251.67 211.63)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">2022</tspan></text>
-    <text transform="translate(182.87 211.63)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">2021</tspan></text>
-    <text transform="translate(93.83 101.39)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">60</tspan></text>
-    <text transform="translate(93.83 117.61)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">50</tspan></text>
-    <text transform="translate(93.83 68.23)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">80</tspan></text>
-    <text transform="translate(93.83 84.52)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">70</tspan></text>
-    <text transform="translate(93.83 133.6)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">40</tspan></text>
-    <text transform="translate(93.83 150.72)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">30</tspan></text>
-    <text transform="translate(93.83 184)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">10</tspan></text>
-    <text transform="translate(93.83 167.31)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">20</tspan></text>
-    <text transform="translate(99.47 197.67)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">0</tspan></text>
-    <line x1="112.13" y1="198.54" x2="112.13" y2="65.52" fill="none" stroke="#c0c1c3" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
-    <line x1="190.82" y1="198.54" x2="190.82" y2="65.52" fill="none" stroke="#c0c1c3" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
-    <line x1="269.5" y1="198.54" x2="269.5" y2="65.52" fill="none" stroke="#c0c1c3" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
-    <text transform="translate(340.97 211.63)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">2020</tspan></text>
-    <text transform="translate(481.53 211.63)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">2022</tspan></text>
-    <text transform="translate(323.69 101.39)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">60</tspan></text>
-    <text transform="translate(323.69 68.23)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">80</tspan></text>
-    <text transform="translate(323.69 133.6)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">40</tspan></text>
-    <text transform="translate(323.69 167.31)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">20</tspan></text>
-    <text transform="translate(329.33 197.67)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">0</tspan></text>
-    <path d="M341.84,197.73s4.9-.61,4.9-2.45,3.67-3.06,3.67-3.06c3.67-4.9,6.73-5.51,6.12-7.96s1.22-9.18,1.22-11.02,3.67-5.51,3.67-7.34,1.84-6.12,2.45-7.96c.61-1.84,3.06-2.45,3.67-.61s1.22,4.9,2.45,6.73c1.22,1.84,3.67,7.34,3.67,7.34,3.67-1.84,5.51-7.34,5.51-9.79s0-5.51,.61-6.73c.61-1.22,3.06-5.51,3.67-6.73s2.45,.61,4.28-1.22c1.84-1.84,4.28-4.9,4.28-6.12s4.9-.61,4.9-3.67,3.67-6.73,4.28-6.73,3.67,6.12,3.67,6.12c0,0,1.84,6.73,2.45,7.34s2.45,6.73,2.45,6.73c3.06-3.67,4.9-6.73,4.9-6.73l1.22-5.51s4.9-6.12,4.28-7.96c-.61-1.84,1.84-4.9,1.84-6.12s2.45-3.67,2.45-5.51,1.22-3.06,1.84-5.51,3.67-5.51,3.67-5.51l3.67-5.51,1.84-4.9,5.51-5.51s3.06-3.67,2.45-5.51c-.61-1.84,1.22-3.67,1.84-5.51,.61-1.84,3.06-3.67,4.9-1.84,1.84,1.84,4.9,.61,4.9,.61,0,0,7.34,.61,7.96,3.67,.61,3.06,2.45,7.34,2.45,7.34,0,0,1.84,4.28,1.84,5.51s.61,4.9,.61,4.9l.61,9.18s0,4.28,.61,6.73c.61,2.45,0,5.51,1.22,8.57,1.22,3.06,4.9,3.06,5.51,1.22,.61-1.84,1.84-4.9,1.84-4.9,0,0,3.67,.61,4.28-.61s1.22-5.51,1.22-5.51l4.28-3.06,4.28-2.45,4.9,2.45" fill="none" stroke="#039" stroke-miterlimit="10" stroke-width="2"/>
-    <rect x="323.47" y="22.83" width="29.87" height=".94" fill="#039"/>
-    <rect x="94.41" y="22.83" width="20.64" height=".94" fill="#039"/>
-    <text transform="translate(323.65 20.42)" font-family="Ubuntu-Bold, Ubuntu" font-size="10"><tspan x="0" y="0">GOOD</tspan></text>
-    <text transform="translate(93.58 20.42)" font-family="Ubuntu-Bold, Ubuntu" font-size="10"><tspan x="0" y="0" letter-spacing="0em">B</tspan><tspan x="6.62" y="0">AD</tspan></text>
-    <path d="M111.98,197.73s4.9-.61,4.9-2.45,3.67-3.06,3.67-3.06c3.67-4.9,6.73-5.51,6.12-7.96-.61-2.45,1.22-9.18,1.22-11.02s3.67-5.51,3.67-7.34,1.84-6.12,2.45-7.96c.61-1.84,3.06-2.45,3.67-.61s1.22,4.9,2.45,6.73,3.67,7.34,3.67,7.34c3.67-1.84,5.51-7.34,5.51-9.79s0-5.51,.61-6.73,3.06-5.51,3.67-6.73,2.45,.61,4.28-1.22c1.84-1.84,4.28-4.9,4.28-6.12s4.9-.61,4.9-3.67,3.67-6.73,4.28-6.73,3.67,6.12,3.67,6.12c0,0,1.84,6.73,2.45,7.34s2.45,6.73,2.45,6.73c3.06-3.67,4.9-6.73,4.9-6.73l1.22-5.51s4.9-6.12,4.28-7.96c-.61-1.84,1.84-4.9,1.84-6.12s2.45-3.67,2.45-5.51,1.22-3.06,1.84-5.51,3.67-5.51,3.67-5.51l3.67-5.51,1.84-4.9,5.51-5.51s3.06-3.67,2.45-5.51c-.61-1.84,1.22-3.67,1.84-5.51,.61-1.84,3.06-3.67,4.9-1.84s4.9,.61,4.9,.61c0,0,7.34,.61,7.96,3.67,.61,3.06,2.45,7.34,2.45,7.34,0,0,1.84,4.28,1.84,5.51s.61,4.9,.61,4.9l.61,9.18s0,4.28,.61,6.73,0,5.51,1.22,8.57c1.22,3.06,4.9,3.06,5.51,1.22,.61-1.84,1.84-4.9,1.84-4.9,0,0,3.67,.61,4.28-.61s1.22-5.51,1.22-5.51l4.28-3.06,4.28-2.45,4.9,2.45" fill="none" stroke="#039" stroke-miterlimit="10" stroke-width="2"/>
+    <text transform="translate(47.18 211.63)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">2020</tspan></text>
+    <text transform="translate(187.74 211.63)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">2022</tspan></text>
+    <text transform="translate(118.94 211.63)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">2021</tspan></text>
+    <text transform="translate(29.9 101.39)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">60</tspan></text>
+    <text transform="translate(29.9 117.61)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">50</tspan></text>
+    <text transform="translate(29.9 68.23)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">80</tspan></text>
+    <text transform="translate(29.9 84.52)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">70</tspan></text>
+    <text transform="translate(29.9 133.6)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">40</tspan></text>
+    <text transform="translate(29.9 150.72)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">30</tspan></text>
+    <text transform="translate(29.9 184)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">10</tspan></text>
+    <text transform="translate(29.9 167.31)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">20</tspan></text>
+    <text transform="translate(35.54 197.67)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">0</tspan></text>
+    <line x1="48.21" y1="198.54" x2="48.21" y2="65.52" fill="none" stroke="#c0c1c3" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
+    <line x1="126.89" y1="198.54" x2="126.89" y2="65.52" fill="none" stroke="#c0c1c3" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
+    <line x1="205.57" y1="198.54" x2="205.57" y2="65.52" fill="none" stroke="#c0c1c3" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
+    <text transform="translate(277.04 211.63)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">2020</tspan></text>
+    <text transform="translate(417.6 211.63)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">2022</tspan></text>
+    <text transform="translate(259.76 101.39)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">60</tspan></text>
+    <text transform="translate(259.76 68.23)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">80</tspan></text>
+    <text transform="translate(259.76 133.6)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">40</tspan></text>
+    <text transform="translate(259.76 167.31)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">20</tspan></text>
+    <text transform="translate(265.4 197.67)" fill="#58585a" font-family="Ubuntu-Regular, Ubuntu" font-size="10"><tspan x="0" y="0">0</tspan></text>
+    <path d="M277.91,197.73s4.9-.61,4.9-2.45,3.67-3.06,3.67-3.06c3.67-4.9,6.73-5.51,6.12-7.96s1.22-9.18,1.22-11.02,3.67-5.51,3.67-7.34,1.84-6.12,2.45-7.96c.61-1.84,3.06-2.45,3.67-.61s1.22,4.9,2.45,6.73c1.22,1.84,3.67,7.34,3.67,7.34,3.67-1.84,5.51-7.34,5.51-9.79s0-5.51,.61-6.73c.61-1.22,3.06-5.51,3.67-6.73s2.45,.61,4.28-1.22c1.84-1.84,4.28-4.9,4.28-6.12s4.9-.61,4.9-3.67,3.67-6.73,4.28-6.73,3.67,6.12,3.67,6.12c0,0,1.84,6.73,2.45,7.34s2.45,6.73,2.45,6.73c3.06-3.67,4.9-6.73,4.9-6.73l1.22-5.51s4.9-6.12,4.28-7.96c-.61-1.84,1.84-4.9,1.84-6.12s2.45-3.67,2.45-5.51,1.22-3.06,1.84-5.51,3.67-5.51,3.67-5.51l3.67-5.51,1.84-4.9,5.51-5.51s3.06-3.67,2.45-5.51c-.61-1.84,1.22-3.67,1.84-5.51,.61-1.84,3.06-3.67,4.9-1.84,1.84,1.84,4.9,.61,4.9,.61,0,0,7.34,.61,7.96,3.67,.61,3.06,2.45,7.34,2.45,7.34,0,0,1.84,4.28,1.84,5.51s.61,4.9,.61,4.9l.61,9.18s0,4.28,.61,6.73c.61,2.45,0,5.51,1.22,8.57,1.22,3.06,4.9,3.06,5.51,1.22,.61-1.84,1.84-4.9,1.84-4.9,0,0,3.67,.61,4.28-.61s1.22-5.51,1.22-5.51l4.28-3.06,4.28-2.45,4.9,2.45" fill="none" stroke="#039" stroke-miterlimit="10" stroke-width="2"/>
+    <rect x="259.54" y="22.83" width="29.87" height=".94" fill="#039"/>
+    <rect x="30.48" y="22.83" width="20.64" height=".94" fill="#039"/>
+    <text transform="translate(259.72 20.42)" font-family="Ubuntu-Bold, Ubuntu" font-size="10"><tspan x="0" y="0">GOOD</tspan></text>
+    <text transform="translate(29.66 20.42)" font-family="Ubuntu-Bold, Ubuntu" font-size="10"><tspan x="0" y="0" letter-spacing="0em">B</tspan><tspan x="6.62" y="0">AD</tspan></text>
+    <path d="M48.05,197.73s4.9-.61,4.9-2.45,3.67-3.06,3.67-3.06c3.67-4.9,6.73-5.51,6.12-7.96-.61-2.45,1.22-9.18,1.22-11.02s3.67-5.51,3.67-7.34,1.84-6.12,2.45-7.96c.61-1.84,3.06-2.45,3.67-.61s1.22,4.9,2.45,6.73,3.67,7.34,3.67,7.34c3.67-1.84,5.51-7.34,5.51-9.79s0-5.51,.61-6.73,3.06-5.51,3.67-6.73,2.45,.61,4.28-1.22c1.84-1.84,4.28-4.9,4.28-6.12s4.9-.61,4.9-3.67,3.67-6.73,4.28-6.73,3.67,6.12,3.67,6.12c0,0,1.84,6.73,2.45,7.34s2.45,6.73,2.45,6.73c3.06-3.67,4.9-6.73,4.9-6.73l1.22-5.51s4.9-6.12,4.28-7.96c-.61-1.84,1.84-4.9,1.84-6.12s2.45-3.67,2.45-5.51,1.22-3.06,1.84-5.51,3.67-5.51,3.67-5.51l3.67-5.51,1.84-4.9,5.51-5.51s3.06-3.67,2.45-5.51c-.61-1.84,1.22-3.67,1.84-5.51,.61-1.84,3.06-3.67,4.9-1.84s4.9,.61,4.9,.61c0,0,7.34,.61,7.96,3.67,.61,3.06,2.45,7.34,2.45,7.34,0,0,1.84,4.28,1.84,5.51s.61,4.9,.61,4.9l.61,9.18s0,4.28,.61,6.73,0,5.51,1.22,8.57c1.22,3.06,4.9,3.06,5.51,1.22,.61-1.84,1.84-4.9,1.84-4.9,0,0,3.67,.61,4.28-.61s1.22-5.51,1.22-5.51l4.28-3.06,4.28-2.45,4.9,2.45" fill="none" stroke="#039" stroke-miterlimit="10" stroke-width="2"/>
   </g>
 </svg>

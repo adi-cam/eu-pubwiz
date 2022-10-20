@@ -1,36 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 250">
-  <g id="Hintergrund">
-    <rect x="-1.13" y="0" width="600" height="250" fill="rgba(214, 222, 239, .4)"/>
+<svg id="Text" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 250">
+  <rect x="0" y="0" width="600" height="250" fill="#f3f5fa"/>
+  <g>
+    <line x1="219.71" y1="197.87" x2="390.78" y2="197.87" fill="none" stroke="#58585a" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
+    <line x1="219.71" y1="162.1" x2="390.78" y2="162.1" fill="none" stroke="#58585a" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
+    <line x1="219.71" y1="126.32" x2="390.78" y2="126.32" fill="none" stroke="#58585a" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
+    <line x1="219.71" y1="90.55" x2="390.78" y2="90.55" fill="none" stroke="#58585a" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
+    <line x1="219.71" y1="233.65" x2="390.78" y2="233.65" fill="none" stroke="#58585a" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
   </g>
-  <g id="Graphic">
-    <g>
-      <line x1="218.58" y1="197.87" x2="389.65" y2="197.87" fill="none" stroke="#58585a" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
-      <line x1="218.58" y1="162.1" x2="389.65" y2="162.1" fill="none" stroke="#58585a" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
-      <line x1="218.58" y1="126.32" x2="389.65" y2="126.32" fill="none" stroke="#58585a" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
-      <line x1="218.58" y1="90.55" x2="389.65" y2="90.55" fill="none" stroke="#58585a" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
-      <line x1="218.58" y1="233.65" x2="389.65" y2="233.65" fill="none" stroke="#58585a" stroke-linecap="round" stroke-miterlimit="10" stroke-width=".57"/>
-    </g>
-    <rect x="235.02" y="90.55" width="24.09" height="143.1" fill="#6685c2"/>
-    <rect x="289.17" y="108.44" width="24.09" height="125.21" fill="#039"/>
-    <rect x="343.32" y="162.1" width="24.09" height="71.55" fill="#6685c2"/>
-    <g>
-      <rect x="320.19" y="54.02" width="48.87" height="29.54" rx="2.83" ry="2.83" fill="#fff"/>
-      <rect x="320.19" y="54.02" width="48.87" height="29.54" rx="2.83" ry="2.83" fill="none" stroke="#039" stroke-miterlimit="10"/>
-    </g>
-    <path d="M301.26,107.67v-32.72c0-3.31,2.71-6.03,6.03-6.03h12.02" fill="none" stroke="#039" stroke-miterlimit="10"/>
-    <g>
-      <polygon points="307.45 120.29 305.5 121.13 304.73 138.07 302.87 138.01 301.18 136.21 298.13 136.38 298.02 138.67 299.76 141.29 301.24 142.76 302.82 146.47 304.78 150.28 305.98 153.07 306.74 155.9 320.7 155.68 320.98 152.52 321.85 151.16 322.78 147.45 323.54 146.41 324.14 134.63 322.72 133.54 321.09 131.85 319.12 131.85 317.71 130 314.38 130.05 312.91 128.31 310.62 128.25 309.31 128.03 309.31 121.87 307.45 120.29" fill="#fff"/>
-      <path d="M308.72,128.39v7.26h1.62v-6.45h3.22v6.45h1.62v-4.84h3.22v3.23s0,3.23,0,3.23h.81s.81,0,.81,0v-4.84h1.61v1.61h1.61v12.91h-1.61v4.84h-1.61v1.61s0,1.61,0,1.61h-6.45s-6.45,0-6.45,0v-3.23h-1.61v-3.23h-1.62v-3.23h-1.61v-3.22h-1.61v-.81s0-.81,0-.81h-.81s-.81,0-.81,0v-3.22h3.23v1.61h1.61v3.23h1.62v-20.99h3.22v7.26h0Zm-3.22-8.07v.8h-.81s-.81,0-.81,0v7.26c0,3.99,0,7.63,0,8.07v.81h-1.61v-1.62h-2.42s-2.42,0-2.42,0v4.84h.8s.8,0,.8,0v1.61h1.62v3.23h1.61v3.22h1.61v3.23h1.62v4.84h16.13v-4.84h1.62v-4.84h1.61v-12.91h-1.61v-1.61h-1.62v-1.62h-3.22v-1.61h-4.84v-1.61h-3.23v-6.46h-1.62v-1.61h-3.22v.8h0Z" fill="#039"/>
-    </g>
+  <rect x="236.15" y="90.55" width="24.09" height="143.1" fill="#6685c2"/>
+  <rect x="290.3" y="108.44" width="24.09" height="125.21" fill="#039"/>
+  <rect x="344.45" y="162.1" width="24.09" height="71.55" fill="#6685c2"/>
+  <g>
+    <rect x="321.32" y="54.02" width="48.87" height="29.54" rx="2.83" ry="2.83" fill="#fff"/>
+    <rect x="321.32" y="54.02" width="48.87" height="29.54" rx="2.83" ry="2.83" fill="none" stroke="#039" stroke-miterlimit="10"/>
   </g>
-  <g id="Text">
-    <g>
-      <rect x="217.94" y="12.76" width="107" height="17.66" rx="2.83" ry="2.83" fill="#fff"/>
-      <rect x="217.94" y="12.76" width="107" height="17.66" rx="2.83" ry="2.83" fill="none" stroke="#039" stroke-miterlimit="10" stroke-width=".85"/>
-    </g>
-    <text transform="translate(324.52 71.1)" font-family="Ubuntu-Regular, Ubuntu" font-size="9.04"><tspan x="0" y="0" letter-spacing="-.02em">C</tspan><tspan x="5.47" y="0">ount</tspan><tspan x="24.81" y="0" letter-spacing=".02em">r</tspan><tspan x="28.49" y="0">y B</tspan></text>
-    <text transform="translate(224.7 24.7)" font-family="Ubuntu-Regular, Ubuntu" font-size="9.04"><tspan x="0" y="0">3 selec</tspan><tspan x="28" y="0" letter-spacing="-.01em">t</tspan><tspan x="31.54" y="0">ed</tspan></text>
-    <path d="M310.54,19.64c-.18-.25-.07-.46,.24-.46h6.72c.31,0,.41,.2,.23,.46l-3.34,4.49c-.19,.25-.49,.25-.67,0l-3.18-4.48Z" fill="#039"/>
+  <path d="M302.39,107.67v-32.72c0-3.31,2.71-6.03,6.03-6.03h12.02" fill="none" stroke="#039" stroke-miterlimit="10"/>
+  <g>
+    <polygon points="308.58 120.29 306.63 121.13 305.85 138.07 304 138.01 302.31 136.21 299.26 136.38 299.15 138.67 300.89 141.29 302.36 142.76 303.95 146.47 305.91 150.28 307.11 153.07 307.87 155.9 321.83 155.68 322.11 152.52 322.98 151.16 323.91 147.45 324.67 146.41 325.27 134.63 323.85 133.54 322.22 131.85 320.25 131.85 318.83 130 315.51 130.05 314.04 128.31 311.74 128.25 310.44 128.03 310.44 121.87 308.58 120.29" fill="#fff"/>
+    <path d="M309.84,128.39v7.26h1.62v-6.45h3.22v6.45h1.62v-4.84h3.22v3.23s0,3.23,0,3.23h.81s.81,0,.81,0v-4.84h1.61v1.61h1.61v12.91h-1.61v4.84h-1.61v1.61s0,1.61,0,1.61h-6.45s-6.45,0-6.45,0v-3.23h-1.61v-3.23h-1.62v-3.23h-1.61v-3.22h-1.61v-.81s0-.81,0-.81h-.81s-.81,0-.81,0v-3.22h3.23v1.61h1.61v3.23h1.62v-20.99h3.22v7.26h0Zm-3.22-8.07v.8h-.81s-.81,0-.81,0v7.26c0,3.99,0,7.63,0,8.07v.81h-1.61v-1.62h-2.42s-2.42,0-2.42,0v4.84h.8s.8,0,.8,0v1.61h1.62v3.23h1.61v3.22h1.61v3.23h1.62v4.84h16.13v-4.84h1.62v-4.84h1.61v-12.91h-1.61v-1.61h-1.62v-1.62h-3.22v-1.61h-4.84v-1.61h-3.23v-6.46h-1.62v-1.61h-3.22v.8h0Z" fill="#039"/>
   </g>
+  <g>
+    <rect x="219.07" y="12.76" width="107" height="17.66" rx="2.83" ry="2.83" fill="#fff"/>
+    <rect x="219.07" y="12.76" width="107" height="17.66" rx="2.83" ry="2.83" fill="none" stroke="#039" stroke-miterlimit="10" stroke-width=".85"/>
+  </g>
+  <text transform="translate(325.65 71.1)" font-family="Ubuntu-Regular, Ubuntu" font-size="9.04"><tspan x="0" y="0" letter-spacing="-.02em">C</tspan><tspan x="5.47" y="0">ount</tspan><tspan x="24.81" y="0" letter-spacing=".02em">r</tspan><tspan x="28.49" y="0">y B</tspan></text>
+  <text transform="translate(225.83 24.7)" font-family="Ubuntu-Regular, Ubuntu" font-size="9.04"><tspan x="0" y="0">3 selec</tspan><tspan x="28" y="0" letter-spacing="-.01em">t</tspan><tspan x="31.54" y="0">ed</tspan></text>
+  <path d="M311.67,19.64c-.18-.25-.07-.46,.24-.46h6.72c.31,0,.41,.2,.23,.46l-3.34,4.49c-.19,.25-.49,.25-.67,0l-3.18-4.48Z" fill="#039"/>
 </svg>

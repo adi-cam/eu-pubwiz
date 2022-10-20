@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 250">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 471.19 250">
   <g id="Hintergrund">
-    <rect y="-.88" width="600" height="250" fill="rgba(214, 222, 239, .4)"/>
+    <rect x="-64.26" y="-.88" width="600" height="250" fill="#f3f5fa"/>
   </g>
   <g id="Text">
-    <rect x="95.35" y="23.09" width="29.87" height=".94" fill="#039"/>
-    <rect x="327.31" y="23.09" width="37.73" height=".94" fill="#039"/>
-    <rect x="326.76" y="89.7" width="31.67" height="11.98" fill="#6685c2"/>
-    <rect x="326.76" y="103.38" width="31.67" height="35.94" fill="#039"/>
-    <rect x="326.76" y="140.92" width="31.67" height="71.88" fill="#b2c2e0"/>
-    <rect x="95.73" y="91.86" width="31.67" height="120.94" fill="#b2c2e0"/>
-    <text transform="translate(102.29 84.38)" font-family="Ubuntu-Light, Ubuntu" font-size="10"><tspan x="0" y="0">60%</tspan></text>
-    <text transform="translate(140.09 145.29)" font-family="Ubuntu-Light, Ubuntu" font-size="10"><tspan x="0" y="0">30%</tspan></text>
-    <text transform="translate(174.26 187.24)" font-family="Ubuntu-Light, Ubuntu" font-size="10"><tspan x="0" y="0">10%</tspan></text>
-    <text transform="translate(363.19 175.81)" font-family="Ubuntu-Light, Ubuntu" font-size="10"><tspan x="0" y="0">60%</tspan></text>
-    <text transform="translate(363.19 124.85)" font-family="Ubuntu-Light, Ubuntu" font-size="10"><tspan x="0" y="0">30%</tspan></text>
-    <text transform="translate(363.19 99.4)" font-family="Ubuntu-Light, Ubuntu" font-size="10"><tspan x="0" y="0">10%</tspan></text>
-    <text transform="translate(94.34 65.33)" font-family="Ubuntu-Bold, Ubuntu" font-size="10"><tspan x="0" y="0">Ba</tspan><tspan x="12.25" y="0" letter-spacing="0em">r</tspan><tspan x="16.37" y="0">chart</tspan></text>
-    <text transform="translate(326.65 65.33)" font-family="Ubuntu-Bold, Ubuntu" font-size="10"><tspan x="0" y="0">S</tspan><tspan x="5.82" y="0" letter-spacing="-.02em">t</tspan><tspan x="10.06" y="0">ac</tspan><tspan x="20.59" y="0" letter-spacing="-.04em">k</tspan><tspan x="26.02" y="0">ed Ba</tspan><tspan x="52.55" y="0" letter-spacing="0em">r</tspan><tspan x="56.67" y="0">chart</tspan></text>
-    <rect x="168.32" y="192.13" width="31.67" height="20.67" fill="#6685c2"/>
-    <rect x="133.13" y="150.79" width="31.67" height="62.01" fill="#039"/>
-    <text transform="translate(95.53 20.68)" font-family="Ubuntu-Bold, Ubuntu" font-size="10"><tspan x="0" y="0">GOOD</tspan></text>
-    <text transform="translate(326.49 20.68)" font-family="Ubuntu-Bold, Ubuntu" font-size="10"><tspan x="0" y="0">BE</tspan><tspan x="12.78" y="0" letter-spacing=".03em">T</tspan><tspan x="19.18" y="0">TER</tspan></text>
+    <g>
+      <rect x="79.73" y="23.09" width="29.87" height=".94" fill="#039"/>
+      <rect x="311.69" y="23.09" width="37.73" height=".94" fill="#039"/>
+      <rect x="311.14" y="89.7" width="31.67" height="11.98" fill="#6685c2"/>
+      <rect x="311.14" y="103.38" width="31.67" height="35.94" fill="#039"/>
+      <rect x="311.14" y="140.92" width="31.67" height="71.88" fill="#b2c2e0"/>
+      <rect x="80.1" y="91.86" width="31.67" height="120.94" fill="#b2c2e0"/>
+      <text transform="translate(86.66 84.38)" font-family="Ubuntu-Light, Ubuntu" font-size="10"><tspan x="0" y="0">60%</tspan></text>
+      <text transform="translate(124.47 145.29)" font-family="Ubuntu-Light, Ubuntu" font-size="10"><tspan x="0" y="0">30%</tspan></text>
+      <text transform="translate(158.64 187.24)" font-family="Ubuntu-Light, Ubuntu" font-size="10"><tspan x="0" y="0">10%</tspan></text>
+      <text transform="translate(347.57 175.81)" font-family="Ubuntu-Light, Ubuntu" font-size="10"><tspan x="0" y="0">60%</tspan></text>
+      <text transform="translate(347.57 124.85)" font-family="Ubuntu-Light, Ubuntu" font-size="10"><tspan x="0" y="0">30%</tspan></text>
+      <text transform="translate(347.57 99.4)" font-family="Ubuntu-Light, Ubuntu" font-size="10"><tspan x="0" y="0">10%</tspan></text>
+      <text transform="translate(78.72 65.33)" font-family="Ubuntu-Bold, Ubuntu" font-size="10"><tspan x="0" y="0">Ba</tspan><tspan x="12.25" y="0" letter-spacing="0em">r</tspan><tspan x="16.37" y="0">chart</tspan></text>
+      <text transform="translate(311.02 65.33)" font-family="Ubuntu-Bold, Ubuntu" font-size="10"><tspan x="0" y="0">S</tspan><tspan x="5.82" y="0" letter-spacing="-.02em">t</tspan><tspan x="10.06" y="0">ac</tspan><tspan x="20.59" y="0" letter-spacing="-.04em">k</tspan><tspan x="26.02" y="0">ed Ba</tspan><tspan x="52.55" y="0" letter-spacing="0em">r</tspan><tspan x="56.67" y="0">chart</tspan></text>
+      <rect x="152.69" y="192.13" width="31.67" height="20.67" fill="#6685c2"/>
+      <rect x="117.5" y="150.79" width="31.67" height="62.01" fill="#039"/>
+      <text transform="translate(79.9 20.68)" font-family="Ubuntu-Bold, Ubuntu" font-size="10"><tspan x="0" y="0">GOOD</tspan></text>
+      <text transform="translate(310.86 20.68)" font-family="Ubuntu-Bold, Ubuntu" font-size="10"><tspan x="0" y="0">BE</tspan><tspan x="12.78" y="0" letter-spacing=".03em">T</tspan><tspan x="19.18" y="0">TER</tspan></text>
+    </g>
   </g>
 </svg>

@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="71px" height="64px" viewBox="0 0 71 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>structure</title>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="structure" transform="translate(0.000000, 0.760000)" fill-rule="nonzero">
-            <polygon id="Path" fill="#F7A7B6" points="58.59 42.41 58.59 48.3 11.71 48.3 11.71 42.41 -1.42108547e-14 42.41 -1.42108547e-14 62.43 70.31 62.43 70.31 42.41"></polygon>
-            <polygon id="Path" fill="#80DE85" points="58.59 28.27 50.78 28.27 50.78 34.16 19.53 34.16 19.53 28.27 11.71 28.27 11.71 42.41 58.59 42.41"></polygon>
-            <rect id="Rectangle" fill="#003399" x="11.71" y="42.41" width="46.87" height="5.88"></rect>
-            <polygon id="Path" fill="#F7A7B6" points="50.78 14.14 45.57 14.14 45.57 20.02 24.73 20.02 24.73 14.14 19.53 14.14 19.53 28.27 50.78 28.27"></polygon>
-            <rect id="Rectangle" fill="#003399" x="19.53" y="28.27" width="31.25" height="5.88"></rect>
-            <rect id="Rectangle" fill="#80DE85" x="24.73" y="1.13686838e-13" width="20.83" height="14.14"></rect>
-            <rect id="Rectangle" fill="#003399" x="24.73" y="14.14" width="20.83" height="5.88"></rect>
-        </g>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60.24 58.86">
+  <g id="Graphic">
+    <g>
+      <polygon points="50.2 39.99 50.2 45.53 10.04 45.53 10.04 39.99 0 39.99 0 58.86 60.24 58.86 60.24 39.99 50.2 39.99" fill="#f7a7b6"/>
+      <polygon points="50.2 26.66 43.51 26.66 43.51 32.2 16.73 32.2 16.73 26.66 10.04 26.66 10.04 39.99 50.2 39.99 50.2 26.66" fill="#80de85"/>
+      <rect x="10.04" y="39.99" width="40.16" height="5.55" fill="#039"/>
+      <polygon points="43.51 13.33 39.05 13.33 39.05 18.87 21.2 18.87 21.2 13.33 16.73 13.33 16.73 26.66 43.51 26.66 43.51 13.33" fill="#f7a7b6"/>
+      <rect x="16.73" y="26.66" width="26.77" height="5.55" fill="#039"/>
+      <rect x="21.2" y="0" width="17.85" height="13.33" fill="#80de85"/>
+      <rect x="21.2" y="13.33" width="17.85" height="5.55" fill="#039"/>
     </g>
+  </g>
 </svg>
